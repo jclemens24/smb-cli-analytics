@@ -1,0 +1,1319 @@
+command,products,topic
+File Specification,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+Flash File System on Stack,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+Login Block-for,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",AAA Commands
+Show surveillance-vlan,['cat_1300'],Surveillance VLAN
+Surveillance-vlan traffic-source,['cat_1300'],Surveillance VLAN
+System Flash Files,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+aaa accounting dot1x,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+aaa accounting login start-stop,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+aaa authentication dot1x,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+aaa authentication enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+aaa authentication login,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+aaa logging,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+aaa login-history file,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+abort (MST),"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+absolute,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Clock Commands
+accept-lifetime,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+address (DHCP Host),"['cbs_350', 'cat_1300']",DHCP Server Commands
+address (DHCP Network),"['cbs_350', 'cat_1300']",DHCP Server Commands
+address-config,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+address-prefix-validation,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+allowed-time-range,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+arp,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+arp timeout (Global),"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+authentication open,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+auto-default-router,"['cbs_350', 'cat_1300']",DHCP Server Commands
+autobaud,"['cbs_350', 'cat_1300']",Line Commands
+back-pressure,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+banner exec,"['cbs_220', 'cbs_250', 'cbs_350']",User Interface Commands
+banner login,"['cbs_220', 'cbs_250', 'cbs_350']",User Interface Commands
+bluetooth device-name,['cat_1300'],Bluetooth Commands
+bluetooth pin,['cat_1300'],Bluetooth Commands
+bonjour enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Bonjour Commands
+bonjour interface range,"['cbs_250', 'cbs_350', 'cat_1300']",Bonjour Commands
+boot config,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+boot host auto-config,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+boot host auto-update,"['cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+boot localization,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+boot system,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+bootfile,"['cbs_350', 'cat_1300']",DHCP Server Commands
+bridge multicast address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast filtering,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast forbidden address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast forbidden forward-all,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast forbidden ip-address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast forbidden source group,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast forward-all,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ip-address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ipv6 forbidden ip-address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ipv6 forbidden source group,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ipv6 ip-address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ipv6 mode,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast ipv6 source group,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast mode,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast reserved-address,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast source group,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+bridge multicast unregistered,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Address Table Commands
+bridge unicast unknown,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+ca-certificate install,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CA Certificate Commands
+ca-certificate revoke,"['cbs_250', 'cbs_350', 'cat_1300']",CA Certificate Commands
+cbd address,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+cbd connection enable,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+cbd key,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+cbd network name,['cat_1300'],CBD Probe Commands
+cbd organization name,['cat_1300'],CBD Probe Commands
+cbd probe enable,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+cbd reset,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+cd,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+cdp advertise-v2,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp appliance-tlv enable,"['cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp appliance-vlan enable,['cbs_220'],CDP Commands
+cdp device-id format,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp holdtime,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp log mismatch duplex,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp log mismatch native,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp log mismatch voip,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp mandatory-tlvs validation,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp pdu,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp run,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+cdp timer,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+channel-group,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Port Channel Commands
+class,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+class-map,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+clear access-lists counters,"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+clear arp-cache,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+clear cbd probe database,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+clear cdp counter,['cbs_220'],CDP Commands
+clear cdp counters,"['cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+clear cdp table,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+clear counters,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+clear dot1x statistics,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+clear etherlike statistics,['cbs_220'],Ethernet Configuration Commands
+clear gvrp statistics,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+clear host,"['cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+clear ip arp inspection statistics,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+clear ip arp inspection statistics vlan,['cbs_220'],IP ARP Inspection Commands
+clear ip dhcp binding,"['cbs_350', 'cat_1300']",DHCP Server Commands
+clear ip dhcp snooping binding,['cbs_220'],IP DHCP Snooping Commands
+clear ip dhcp snooping binding interface,['cbs_220'],IP DHCP Snooping Commands
+clear ip dhcp snooping binding vlan,['cbs_220'],IP DHCP Snooping Commands
+clear ip dhcp snooping database,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+clear ip dhcp snooping database statistics,['cbs_220'],IP DHCP Snooping Commands
+clear ip dhcp snooping interfaces statistics,['cbs_220'],IP DHCP Snooping Commands
+clear ip igmp counters,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+clear ip igmp snooping groups,['cbs_220'],IGMP Snooping Commands
+clear ip igmp snooping statistics,['cbs_220'],IGMP Snooping Commands
+clear ipv6 dhcp client,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+clear ipv6 first hop security counters,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+clear ipv6 first hop security error counters,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+clear ipv6 mld counters,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+clear ipv6 mld snooping groups,['cbs_220'],IPv6 MLD Snooping Commands
+clear ipv6 mld snooping statistics,['cbs_220'],IPv6 MLD Snooping Commands
+clear ipv6 neighbor binding prefix table,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+clear ipv6 neighbor binding table,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+clear ipv6 neighbors,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+clear ipv6 prefix-list,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Prefix List
+clear line,['cbs_220'],Line Commands
+clear lldp statistics,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+clear lldp table,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+clear logging,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+clear logging file,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+clear login failures,['cat_1300'],AAA Commands
+clear login quiet-mode,['cat_1300'],AAA Commands
+clear mac address-table,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+clear power inline counters,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+clear power inline monitor consumption,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+clear qos statistics,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+clear queue statistics,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+clear radius server accounting,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+clear radius server rejected users,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+clear radius server statistics,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+clear radius server unknown nas,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+clear rip statistics,"['cbs_350', 'cat_1300']",RIP Commands
+clear rmon statistics,['cbs_220'],RMON Commands
+clear sflow statistics,"['cbs_350', 'cat_1300']",sFlow Commands
+clear spanning-tree counters,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+clear spanning-tree detected-protocols,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+clear storm-control counters,"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+clear switchport monitor,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+client-name,"['cbs_350', 'cat_1300']",DHCP Server Commands
+clock dhcp timezone,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+clock set,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+clock source,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+clock summer-time,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+clock timezone,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+configure,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+copy,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+crypto certificate generate,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto certificate import,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto certificate request,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto key generate,['cbs_220'],Telnet and SSH Commands
+crypto key generate dsa,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto key generate rsa,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto key import,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+crypto key pubkey-chain ssh,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+data,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+default interface,['cbs_220'],Ethernet Configuration Commands
+default-information originate,"['cbs_350', 'cat_1300']",RIP Commands
+default-metric,"['cbs_350', 'cat_1300']",RIP Commands
+default-router,"['cbs_350', 'cat_1300']",DHCP Server Commands
+delete,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+delete backup-config,['cbs_220'],Configuration and Image File Commands
+delete startup-config,['cbs_220'],Configuration and Image File Commands
+deny ( IP ),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+deny ( IPv6 ),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+deny (IP),['cbs_220'],ACL Commands
+deny (IPv6),['cbs_220'],ACL Commands
+deny (MAC),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+deny (Management),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+description,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+description 802.1x,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+device-role (IPv6 DHCP Guard),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+device-role (ND Inspection Policy),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+device-role (Neighbor Binding),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+device-role (RA Guard Policy),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+dir,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+directed-broadcast,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+disable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+disable ports leds,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+dns-server,"['cbs_350', 'cat_1300']",DHCP Server Commands
+do,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+domain-name,"['cbs_350', 'cat_1300']",DHCP Server Commands
+dot1x auth-not-req,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x authentication,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x credentials,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x eap-max-retrans,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x guest-vlan,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x guest-vlan enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x guest-vlan enable (Interface),['cbs_220'],802.1X Commands
+dot1x guest-vlan timeout,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x host-mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x mac-auth,['cat_1300'],802-1x Commands
+dot1x mac-auth password,['cat_1300'],802-1x Commands
+dot1x max-hosts,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x max-login-attempts,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x max-req,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x page customization,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x port-control,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x radius-attributes vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x re-authenticate,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x reauthentication,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x supplicant,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x supplicant traps authentication failure,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x supplicant traps authentication success,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x system-auth-control,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout eap-timeout,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout quiet-period,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout reauth-period,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout server-timeout,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout silence-period,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout supp-timeout,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout supplicant-held-period,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x timeout tx-period,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x traps authentication failure,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x traps authentication quiet,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x traps authentication success,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x unlock client,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+dot1x violation-mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+drop-unsecure,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+duplex,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+dying-gasp enable,['cat_1300'],System Management Commands
+eee enable (global),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",EEE Commands
+eee enable (interface),"['cbs_250', 'cbs_350', 'cat_1300']",EEE Commands
+eee lldp enable,"['cbs_250', 'cbs_350', 'cat_1300']",EEE Commands
+enable,"['cbs_220', 'cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+enable authentication,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+enable password,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+end,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+errdisable recovery,['cbs_220'],Ethernet Configuration Commands
+errdisable recovery cause,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+errdisable recovery interval,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+errdisable recovery reset,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+ethtype,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+exec-banner,"['cbs_250', 'cbs_350']",User Interface Commands
+exec-timeout,"['cbs_220', 'cbs_350', 'cat_1300']",Line Commands
+exit (Configuration),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+exit (EXEC),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+exit (MST),"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+file-system logging,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+flowcontrol,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+green-ethernet energy-detect (global),"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+green-ethernet energy-detect (interface),"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+green-ethernet power-meter reset,"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+green-ethernet short-reach (global),"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+green-ethernet short-reach (interface),"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+gvrp enable (Global),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+gvrp enable (Interface),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+gvrp registration-forbid,"['cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+gvrp registration-mode,['cbs_220'],GVRP Commands
+gvrp vlan-creation-forbid,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+help,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+history,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+history size,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+hop-limit,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+hostname,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+instance (MST),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+interface,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+interface ip,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+interface range,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+interface range vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+interface tunnel,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Tunnel Commands
+interface vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+ip SSH logging,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip access-group in,['cbs_220'],ACL Commands
+ip access-list (IP extended),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+ip access-list (IP standard),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+ip access-list extended,['cbs_220'],ACL Commands
+ip address,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip address dhcp,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip arp inspection,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp inspection limit rate,['cbs_220'],IP ARP Inspection Commands
+ip arp inspection list assign,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp inspection list create,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp inspection logging interval,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp inspection trust,['cbs_220'],IP ARP Inspection Commands
+ip arp inspection validate,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp inspection vlan,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip arp proxy disable,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip default-gateway,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip dhcp excluded-address,"['cbs_350', 'cat_1300']",DHCP Server Commands
+ip dhcp information option,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp information option circuit-id,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp information option numeric-token-format,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp information option remote-id,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp pool host,"['cbs_350', 'cat_1300']",DHCP Server Commands
+ip dhcp pool network,"['cbs_350', 'cat_1300']",DHCP Server Commands
+ip dhcp relay address (Global),"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp relay enable (Global),"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp relay enable (Interface),"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+ip dhcp server,"['cbs_350', 'cat_1300']",DHCP Server Commands
+ip dhcp snooping,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping binding,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping database,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping information option,['cbs_220'],IP DHCP Snooping Commands
+ip dhcp snooping information option allow-untrusted,['cbs_220'],IP DHCP Snooping Commands
+ip dhcp snooping information option allowed-untrusted,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping limit rate,['cbs_220'],IP DHCP Snooping Commands
+ip dhcp snooping trust,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping verify,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping verify mac-address,['cbs_220'],IP DHCP Snooping Commands
+ip dhcp snooping vlan,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip dhcp snooping vlan information option circuit-id,['cbs_220'],IP DHCP Snooping Commands
+ip dhcp tftp-server file,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+ip dhcp tftp-server image file,"['cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+ip dhcp tftp-server ip address,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+ip domain lookup,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip domain name,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip domain polling-interval,"['cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip domain retry,"['cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip domain timeout,"['cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip helper-address,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip host,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip http authentication,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+ip http port,"['cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip http secure-server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip http server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip http timeout-policy,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip https certificate,"['cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip https logging,"['cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+ip igmp filter,['cbs_220'],IGMP Snooping Commands
+ip igmp last-member-query-count,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp last-member-query-interval,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp max-groups,['cbs_220'],IGMP Snooping Commands
+ip igmp profile,['cbs_220'],IGMP Snooping Commands
+ip igmp query-interval,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp query-max-response-time,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp robustness,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp snooping,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping (Global),"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping map cpe vlan,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping querier,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping report-suppression,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping unknown-multicast action,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping version,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan forbidden forward-all,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan forbidden mrouter,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan forward-all,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan immediate-leave,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan last-member-query-count,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan last-member-query-interval,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan mrouter,"['cbs_220', 'cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan mrouter interface,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan multicast-tv,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan querier,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan querier address,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan querier election,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan querier version,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp snooping vlan query-interval,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan response-time,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan robustness-variable,['cbs_220'],IGMP Snooping Commands
+ip igmp snooping vlan static,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+ip igmp version,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+ip igmp-proxy,"['cbs_350', 'cat_1300']",IGMP Proxy Commands
+ip igmp-proxy downstream protected,"['cbs_350', 'cat_1300']",IGMP Proxy Commands
+ip igmp-proxy downstream protected interface,"['cbs_350', 'cat_1300']",IGMP Proxy Commands
+ip igmp-proxy ssm,"['cbs_350', 'cat_1300']",IGMP Proxy Commands
+ip mac,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+ip multicast ttl-threshold,"['cbs_350', 'cat_1300']",IPv4 IPM Router Commands
+ip multicast-routing,"['cbs_350', 'cat_1300']",IPv4 IPM Router Commands
+ip name-server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+ip policy route-map,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+ip proxy-arp,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+ip redirects,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+ip rip authentication key-chain,"['cbs_350', 'cat_1300']",RIP Commands
+ip rip authentication mode,"['cbs_350', 'cat_1300']",RIP Commands
+ip rip authentication-key,"['cbs_350', 'cat_1300']",RIP Commands
+ip rip default-information originate,"['cbs_350', 'cat_1300']",RIP Commands
+ip rip distribute-list in,"['cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",RIP Commands
+ip rip distribute-list out,"['cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",RIP Commands
+ip rip offset,"['cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",RIP Commands
+ip rip passive-interface,"['cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",RIP Commands
+ip rip shutdown,"['cbs_350', 'cat_1300']",RIP Commands
+ip route,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+ip routing,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+ip source binding,['cbs_220'],IP Source Guard Commands
+ip source binding max-entry,['cbs_220'],IP Source Guard Commands
+ip ssh password-auth,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip ssh port,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip ssh pubkey-auth,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip ssh server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip ssh-client authentication,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client change server password,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client key,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client password,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client server authentication,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client server fingerprint,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip ssh-client username,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ip telnet server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+ip verify source,['cbs_220'],IP Source Guard Commands
+ipv6 access-group in,['cbs_220'],ACL Commands
+ipv6 access-list,['cbs_220'],ACL Commands
+ipv6 access-list (IP standard),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+ipv6 access-list (IPv6 extended),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+ipv6 address,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 address anycast,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 address autoconfig,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 address dhcp,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 address eui-64,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 address link-local,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 default-gateway,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 dhcp client information refresh,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 dhcp client information refresh minimum,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 dhcp duid-en,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 dhcp guard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 dhcp guard attach-policy (VLAN mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 dhcp guard attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 dhcp guard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 dhcp guard preference,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 dhcp relay destination (Global),"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 dhcp relay destination (Interface),"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+ipv6 enable,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 first hop security,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 first hop security attach-policy (VLAN mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 first hop security attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 first hop security logging packet drop,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 first hop security policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 hop-limit,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 icmp error-interval,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 link-local default zone,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 mld filter,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld last-member-query-count,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld last-member-query-interval,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld max-groups,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld profile,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld query-interval,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld query-max-response-time,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld robustness,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld snooping,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping (Global),"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping querier,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping report-suppression,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan forbidden forward-all,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan forbidden mrouter,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan forward-all,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan immediate-leave,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan last-member-query-count,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan last-member-query-interval,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan mrouter,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan mrouter interface,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan mrouter learn pim-dvmrp,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan querier,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan querier election,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan querier version,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan query-interval,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan response-time,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan robustness-variable,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld snooping vlan static,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+ipv6 mld snooping vlan static interface,['cbs_220'],IPv6 MLD Snooping Commands
+ipv6 mld version,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+ipv6 mld-proxy,"['cbs_350', 'cat_1300']",MLD Proxy
+ipv6 mld-proxy downstream protected,"['cbs_350', 'cat_1300']",MLD Proxy
+ipv6 mld-proxy downstream protected interface,"['cbs_350', 'cat_1300']",MLD Proxy
+ipv6 mld-proxy ssm,"['cbs_350', 'cat_1300']",MLD Proxy
+ipv6 multicast-routing,"['cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",IPv6 IPM Router Commands
+ipv6 nd advertisement-interval,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd dad attempts,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd hop-limit,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd inspection,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection attach-policy (VLAN mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection drop-unsecure,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection sec-level minimum,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd inspection validate source-mac,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd managed-config-flag,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd prefix,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd ra interval,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd ra lifetime,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd ra suppress,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd raguard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard attach-policy (VLAN mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard hop-limit,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard managed-config-flag,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard other-config-flag,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd raguard router-preference,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 nd reachable-time,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 nd router-preference,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 neighbor binding,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding address-config,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding address-prefix,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding address-prefix-validation,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding attach-policy (VLAN mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding lifetime,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding max-entries,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 neighbor binding static,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 prefix-list,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Prefix List
+ipv6 redirects,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 route,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 source guard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 source guard attach-policy (port mode),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 source guard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+ipv6 ssh-client source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+ipv6 unicast-routing,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+ipv6 unreachables,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+iscsi enable,"['cbs_350', 'cat_1300']",iSCI QoS Commands
+iscsi flow,"['cbs_350', 'cat_1300']",iSCI QoS Commands
+iscsi qos,"['cbs_350', 'cat_1300']",iSCI QoS Commands
+jumbo-frame,['cbs_220'],Ethernet Configuration Commands
+key (key chain),"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+key chain,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+key-string,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']","Telnet, SSH and Slogin Commands"
+lacp port-priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LACP Commands
+lacp system-priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LACP Commands
+lacp timeout,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LACP Commands
+lease,"['cbs_350', 'cat_1300']",DHCP Server Commands
+line,"['cbs_220', 'cbs_350', 'cat_1300']",Line Commands
+link-flap prevention,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+lldp chassis-id,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp hold-multiplier,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp holdtime-multiplier,['cbs_220'],LLDP Commands
+lldp lldpdu,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp management-address,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med fast-start repeat-count,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med fast-start-repeat-count,['cbs_220'],LLDP Commands
+lldp med location,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med network-policy (Global),['cbs_220'],LLDP Commands
+lldp med network-policy (Interface),['cbs_220'],LLDP Commands
+lldp med network-policy (global),"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med network-policy (interface),"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med network-policy voice auto,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med notifications topology-change,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp med tlv-select,['cbs_220'],LLDP Commands
+lldp notifications,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp notifications interval,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp optional-tlv,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp optional-tlv 802.1,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp receive,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp reinit,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp run,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp timer,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp tlv-select 802.1,['cbs_220'],LLDP Commands
+lldp tlv-select TLV,['cbs_220'],LLDP Commands
+lldp transmit,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+lldp tx-delay,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+log aggregation on,['cbs_220'],Syslog Commands
+logging aggregation aging-time,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging aggregation on,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging binding,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+logging buffered,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging cbd level,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging cbd module,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging console,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging file,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging host,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging on,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging origin-id,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging packet drop,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+logging severity,['cbs_220'],Syslog Commands
+logging source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+logging source-interface-ipv6,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+login,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+login authentication,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+login delay,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+login quiet-mode access-class,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+login-banner,"['cbs_250', 'cbs_350']",User Interface Commands
+loopback-detection enable (Global),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Loopback Detection Commands
+loopback-detection enable (Interface),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Loopback Detection Commands
+loopback-detection interval,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Loopback Detection Commands
+mac access-group in,['cbs_220'],ACL Commands
+mac access-list,"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+mac access-list extended,['cbs_220'],ACL Commands
+mac address-table aging-time,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+mac address-table static,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+macro,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+macro auto (Global),"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto built-in parameters,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto persistent,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto processing cdp,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto processing lldp,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto processing type,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto resume,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto smartport (Interface),"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto smartport type,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto trunk refresh,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro auto user smartport macro,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+macro description,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+macro global,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+macro global description,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+macro name,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+managed-config-flag,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+management access-class,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+management access-list,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+management vlan ip dhcp client,['cbs_220'],IP Addressing Commands
+management vlan ip-address,['cbs_220'],IP Addressing Commands
+management vlan ipv6 dhcp client information refresh,['cbs_220'],Configuration and Image File Commands
+management vlan ipv6 dhcp client stateless,['cbs_220'],Configuration and Image File Commands
+management vlan ipv6-address,['cbs_220'],IPv6 Addressing Commands
+management vlan ipv6-address-autoconfig,['cbs_220'],IPv6 Addressing Commands
+management vlan ipv6-address-dhcp,['cbs_220'],IPv6 Addressing Commands
+management-vlan,['cbs_220'],VLAN Commands
+map mac macs-group,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+map protocol protocols-group,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+map subnet subnets-group,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+match,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+match ip address (Policy Routing),"['cbs_350', 'cat_1300']",Route Map Commands
+match ipv6 address (Policy Routing),"['cbs_350', 'cat_1300']",Route Map Commands
+match ra address,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+match ra prefixes,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+match reply,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+match server address,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+max-entries,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+mdix,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+mirror,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+mkdir,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+monitor session destination,"['cbs_250', 'cbs_350', 'cat_1300']",SPAN and RSPAN Commands
+monitor session destination interface,['cbs_220'],Port Monitor Commands
+monitor session destination remote-span,['cbs_220'],Port Monitor Commands
+monitor session source,"['cbs_250', 'cbs_350', 'cat_1300']",SPAN and RSPAN Commands
+monitor session source interfaces,['cbs_220'],Port Monitor Commands
+monitor session source remote-span,['cbs_220'],Port Monitor Commands
+more,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+name,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+name (MST),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+name (vlan),['cbs_220'],VLAN Commands
+negotiation,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+netbios-name-server,"['cbs_350', 'cat_1300']",DHCP Server Commands
+netbios-node-type,"['cbs_350', 'cat_1300']",DHCP Server Commands
+network,"['cbs_350', 'cat_1300']",RIP Commands
+next-server,"['cbs_350', 'cat_1300']",DHCP Server Commands
+next-server-name,"['cbs_350', 'cat_1300']",DHCP Server Commands
+no monitor session,['cbs_220'],Port Monitor Commands
+no sequence,['cbs_220'],ACL Commands
+no sequence (Management),['cbs_220'],Management ACL Commands
+operation time,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+operation time-range,['cbs_220'],Ethernet Configuration Commands
+option,"['cbs_350', 'cat_1300']",DHCP Server Commands
+other-config-flag,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+passive-interface (RIP),"['cbs_350', 'cat_1300']",RIP Commands
+passphrase,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+password,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",AAA Commands
+password complexity history,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+password-thresh,['cbs_220'],Line Commands
+passwords aging,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+passwords complexity,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+passwords complexity attributes,['cbs_220'],AAA Commands
+passwords complexity enable,['cbs_220'],AAA Commands
+periodic,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Clock Commands
+permit ( IP ),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+permit ( IPv6 ),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+permit ( MAC ),"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+permit (IP),['cbs_220'],ACL Commands
+permit (IPv6),['cbs_220'],ACL Commands
+permit (MAC),['cbs_220'],ACL Commands
+permit (Management),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+ping,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IP System Management Commands
+pnp device,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp discovery timeout,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp enable,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp reconnect interval,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp resume,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp transport,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+pnp watchdog timeout,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+police,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+police aggregate,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+policy-map,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+port jumbo-frame,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+port leds enable,['cbs_220'],System Management Commands
+port security,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+port security max,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+port security mode,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+port security routed secure-address,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+port-channel load-balance,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Port Channel Commands
+power inline,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline four-pair forced,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline inrush test disable,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline legacy enable,['cbs_220'],Power over Ethernet (PoE) Commands
+power inline legacy support disable,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline limit,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline limit-mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline negotiation,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline powered-device,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline traps enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+power inline usage-threshold,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+preference,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+priority-queue out num-of-queues,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+private-vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+private-vlan association,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+privilege-level,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+profile range,"['cbs_220', 'cbs_220']",IPv6 MLD Snooping Commands
+pwd,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+qos,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos advanced-mode trust,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos aggregate-policer,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos cos,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos dscp-mutation,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos map cos-queue,['cbs_220'],QoS Commands
+qos map dscp-queue,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos map policed-dscp,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos map precedence-queue,['cbs_220'],QoS Commands
+qos map queue-cos,['cbs_220'],QoS Commands
+qos map queue-dscp,['cbs_220'],QoS Commands
+qos map queue-precedence,['cbs_220'],QoS Commands
+qos remark,['cbs_220'],QoS Commands
+qos statistics aggregate-policer,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos statistics policer,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos trust (Global),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos trust (Interface),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+qos wrr-queue wrtd,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+radius server accounting-port,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server authentication-port,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server enable,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server group,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server nas secret,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server traps accounting,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server traps authentication success,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius server user,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+radius-server deadtime,"['cbs_350', 'cat_1300']",RADIUS Commands
+radius-server default-param,['cbs_220'],RADIUS Commands
+radius-server host,"['cbs_220', 'cbs_350', 'cat_1300']",RADIUS Commands
+radius-server host source-interface,"['cbs_350', 'cat_1300']",RADIUS Commands
+radius-server host source-interface-ipv6,"['cbs_350', 'cat_1300']",RADIUS Commands
+radius-server key,"['cbs_350', 'cat_1300']",RADIUS Commands
+radius-server retransmit,"['cbs_350', 'cat_1300']",RADIUS Commands
+radius-server timeout,"['cbs_350', 'cat_1300']",RADIUS Commands
+rate-limit (Ethernet),"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+rate-limit (Interface),['cbs_220'],QoS Commands
+rate-limit (VLAN),['cbs_220'],QoS Commands
+rate-limit vlan,"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+redirect,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+redistribute (RIP),"['cbs_350', 'cat_1300']",RIP Commands
+reload,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",System Management Commands
+reload factory-default,['cat_1300'],System Management Commands
+remote-span,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SPAN and RSPAN Commands
+rename,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+renew dhcp,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+renew dhcp force-autoconfig,['cbs_220'],Configuration and Image File Commands
+renew ip dhcp snooping database,['cbs_220'],IP DHCP Snooping Commands
+resume,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+revision (MST),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+rmdir,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+rmon alarm,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+rmon collection stats,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+rmon event,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+rmon history,['cbs_220'],RMON Commands
+rmon table-size,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+route-map (Policy Routing),"['cbs_350', 'cat_1300']",Route Map Commands
+router rip,"['cbs_350', 'cat_1300']",RIP Commands
+router-preference,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+sec-level minimum,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+security-suite deny fragmented,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite deny icmp,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite deny martian-addresses,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite deny syn,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite deny syn-fin,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite dos (Global),['cbs_220'],Security DoS Commands
+security-suite dos (Interface),['cbs_220'],Security DoS Commands
+security-suite dos ip gratuitous-arps,['cbs_220'],Security DoS Commands
+security-suite dos protect,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite dos syn-attack,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite enable,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite syn protection mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite syn protection recovery,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+security-suite syn protection threshold,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+send-lifetime,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+service cpu-utilization,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+service mirror-configuration,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+service password-recovery,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+service-acl input,"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+service-acl output,"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+service-policy,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+set,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+set interface active,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+set ip next-hop,"['cbs_350', 'cat_1300']",Route Map Commands
+set ipv6 next-hop,"['cbs_350', 'cat_1300']",Route Map Commands
+set router hardware-routing active,"['cbs_250', 'cbs_350', 'cat_1300']",Router Resources Commands
+set stack mode,['cbs_350'],Stack Commands
+set stack unit-type,"['cbs_350', 'cat_1300']",Stack Commands
+sflow counters-sampling,"['cbs_350', 'cat_1300']",sFlow Commands
+sflow flow-sampling,"['cbs_350', 'cat_1300']",sFlow Commands
+sflow receiver,"['cbs_350', 'cat_1300']",sFlow Commands
+sflow receiver source-interface,"['cbs_350', 'cat_1300']",sFlow Commands
+sflow receiver source-interface-ipv6,"['cbs_350', 'cat_1300']",sFlow Commands
+show (MST),"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+show SSD,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+show aaa authentication lists,['cbs_220'],AAA Commands
+show access-lists,"['cbs_220', 'cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+show access-lists utilization,['cbs_220'],ACL Commands
+show accounting,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show arp,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+show arp configuration,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+show authentication methods,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show backup-config,['cbs_220'],Configuration and Image File Commands
+show banner,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+show bluetooth status,['cat_1300'],Bluetooth Commands
+show bonjour,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Bonjour Commands
+show boot,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+show bootvar,['cbs_220'],Configuration and Image File Commands
+show bootvar / show version,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+show bridge multicast address-table,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show bridge multicast address-table static,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show bridge multicast filtering,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show bridge multicast mode,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show bridge multicast reserved-address,['cbs_220'],Address Table Commands
+show bridge multicast reserved-addresses,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show bridge unicast unknown,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show ca-certificate,"['cbs_250', 'cbs_350', 'cat_1300']",CA Certificate Commands
+show ca-certificate revocation,"['cbs_250', 'cbs_350', 'cat_1300']",CA Certificate Commands
+show cable-diagnostics cable-length,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PHY Commands
+show cable-diagnostics tdr,"['cbs_250', 'cbs_350', 'cat_1300']",PHY Commands
+show cbd,"['cbs_250', 'cbs_350', 'cat_1300']",CBD Probe Commands
+show cdp,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp entry,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp interface,"['cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp interfaces,['cbs_220'],CDP Commands
+show cdp neighbors,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp tlv,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp traffic,"['cbs_250', 'cbs_350', 'cat_1300']",CDP Commands
+show cdp traffic (Interface),['cbs_220'],CDP Commands
+show cdp traffic global,['cbs_220'],CDP Commands
+show class-map,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show clock,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+show cpld version,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show cpu input rate,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show cpu utilization,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show crypto certificate,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+show crypto key,"['cbs_250', 'cbs_350', 'cat_1300']",RSA and Certificate Commands
+show crypto key pubkey-chain ssh,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+show dot1x,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+show dot1x authenticated-hosts,['cbs_220'],802.1X Commands
+show dot1x credentials,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+show dot1x guest-vlan,['cbs_220'],802.1X Commands
+show dot1x locked clients,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+show dot1x sessions,['cbs_220'],802.1X Commands
+show dot1x statistics,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+show dot1x users,"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+show dying-gasp packets,['cat_1300'],System Management Commands
+show dying-gasp status,['cat_1300'],System Management Commands
+show eee,"['cbs_250', 'cbs_350', 'cat_1300']",EEE Commands
+show env all,['cbs_220'],Power over Ethernet (PoE) Commands
+show environment,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show errdisable interfaces,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show errdisable recovery,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show etherchannel summary,['cbs_220'],Port Channel Commands
+show fiber-ports optical-transceiver,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PHY Commands
+show green-ethernet,"['cbs_250', 'cbs_350', 'cat_1300']",Green Ethernet Commands
+show gvrp,['cbs_220'],GVRP Commands
+show gvrp configuration,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+show gvrp error-statistics,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+show gvrp statistics,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",GVRP Commands
+show hardware components,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show hardware version,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show history,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+show hosts,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DNS Client Commands
+show interface status,['cbs_220'],Ethernet Configuration Commands
+show interfaces access-lists trapped packets,"['cbs_250', 'cbs_350', 'cat_1300']",ACL Commands
+show interfaces advertise,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show interfaces configuration,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show interfaces counters,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show interfaces description,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show interfaces port-channel,"['cbs_250', 'cbs_350', 'cat_1300']",Port Channel Commands
+show interfaces protected-ports,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show interfaces status,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show interfaces switchport,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show inventory,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show ip,['cbs_220'],IP Addressing Commands
+show ip arp inspection,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+show ip arp inspection interfaces,['cbs_220'],IP ARP Inspection Commands
+show ip arp inspection list,"['cbs_350', 'cat_1300']",DHCP Snooping Commands
+show ip arp inspection statistics,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+show ip dhcp,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp allocated,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp binding,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp client interface,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+show ip dhcp declined,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp excluded-addresses,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp expired,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp information option,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+show ip dhcp information option tokens,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+show ip dhcp pool host,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp pool network,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp pre-allocated,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp relay,"['cbs_250', 'cbs_350', 'cat_1300']",DHCP Relay Commands
+show ip dhcp server statistics,"['cbs_350', 'cat_1300']",DHCP Server Commands
+show ip dhcp snooping,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+show ip dhcp snooping binding,"['cbs_220', 'cbs_350', 'cat_1300']",DHCP Snooping Commands
+show ip dhcp snooping database,['cbs_220'],IP DHCP Snooping Commands
+show ip dhcp snooping information option format remote-id,['cbs_220'],IP DHCP Snooping Commands
+show ip dhcp snooping interfaces,['cbs_220'],IP DHCP Snooping Commands
+show ip dhcp snooping interfaces statistics,['cbs_220'],IP DHCP Snooping Commands
+show ip dhcp tftp-server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Auto-Update and Auto-Configuration
+show ip helper-address,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+show ip http,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+show ip https,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Web Server Commands
+show ip igmp counters,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",IGMP Commands
+show ip igmp filter,['cbs_220'],IGMP Snooping Commands
+show ip igmp groups,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+show ip igmp groups summary,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+show ip igmp interface,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Commands
+show ip igmp max-group,['cbs_220'],IGMP Snooping Commands
+show ip igmp max-group action,['cbs_220'],IGMP Snooping Commands
+show ip igmp profile,['cbs_220'],IGMP Snooping Commands
+show ip igmp snooping,['cbs_220'],IGMP Snooping Commands
+show ip igmp snooping forward-all,['cbs_220'],IGMP Snooping Commands
+show ip igmp snooping groups,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+show ip igmp snooping interface,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+show ip igmp snooping mrouter,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+show ip igmp snooping multicast-tv,"['cbs_250', 'cbs_350', 'cat_1300']",IGMP Snooping Commands
+show ip igmp snooping querier,['cbs_220'],IGMP Snooping Commands
+show ip igmp snooping vlan,['cbs_220'],IGMP Snooping Commands
+show ip igmp-proxy interface,"['cbs_350', 'cat_1300']",IGMP Proxy Commands
+show ip interface,"['cbs_250', 'cbs_350', 'cat_1300']",IP Addressing Commands
+show ip mroute,"['cbs_350', 'cat_1300']",IPv4 IPM Router Commands
+show ip multicast,"['cbs_350', 'cat_1300']",IPv4 IPM Router Commands
+show ip protocols,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+show ip rip database,"['cbs_350', 'cat_1300']",RIP Commands
+show ip rip peers,"['cbs_350', 'cat_1300']",RIP Commands
+show ip route,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+show ip route summary,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+show ip source binding,['cbs_220'],IP Source Guard Commands
+show ip ssh,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+show ip ssh-client,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+show ip ssh-client server,"['cbs_250', 'cbs_350', 'cat_1300']",SSH Client Commands
+show ip verify source interfaces,['cbs_220'],IP Source Guard Commands
+show ipv6,['cbs_220'],IPv6 Addressing Commands
+show ipv6 dhcp,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+show ipv6 dhcp guard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 dhcp guard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 dhcp interface,"['cbs_250', 'cbs_350', 'cat_1300']",DHCPv6 Commands
+show ipv6 first hop security,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 first hop security active policies,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 first hop security attached policies,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 first hop security counters,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 first hop security error counters,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 first hop security policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 interface,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 link-local default zone,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 mld counters,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+show ipv6 mld filter,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld groups,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+show ipv6 mld groups summary,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+show ipv6 mld interface,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Commands
+show ipv6 mld max-group,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld max-group action,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld profile,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld snooping,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld snooping forward-all,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld snooping groups,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+show ipv6 mld snooping interface,"['cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+show ipv6 mld snooping mrouter,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",MLD Snooping Commands
+show ipv6 mld snooping vlan,['cbs_220'],IPv6 MLD Snooping Commands
+show ipv6 mld-proxy interface,"['cbs_350', 'cat_1300']",MLD Proxy
+show ipv6 mroute,"['cbs_350', 'cat_1300']",IPv6 IPM Router Commands
+show ipv6 multicast,"['cbs_350', 'cat_1300']",IPv6 IPM Router Commands
+show ipv6 nd inspection,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 nd inspection policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 nd prefix,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 nd raguard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 nd raguard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 neighbor binding,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 neighbor binding policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 neighbor binding prefix table,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 neighbor binding table,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 neighbors,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 prefix-list,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Prefix List
+show ipv6 route,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 route summary,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 source guard,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 source guard policy,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+show ipv6 static,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Commands
+show ipv6 tunnel,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Tunnel Commands
+show iscsi,"['cbs_350', 'cat_1300']",iSCI QoS Commands
+show key chain,"['cbs_250', 'cbs_350', 'cat_1300']",IP Routing Protocol-Independent Commands
+show lacp,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LACP Commands
+show lacp port-channel,"['cbs_250', 'cbs_350', 'cat_1300']",LACP Commands
+show line,"['cbs_220', 'cbs_350', 'cat_1300']",Line Commands
+show line lists,['cbs_220'],AAA Commands
+show link-flap prevention,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show lldp,['cbs_220'],LLDP Commands
+show lldp configuration,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show lldp interfaces,['cbs_220'],LLDP Commands
+show lldp interfaces tlvs-overloading,['cbs_220'],LLDP Commands
+show lldp local,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show lldp local tlvs-overloading,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show lldp local-device,['cbs_220'],LLDP Commands
+show lldp med,['cbs_220'],LLDP Commands
+show lldp med configuration,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show lldp neighbor,['cbs_220'],LLDP Commands
+show lldp neighbors,"['cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show lldp statistics,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",LLDP Commands
+show logging,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+show logging file,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+show login,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show login failures,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show loopback-detection,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Loopback Detection Commands
+show mac address-table,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show mac address-table aging-time,['cbs_220'],Address Table Commands
+show mac address-table count,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show macro auto ports,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+show macro auto processing,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+show macro auto smart-macros,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+show management access-class,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+show management access-list,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Management  ACL Commands
+show management-vlan,['cbs_220'],VLAN Commands
+show memory statistics,['cbs_220'],System Management Commands
+show mirror-configuration service,"['cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+show monitor,['cbs_220'],Port Monitor Commands
+show monitor session,"['cbs_250', 'cbs_350', 'cat_1300']",SPAN and RSPAN Commands
+show parser macro,"['cbs_250', 'cbs_350', 'cat_1300']",Macro Commands
+show passwords configuration,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show platform certificate,['cat_1300'],System Management Commands
+show platform hardware integrity,['cat_1300'],System Management Commands
+show platform integrity,['cat_1300'],System Management Commands
+show pnp,"['cbs_250', 'cbs_350', 'cat_1300']",PnP Commands
+show policy-map,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show policy-map interface,['cbs_220'],QoS Commands
+show port leds configuration,['cbs_220'],System Management Commands
+show port-security,['cbs_220'],Address Table Commands
+show ports jumbo-frame,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show ports leds configuration,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show ports security,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show ports security addresses,"['cbs_250', 'cbs_350', 'cat_1300']",Address Table Commands
+show power inline,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+show power inline consumption,['cbs_220'],Power over Ethernet (PoE) Commands
+show power inline monitor consumption,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+show power inline savings,"['cbs_250', 'cbs_350', 'cat_1300']",PoE Commands
+show privilege,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+show qos,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show qos aggregate-policer,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show qos interface,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show qos interfaces,['cbs_220'],QoS Commands
+show qos map,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show qos queueing,['cbs_220'],QoS Commands
+show qos statistics,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show qos wrr-queue wrtd,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show queue statistics,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+show radius server accounting,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server configuration,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server group,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server nas secret,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server rejected users,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server statistics,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server unknown nas,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius server user,"['cbs_250', 'cbs_350', 'cat_1300']",Radius Server Commands
+show radius-server,['cbs_220'],RADIUS Commands
+show radius-server default-param,['cbs_220'],RADIUS Commands
+show radius-servers,"['cbs_350', 'cat_1300']",RADIUS Commands
+show radius-servers key,"['cbs_350', 'cat_1300']",RADIUS Commands
+show rate-limit interface,"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+show rate-limit vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+show reload,"['cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",System Management Commands
+show rmon alarm,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon alarm-table,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon collection stats,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon event,['cbs_220'],RMON Commands
+show rmon event log,['cbs_220'],RMON Commands
+show rmon events,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon history,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon log,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon statistics,"['cbs_250', 'cbs_350', 'cat_1300']",RMON commands
+show rmon statistics interfaces,['cbs_220'],RMON Commands
+show route-map,"['cbs_350', 'cat_1300']",Route Map Commands
+show router hardware-routing status,"['cbs_250', 'cbs_350', 'cat_1300']",Router Resources Commands
+show running-config,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+show security-suite configuration,"['cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+show security-suite dos,['cbs_220'],Security DoS Commands
+show security-suite dos interfaces,['cbs_220'],Security DoS Commands
+show security-suite syn protection,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",DoS Commands
+show services tcp-udp,"['cbs_220', 'cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show sessions,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show sflow configuration,"['cbs_350', 'cat_1300']",sFlow Commands
+show snmp,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp engineID,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp filters,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp groups,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp users,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp views,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+show snmp-server,['cbs_220'],SNMP Commands
+show snmp-server community,['cbs_220'],SNMP Commands
+show snmp-server engineid,['cbs_220'],SNMP Commands
+show snmp-server group,['cbs_220'],SNMP Commands
+show snmp-server host,['cbs_220'],SNMP Commands
+show snmp-server trap,['cbs_220'],SNMP Commands
+show snmp-server user,['cbs_220'],SNMP Commands
+show snmp-server view,['cbs_220'],SNMP Commands
+show sntp configuration,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+show sntp status,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+show software versions,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show spanning-tree,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+show spanning-tree bpdu,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+show spanning-tree interfaces,['cbs_220'],STP Commands
+show spanning-tree mst,['cbs_220'],STP Commands
+show spanning-tree mst configuration,['cbs_220'],STP Commands
+show spanning-tree mst interfaces,['cbs_220'],STP Commands
+show ssd session,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+show stack,"['cbs_350', 'cat_1300']",Stack Commands
+show stack configuration,"['cbs_350', 'cat_1300']",Stack Commands
+show stack links,"['cbs_350', 'cat_1300']",Stack Commands
+show startup-config,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+show storm-control,['cbs_220'],Ethernet Configuration Commands
+show storm-control interface,"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+show surveillance-vlan interface,['cat_1300'],Surveillance VLAN
+show switchport monitor,"['cbs_250', 'cbs_350', 'cat_1300']",Ethernet Configuration Commands
+show syslog-servers,"['cbs_250', 'cbs_350', 'cat_1300']",SYSLOG Commands
+show system,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show system fans,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show system id,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show system languages,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show system resources,"['cbs_250', 'cbs_350', 'cat_1300']",Router Resources Commands
+show system sensors,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show system tcam utilization,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show tacacs,"['cbs_220', 'cbs_350', 'cat_1300']",TACACS+ Commands
+show tacacs default-config,['cbs_220'],TACACS+ Commands
+show tacacs key,"['cbs_350', 'cat_1300']",TACACS+ Commands
+show tech-support,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show time-range,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Clock Commands
+show udld,"['cbs_350', 'cat_1300']",UDLD Commands
+show username,"['cbs_220', 'cbs_220']",System Management Commands
+show users,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+show users accounts,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show users login-history,"['cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+show version,['cbs_220'],System Management Commands
+show vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan default-vlan,['cbs_220'],VLAN Commands
+show vlan internal usage,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan macs-groups,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan multicast-tv,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan private-vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan protocols-groups,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show vlan remote-span,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SPAN and RSPAN Commands
+show vlan subnets-groups,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+show voice vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+show voice vlan local,"['cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+shutdown,"['cbs_220', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300', 'cat_1300']",RIP Commands
+silent-time,['cbs_220'],Line Commands
+smartport storm-control,"['cbs_250', 'cbs_350', 'cat_1300']",Smartport Commands
+snmp trap link-status,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server,['cbs_220'],SNMP Commands
+snmp-server community,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server community-group,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server contact,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server enable traps,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server engineID local,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server engineID remote,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server engineid,['cbs_220'],SNMP Commands
+snmp-server engineid remote,['cbs_220'],SNMP Commands
+snmp-server filter,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server group,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server host,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server location,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server server,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server set,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server source-interface-ipv6,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server trap,['cbs_220'],SNMP Commands
+snmp-server trap authentication,"['cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server user,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+snmp-server view,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",SNMP Commands
+sntp anycast client enable,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp authenticate,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp authentication-key,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp broadcast client enable,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp client enable,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp client enable (interface),"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp server,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp source-interface,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp source-interface-ipv6,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp trusted-key,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp unicast client enable,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+sntp unicast client poll,"['cbs_250', 'cbs_350', 'cat_1300']",Clock Commands
+spanning-tree,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree bpdu (Global),"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree bpdu (Interface),"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree bpdu-filter (Interface),['cbs_220'],STP Commands
+spanning-tree bpdu-guard (Interface),['cbs_220'],STP Commands
+spanning-tree bpduguard,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree cost,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree cost (Interface),['cbs_220'],STP Commands
+spanning-tree disable,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree forward-time,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree guard root,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree hello-time,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree link-type,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree link-type (Interface),['cbs_220'],STP Commands
+spanning-tree loopback-guard,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree max-age,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree max-hops,['cbs_220'],STP Commands
+spanning-tree mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree mst configuration,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree mst cost,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree mst instance,['cat_1300'],Spanning Tree Commands
+spanning-tree mst max-hops,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree mst port-priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree mst priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree pathcost method,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree port-priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree portfast,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree priority,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree tx-hold-count,['cbs_220'],STP Commands
+spanning-tree vlan cost,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree vlan forward-time,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree vlan hello-time,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree vlan max-age,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree vlan port-priority,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+spanning-tree vlan priority,"['cbs_250', 'cbs_350', 'cat_1300']",Spanning Tree Commands
+speed,"['cbs_220', 'cbs_220', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Line Commands
+ssd config,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+ssd file integrity control,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+ssd file passphrase control,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+ssd rule,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+ssd session read,"['cbs_250', 'cbs_350', 'cat_1300']",SSD Commands
+ssh,"['cbs_250', 'cbs_350', 'cat_1300']",IP System Management Commands
+stack configuration,"['cbs_350', 'cat_1300']",Stack Commands
+stack unit,"['cbs_350', 'cat_1300']",Stack Commands
+storm-control,"['cbs_250', 'cbs_350', 'cat_1300']",Rate Limit and Storm Commands
+storm-control action,['cbs_220'],Ethernet Configuration Commands
+storm-control broadcast,['cbs_220'],Ethernet Configuration Commands
+storm-control broadcast level,['cbs_220'],Ethernet Configuration Commands
+storm-control enable,['cbs_220'],Ethernet Configuration Commands
+storm-control ifg,['cbs_220'],Ethernet Configuration Commands
+storm-control unit,['cbs_220'],Ethernet Configuration Commands
+storm-control unknown-multicast,['cbs_220'],Ethernet Configuration Commands
+storm-control unknown-multicast level,['cbs_220'],Ethernet Configuration Commands
+storm-control unknown-unicast,['cbs_220'],Ethernet Configuration Commands
+storm-control unknown-unicast level,['cbs_220'],Ethernet Configuration Commands
+surveillance-vlan aging-timeout,['cat_1300'],Surveillance VLAN
+surveillance-vlan cos,['cat_1300'],Surveillance VLAN
+surveillance-vlan enable (Interface),['cat_1300'],Surveillance VLAN
+surveillance-vlan vlan-id,['cat_1300'],Surveillance VLAN
+switchport,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport access multicast-tv vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport access vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport customer multicast-tv vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport customer vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport default-vlan tagged,['cbs_220'],VLAN Commands
+switchport dot1q-tunnel vlan,['cbs_220'],VLAN Commands
+switchport forbidden default-vlan,['cbs_220'],VLAN Commands
+switchport forbidden vlan,['cbs_220'],VLAN Commands
+switchport general acceptable-frame-type,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general allowed vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general forbidden vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general ingress-filtering disable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general map macs-group vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general map protocols-group vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general map subnets-group vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport general pvid,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport mode trunk uplink,['cbs_220'],VLAN Commands
+switchport nni ethtype,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport port-security,['cbs_220'],Address Table Commands
+switchport port-security mode maximum,['cbs_220'],Address Table Commands
+switchport private-vlan host-association,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport private-vlan mapping,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport protected,['cbs_220'],VLAN Commands
+switchport protected-port,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport trunk allowed vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport trunk native vlan,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan tpid,['cbs_220'],VLAN Commands
+switchport vlan-mapping one-to-one,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel l2protocol cos,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel l2protocol cos interface,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel l2protocol drop-threshold,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel l2protocol forward,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+switchport vlan-mapping tunnel l2protocol vlan,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+system light,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+system recovery,"['cbs_250', 'cbs_350', 'cat_1300']",System Management Commands
+system reset-button disable,['cat_1300'],System Management Commands
+system resources,"['cbs_250', 'cbs_350', 'cat_1300']",Router Resources Commands
+tacacs-server default-param,['cbs_220'],TACACS+ Commands
+tacacs-server host,"['cbs_220', 'cbs_350', 'cat_1300']",TACACS+ Commands
+tacacs-server host source-interface,"['cbs_350', 'cat_1300']",TACACS+ Commands
+tacacs-server host source-interface-ipv6,"['cbs_350', 'cat_1300']",TACACS+ Commands
+tacacs-server key,"['cbs_350', 'cat_1300']",TACACS+ Commands
+tacacs-server timeout,"['cbs_350', 'cat_1300']",TACACS+ Commands
+telnet,"['cbs_250', 'cbs_350', 'cat_1300']",IP System Management Commands
+terminal datadump,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+terminal history,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+terminal history size,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+terminal length,['cbs_220'],User Interface Commands
+terminal prompt,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+terminal width,"['cbs_250', 'cbs_350', 'cat_1300']",User Interface Commands
+test cable-diagnostics tdr,"['cbs_250', 'cbs_350', 'cat_1300']",PHY Commands
+time-range,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",Clock Commands
+time-server,"['cbs_350', 'cat_1300']",DHCP Server Commands
+traceroute,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",IP System Management Commands
+traffic-shape,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+traffic-shape queue,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+trust,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+trust-shape (Interface),['cbs_220'],QoS Commands
+trusted-port (IPv6 Source Guard),"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+tunnel destination,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Tunnel Commands
+tunnel isatap robustness,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Tunnel Commands
+tunnel isatap solicitation-interval,"['cbs_250', 'cbs_350', 'cat_1300']",IPv6 Tunnel Commands
+udld,"['cbs_350', 'cat_1300']",UDLD Commands
+udld message time,"['cbs_350', 'cat_1300']",UDLD Commands
+udld port,"['cbs_350', 'cat_1300']",UDLD Commands
+user-key,"['cbs_250', 'cbs_350', 'cat_1300']","Telnet, SSH and Slogin Commands"
+username,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",AAA Commands
+username (dot1x credentials),"['cbs_250', 'cbs_350', 'cat_1300']",802-1x Commands
+validate source-mac,"['cbs_350', 'cat_1300']",IPv6 First Hop Security
+vlan,"['cbs_220', 'cbs_250', 'cbs_250', 'cbs_350', 'cbs_350', 'cat_1300', 'cat_1300']",VLAN Commands
+vlan database,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+vlan default-vlan,['cbs_220'],VLAN Commands
+vlan prohibit-internal-usage,"['cbs_250', 'cbs_350', 'cat_1300']",VLAN Commands
+voice vlan aging-timeout,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan cos,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan cos mode,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan dscp,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan enable,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan id,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan mode,['cbs_220'],Voice VLAN Commands
+voice vlan oui-table,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan refresh,"['cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan state,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+voice vlan vpt,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",Voice VLAN Commands
+write,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",File System Commands
+wrr-queue bandwidth,"['cbs_220', 'cbs_250', 'cbs_350', 'cat_1300']",QoS Commands
+wrr-queue cos-map,"['cbs_250', 'cbs_350', 'cat_1300']",QoS Commands

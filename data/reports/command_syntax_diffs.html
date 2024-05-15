@@ -1,0 +1,3510 @@
+<table border="1" class="dataframe table">
+  <thead>
+    <tr style="text-align: center;">
+      <th>command</th>
+      <th>syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Login Block-for</td>
+      <td>{no login block-for, login block-for seconds attempts tries within seconds}</td>
+    </tr>
+    <tr>
+      <td>Surveillance-vlan traffic-source</td>
+      <td>{surveillance-vlan traffic-source default | {mac mac-address|oui OUI} [description description]}, no surveillance-vlan traffic-source {mac mac-address|oui OUI}}</td>
+    </tr>
+    <tr>
+      <td>aaa accounting dot1x</td>
+      <td>{no aaa accounting dot1x start-stop group radius, aaa accounting dot1x start-stop group radius}</td>
+    </tr>
+    <tr>
+      <td>aaa accounting login start-stop</td>
+      <td>{no aaa accounting login start-stop, aaa accounting login start-stop group {radius | tacacs+}}</td>
+    </tr>
+    <tr>
+      <td>aaa authentication dot1x</td>
+      <td>{no aaa authentication dot1x default, aaa authentication dot1x default {radius | none | {radius none}}</td>
+    </tr>
+    <tr>
+      <td>aaa authentication enable</td>
+      <td>{aaa authentication enable {default | LISTNAME} method1 [method2 .], aaa authentication enable [authorization] {default | list-name} method [method2.]}, no aaa authentication enable {default | LISTNAME}, no aaa authentication enable {default | list-name}}</td>
+    </tr>
+    <tr>
+      <td>aaa authentication login</td>
+      <td>{no aaa authentication login {default | list-name}, no aaa authentication login {default | LISTNAME}, aaa authentication login [authorization] {default | list-name} method1 [method2.], aaa authentication login {default | LISTNAME} method1 [method2.]}</td>
+    </tr>
+    <tr>
+      <td>aaa logging</td>
+      <td>{no aaa logging {login}, aaa logging {login}}</td>
+    </tr>
+    <tr>
+      <td>aaa login-history file</td>
+      <td>{no aaa login-history file, aaa login-history file}</td>
+    </tr>
+    <tr>
+      <td>absolute</td>
+      <td>{absolute (end | start) HH:MM (jan | feb | mar | apr | may | jun | jul | aug | sep | oct | nov | dec) &lt;1-31&gt; &lt;2000-2037&gt;, no absolute end, absolute end hh:mm day month year, no absolute start, absolute start hh:mm day month year}</td>
+    </tr>
+    <tr>
+      <td>accept-lifetime</td>
+      <td>{no accept-lifetime, accept-lifetime start-time {infinite | end-time | duration seconds}}</td>
+    </tr>
+    <tr>
+      <td>address (DHCP Host)</td>
+      <td>{no address, address ip-address {mask | prefix-length} {client-identifier unique-identifier | hardware-address mac-address}}</td>
+    </tr>
+    <tr>
+      <td>address (DHCP Network)</td>
+      <td>{no address, address {network-number | low low-address high high-address} {mask | prefix-length}}</td>
+    </tr>
+    <tr>
+      <td>address-config</td>
+      <td>{address-config [stateless | any] [dhcp], no address-config}</td>
+    </tr>
+    <tr>
+      <td>address-prefix-validation</td>
+      <td>{address-prefix-validation [enable | disable], no address-prefix-validation}</td>
+    </tr>
+    <tr>
+      <td>allowed-time-range</td>
+      <td>{no allowed-time-range, allowed-time-range time-range-name}</td>
+    </tr>
+    <tr>
+      <td>arp</td>
+      <td>{no arp ip-address, arp ip-address mac-address [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>arp timeout (Global)</td>
+      <td>{arp timeout seconds, no arp timeout}</td>
+    </tr>
+    <tr>
+      <td>authentication open</td>
+      <td>{authentication open, no authentication open}</td>
+    </tr>
+    <tr>
+      <td>auto-default-router</td>
+      <td>{auto-default-router, no auto-default-router}</td>
+    </tr>
+    <tr>
+      <td>autobaud</td>
+      <td>{no autobaud, autobaud}</td>
+    </tr>
+    <tr>
+      <td>back-pressure</td>
+      <td>{back-pressure, no back-pressure}</td>
+    </tr>
+    <tr>
+      <td>banner exec</td>
+      <td>{banner exec delimiter, no banner exec, banner exec d message-text d}</td>
+    </tr>
+    <tr>
+      <td>banner login</td>
+      <td>{no banner login, banner login delimiter, banner login d message-text d}</td>
+    </tr>
+    <tr>
+      <td>bluetooth device-name</td>
+      <td>{bluetooth device-name device-name, no bluetooth device-name}</td>
+    </tr>
+    <tr>
+      <td>bluetooth pin</td>
+      <td>{no bluetooth pin., bluetooth pin pin}</td>
+    </tr>
+    <tr>
+      <td>bonjour enable</td>
+      <td>{no bonjour enable., no bonjour enable, bonjour enable}</td>
+    </tr>
+    <tr>
+      <td>bonjour interface range</td>
+      <td>{no bonjour interface range [interface-list], bonjour interface range interface-list}</td>
+    </tr>
+    <tr>
+      <td>boot config</td>
+      <td>{boot config mirror-config, boot config startup-config-url, boot config running-config, no boot config}</td>
+    </tr>
+    <tr>
+      <td>boot host auto-config</td>
+      <td>{boot host auto-config [tftp | scp | auto [extension], no boot host auto-config, boot host auto-config}</td>
+    </tr>
+    <tr>
+      <td>boot host auto-update</td>
+      <td>{no boot host auto-update, boot host auto-update [tftp | scp | auto [extension]}</td>
+    </tr>
+    <tr>
+      <td>boot localization</td>
+      <td>{boot localization dictionary-url, no boot localization}</td>
+    </tr>
+    <tr>
+      <td>boot system</td>
+      <td>{boot system {image-1 | image-2}, boot system image-url, boot system inactive-image}</td>
+    </tr>
+    <tr>
+      <td>bootfile</td>
+      <td>{bootfile filename, no bootfile}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast address</td>
+      <td>{no bridge multicast address mac-multicast-address, bridge multicast address {mac-multicast-address | ipv4-multicast-address} [{add | remove} {ethernet interface-list | port-channel port-channel-list}]}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast filtering</td>
+      <td>{bridge multicast filtering, no bridge multicast filtering}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast forbidden address</td>
+      <td>{bridge multicast forbidden address {mac-multicast-address | ipv4-multicast-address} {add | remove} {ethernet interface-list | port-channel port-channel-list}, no bridge multicast forbidden address mac-multicast-address}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast forbidden forward-all</td>
+      <td>{no bridge multicast forbidden forward-all, bridge multicast forbidden forward-all {add | remove} {ethernet interface-list | port-channel port-channel-list}}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast forbidden ip-address</td>
+      <td>{no bridge multicast forbidden ip-address ip-multicast-address, bridge multicast forbidden ip-address {ip-multicast-address} {add | remove} {ethernet interface-list | port-channel port-channel-list}}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast forbidden source group</td>
+      <td>{no bridge multicast forbidden source ip-address group ip-multicast-address, bridge multicast forbidden source ip-address group ip-multicast-address {add | remove} {ethernet interface-list | port-channel port-channel-list}}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast forward-all</td>
+      <td>{bridge multicast forward-all {add | remove} {ethernet interface-list | port-channel port-channel-list}, no bridge multicast forward-all}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ip-address</td>
+      <td>{bridge multicast ip-address ip-multicast-address [add | remove] {interface-list | port-channel port-channel-list}], no bridge multicast ip-address ip-multicast-address}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ipv6 forbidden ip-address</td>
+      <td>{bridge multicast ipv6 forbidden ip-address {ipv6-multicast-address} {add | remove} {ethernet interface-list | port-channel port-channel-list}, no bridge multicast ipv6 forbidden ip-address ipv6-multicast-address}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ipv6 forbidden source group</td>
+      <td>{bridge multicast ipv6 forbidden source ipv6-source-address group ipv6-multicast-address {add | remove} {ethernet interface-list | port-channel port-channel-list}, no bridge multicast ipv6 forbidden source ipv6-address group ipv6-multicast-address}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ipv6 ip-address</td>
+      <td>{no bridge multicast ipv6 ip-address ip-multicast-address, bridge multicast ipv6 ip-address ipv6-multicast-address [add | remove] {ethernet interface-list | port-channel port-channel-list}]}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ipv6 mode</td>
+      <td>{no bridge multicast ipv6 mode, bridge multicast ipv6 mode {mac-group | ip-group | ip-src-group}}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast ipv6 source group</td>
+      <td>{no bridge multicast ipv6 source ipv6-address group ipv6-multicast-address, bridge multicast ipv6 source ipv6-source-address group ipv6-multicast-address [add | remove] {ethernet interface-list | port-channel port-channel-list}]}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast mode</td>
+      <td>{no bridge multicast mode, bridge multicast mode {mac-group | ipv4-group | ipv4-src-group}}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast reserved-address</td>
+      <td>{bridge multicast reserved-address mac-multicast-address {discard | bridge}, bridge multicast reserved-address mac-multicast-address [ethernet-v2 ethtype | llc sap | llc-snap pid] {discard | bridge}, no bridge multicast reserved-address mac-multicast-address [ethernet-v2 ethtype | llc sap | llc-snap pid]}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast source group</td>
+      <td>{bridge multicast source ip-address group ip-multicast-address [add | remove] {ethernet interface-list | port-channel port-channel-list}], no bridge multicast source ip-address group ip-multicast-address}</td>
+    </tr>
+    <tr>
+      <td>bridge multicast unregistered</td>
+      <td>{no bridge multicast unregistered, bridge multicast unregistered {forwarding | filtering}}</td>
+    </tr>
+    <tr>
+      <td>bridge unicast unknown</td>
+      <td>{bridge unicast unknown {filtering | forwarding}, no bridge unicast unknown}</td>
+    </tr>
+    <tr>
+      <td>ca-certificate install</td>
+      <td>{no ca-certificate install name WORD&lt;1-160&gt;, ca-certificate install name name [owner owner], ca-certificate install name WORD&lt;1-160&gt; [owner WORD&lt;1-32&gt;], no ca-certificate install {name name | owner owner}}</td>
+    </tr>
+    <tr>
+      <td>ca-certificate revoke</td>
+      <td>{no ca-certificate revoke issuer issuer serial-number serial-number, ca-certificate revoke issuer issuer serial-number serial-number}</td>
+    </tr>
+    <tr>
+      <td>cbd address</td>
+      <td>{cbd address {ip-address | hostname} [port port], no cbd address}</td>
+    </tr>
+    <tr>
+      <td>cbd connection enable</td>
+      <td>{cbd connection enable, no cbd connection enable}</td>
+    </tr>
+    <tr>
+      <td>cbd key</td>
+      <td>{cbd key id id-string secret secret-string, no cbd key, encrypted cbd key id id-string secret encrypted-secret-string}</td>
+    </tr>
+    <tr>
+      <td>cbd network name</td>
+      <td>{cbd network name network-name, no cbd network name}</td>
+    </tr>
+    <tr>
+      <td>cbd organization name</td>
+      <td>{no cbd organization name, cbd organization name organization-name}</td>
+    </tr>
+    <tr>
+      <td>cbd probe enable</td>
+      <td>{no cbd probe enable, cbd probe enable}</td>
+    </tr>
+    <tr>
+      <td>cdp advertise-v2</td>
+      <td>{no cdp advertise-v2, cdp advertise-v2}</td>
+    </tr>
+    <tr>
+      <td>cdp appliance-tlv enable</td>
+      <td>{cdp appliance-tlv enable, no cdp appliance-tlv enable}</td>
+    </tr>
+    <tr>
+      <td>cdp appliance-vlan enable</td>
+      <td>{no cdp appliance-vlan enable, cdp appliance-vlan enable}</td>
+    </tr>
+    <tr>
+      <td>cdp device-id format</td>
+      <td>{cdp device-id format {mac | serial-number | hostname}, no cdp device-id format}</td>
+    </tr>
+    <tr>
+      <td>cdp enable</td>
+      <td>{cdp enable, no cdp enable}</td>
+    </tr>
+    <tr>
+      <td>cdp holdtime</td>
+      <td>{no cdp holdtime, cdp holdtime seconds}</td>
+    </tr>
+    <tr>
+      <td>cdp log mismatch duplex</td>
+      <td>{cdp log mismatch duplex, no cdp log mismatch duplex}</td>
+    </tr>
+    <tr>
+      <td>cdp log mismatch native</td>
+      <td>{cdp log mismatch native, no cdp log mismatch native}</td>
+    </tr>
+    <tr>
+      <td>cdp log mismatch voip</td>
+      <td>{no cdp log mismatch voip, cdp log mismatch voip}</td>
+    </tr>
+    <tr>
+      <td>cdp mandatory-tlvs validation</td>
+      <td>{no cdp mandatory-tlvs validation, cdp mandatory-tlvs validation}</td>
+    </tr>
+    <tr>
+      <td>cdp pdu</td>
+      <td>{cdp pdu {bridging | filtering | flooding}, cdp pdu [filtering | bridging | flooding], no cdp pdu}</td>
+    </tr>
+    <tr>
+      <td>cdp run</td>
+      <td>{cdp run, no cdp run}</td>
+    </tr>
+    <tr>
+      <td>cdp source-interface</td>
+      <td>{cdp source-interface interface-id, no cdp source-interface}</td>
+    </tr>
+    <tr>
+      <td>cdp timer</td>
+      <td>{cdp timer seconds, no cdp timer}</td>
+    </tr>
+    <tr>
+      <td>channel-group</td>
+      <td>{no channel-group, channel-group port channel mode {active | on | passive}, channel-group port-channel mode {on | auto}}</td>
+    </tr>
+    <tr>
+      <td>class</td>
+      <td>{no class class-map-name, class class-map-name, class class-map-name [access-group acl-name]}</td>
+    </tr>
+    <tr>
+      <td>class-map</td>
+      <td>{no class-map class-map-name, class-map class-map-name [match-any], class-map class-map-name [match-all | match-any]}</td>
+    </tr>
+    <tr>
+      <td>clear arp-cache</td>
+      <td>{clear arp-cache, clear arp-cache [ip-address]}</td>
+    </tr>
+    <tr>
+      <td>clear counters</td>
+      <td>{clear counters [interfaces interface-id], clear counters [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>clear gvrp statistics</td>
+      <td>{clear gvrp {error-statistics | statistics} [interfaces interface-id], clear gvrp statistics [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>clear lldp statistics</td>
+      <td>{clear lldp statistics, clear lldp statistics [global | interface-id]}</td>
+    </tr>
+    <tr>
+      <td>clear logging</td>
+      <td>{clear logging {buffered | file}, clear logging}</td>
+    </tr>
+    <tr>
+      <td>clear mac address-table</td>
+      <td>{clear mac address-table dynamic [interfaces interface-id | vlan vlan-id], clear mac address-table secure interface interface-id, clear mac address-table dynamic interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>clear spanning-tree detected-protocols</td>
+      <td>{clear spanning-tree detected-protocols [interface interface-id], clear spanning-tree detected-protocols [interfaces interface-id]}</td>
+    </tr>
+    <tr>
+      <td>client-name</td>
+      <td>{no client-name, client-name name}</td>
+    </tr>
+    <tr>
+      <td>clock dhcp timezone</td>
+      <td>{clock dhcp timezone, no clock dhcp timezone}</td>
+    </tr>
+    <tr>
+      <td>clock set</td>
+      <td>{clock set hh:mm:ss {[day month] | [month day]} year, clock set HH:MM:SS month day year}</td>
+    </tr>
+    <tr>
+      <td>clock source</td>
+      <td>{clock source {sntp | browser}, no clock source {sntp | browser}, clock source {sntp | local}}</td>
+    </tr>
+    <tr>
+      <td>clock summer-time</td>
+      <td>{clock summer-time zone recurring {usa | eu | {week day month hh:mm week day month hh:mm} [offset], clock summer-time zone recurring {usa | eu | {week date month HH:MM week month date HH:MM} [offset], no clock summer-time, clock summer-time zone date month day year HH:MM month day year HH:MM [offset], clock summer-time zone date day month year hh:mm date month year hh:mm [offset], clock summer-time zone date month day year hh:mm month day year hh:mm [offset]}</td>
+    </tr>
+    <tr>
+      <td>clock timezone</td>
+      <td>{no clock timezone, clock timezone zone HOUR-OFFSET [minutes], clock timezone zone hours-offset [minutes-offset]}</td>
+    </tr>
+    <tr>
+      <td>copy</td>
+      <td>{*copy {running-config | startup-config} dst-url, copy src-url running-config, copy {running-config | startup-config} dst-url [exclude | include-encrypted | include-plaintext], copy, copy running-config startup-config, copy tech-support cbd usb:/&lt;file-path&gt;, copy src-url dst-url}</td>
+    </tr>
+    <tr>
+      <td>crypto certificate generate</td>
+      <td>{crypto certificate number generate [key-generate [length] [cn common- name] [ou organization-unit] [or organization] [loc location] [st state] [cu country] [duration days], crypto certificate generate}</td>
+    </tr>
+    <tr>
+      <td>crypto certificate import</td>
+      <td>{no crypto certificate number, encrypted crypto certificate number import, crypto certificate number import}</td>
+    </tr>
+    <tr>
+      <td>crypto key import</td>
+      <td>{crypto key import {dsa| rsa}, no crypto key {dsa| rsa}, encrypted crypto key import {dsa| rsa}}</td>
+    </tr>
+    <tr>
+      <td>default-information originate</td>
+      <td>{default-information originate, no default-information originate}</td>
+    </tr>
+    <tr>
+      <td>default-metric</td>
+      <td>{no default-metric, default-metric [metric-value]}</td>
+    </tr>
+    <tr>
+      <td>default-router</td>
+      <td>{default-router ip-address [ip-address2 . ip-address8], no default-router}</td>
+    </tr>
+    <tr>
+      <td>delete</td>
+      <td>{delete startup-config, delete url}</td>
+    </tr>
+    <tr>
+      <td>deny ( IP )</td>
+      <td>{deny protocol {any | source source-wildcard} {any | destination destination-wildcard} [ace-priority priority] [dscp number | precedence number] [time-range time-range-name] [disable-port|log-input ], deny icmp {any | source source-wildcard} {any | destination destination-wildcard} [any | icmp-type] [any | icmp-code][ace-priority priority] [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], no deny icmp {any | source source-wildcard} {any | destination destination-wildcard} [any | icmp-type] [any | icmp-code] [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], no deny igmp {any | source source-wildcard} {any | destination destination-wildcard}[igmp-type] [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], no deny tcp {any | source source-wildcard} {any|source-port/port-range}{any | destination destination-wildcard} {any|destination-port/port-range} [dscp number | precedence number][match-all list-of-flags] [time-range time-range-name] [disable-port |log-input ], no deny protocol {any | source source-wildcard} {any | destination destination-wildcard} [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], deny udp {any | source source-wildcard} {any|source-port/port-range} {any | destination destination-wildcard} {any|destination-port/port-range} [ace-priority priority] [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], no deny udp {any | source source-wildcard} {any|source-port/port-range} {any | destination destination-wildcard} {any|destination-port/port-range} [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], deny igmp {any | source source-wildcard} {any | destination destination-wildcard}[igmp-type][ace-priority priority] [dscp number | precedence number][time-range time-range-name] [disable-port |log-input ], deny tcp {any | source source-wildcard} {any|source-port/port-range}{any | destination destination-wildcard} {any|destination-port/port-range} [ace-priority priority] [dscp number | precedence number][match-all list-of-flags][time-range time-range-name] [disable-port |log-input ]}</td>
+    </tr>
+    <tr>
+      <td>deny ( IPv6 )</td>
+      <td>{no deny protocol {any | {source-prefix/length}{any | destination-prefix/length} [dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], deny icmp {any | {source-prefix/length}{any | destination-prefix/length} {any|icmp-type} {any|icmp-code} [ace-priority priority][dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], no deny icmp {any | {source-prefix/length}{any | destination-prefix/length} {any|icmp-type} {any|icmp-code} [dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], no deny udp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any| destination-port} [dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], deny tcp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any| destination-port} [ace-priority priority][dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], deny udp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any| destination-port} [ace-priority priority][dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], no deny tcp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any| destination-port} [dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value], deny protocol {any | {source-prefix/length}{any | destination-prefix/length} [ace-priority priority][dscp number | precedence number] [time-range time-range-name] [disable-port |log-input] [flow-label flow-label-value]}</td>
+    </tr>
+    <tr>
+      <td>deny (IP)</td>
+      <td>{[sequence value] deny udp {any | source source-wildcard} {any | source-port/port-range} {any | destination destination-wildcard} {any | destination-port/port-range} [dscp number | precedence number] [disable-port], no sequence value, [sequence value] deny tcp {any | {source source-wildcard} {any | source-port/port-range } }{any | destination destination-wildcard} {any | destination-port/port-range} [dscp number | precedence number ] [match-all list-of-flags] [disable-port], [sequence value] deny icmp {any | source source-wildcard} {any | destination destination-wildcard } [any | icmp-type] [any | icmp-code] [dscp number | precedence number] [disable-port], [sequence value] deny protocol {any | source source-wildcard } {any | destination destination-wildcard} [dscp number | precedence number] [disable-port]}</td>
+    </tr>
+    <tr>
+      <td>deny (IPv6)</td>
+      <td>{[sequence value] deny tcp {any | source-prefix/length} {any | source-port/port-range} {any | destination- prefix/length} {any| destination-port/port-range} [dscp number | precedence number] [match-all list-of-flags] [disable-port], [sequence value] deny udp {any | source-prefix/length} {any | source-port/port-range} {any | destination- prefix/length} {any | destination-port/port-range} [dscp number | precedence number] [match-all list-of-flags] [disable-port], [sequence value] deny icmp {any | source-prefix {any | source-prefix/length } {any | destination- prefix/length} {any | icmp-type} {any | icmp-code} [dscp number | precedence number] [disable-port], no sequence value, [sequence value] deny protocol {any | source-prefix/length} {any | destination- prefix/length} [dscp number | precedence number] [disable-port]}</td>
+    </tr>
+    <tr>
+      <td>deny (MAC)</td>
+      <td>{source—Source MAC address of the packet., deny {any | source source-wildcard} {any | destination destination-wildcard} [ace-priority priority][{eth-type 0}| aarp | amber | dec-spanning | decnet-iv | diagnostic | dsm | etype-6000] [vlan vlan-id] [cos cos cos-wildcard] [time-range time-range-name] [disable-port |log-input ], Parameters, source-wildcard—Wildcard bits to be applied to the source MAC address. Use ones in the bit position that you want to be ignored., log-input—Specifies sending an informational syslog message about the packet that matches the entry. Because forwarding/dropping is done in hardware and logging is done in software, if a large number of packets match an ACE containing a log-input keyword, the software might not be able to match the hardware processing rate, and not all packets will be logged., destination-wildcard—Wildcard bits to be applied to the destination MAC address. Use 1s in the bit position that you want to be ignored., vlan-id—The VLAN ID of the packet. (Range: 1–4094)., no sequence value, cos—The Class of Service of the packet.(Range: 0–7)., disable-port—The Ethernet interface is disabled if the condition is matched., deny {any | source source-wildcard} {any | destination destination-wildcard} [vlan vlan-id] [cos cos cos-wildcard] [ethtype value] [disable-port], cos-wildcard—Wildcard bits to be applied to the CoS., destination—Destination MAC address of the packet., no deny {any | source source-wildcard} {any | destination destination-wildcard} [{eth-type 0}| aarp | amber | dec-spanning | decnet-iv | diagnostic | dsm | etype-6000] [vlan vlan-id] [cos cos cos-wildcard] [time-range time-range-name] [disable-port |log-input ], priority - Specify the priority of the access control entry (ACE) in the access control list (ACL). "1" value represents the highest priority and "2147483647" number represents the lowest priority.(Range: 1-2147483647), time-range-name—Name of the time range that applies to this permit statement. (Range: 1–32), eth-type—The Ethernet type in hexadecimal format of the packet.}</td>
+    </tr>
+    <tr>
+      <td>deny (Management)</td>
+      <td>{deny [interface-id] [service service], [sequence sequence-number] deny {ip ipv4-address/ipv4mask | ipv6 ipv6-address/ipv6-prefix-length} [interfaces interface-id] service service, deny ip-source {ipv4-address | ipv6-address/ipv6-prefix-length} [mask {mask | prefix-length}] [interface-id] [service service], [sequence sequence-number] deny interfaces interface-id service service}</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>{no description, description string}</td>
+    </tr>
+    <tr>
+      <td>description 802.1x</td>
+      <td>{no description, description text}</td>
+    </tr>
+    <tr>
+      <td>device-role (IPv6 DHCP Guard)</td>
+      <td>{no device-role, device-role {client | server}}</td>
+    </tr>
+    <tr>
+      <td>device-role (ND Inspection Policy)</td>
+      <td>{no device-role, device-role {host | router}}</td>
+    </tr>
+    <tr>
+      <td>device-role (Neighbor Binding)</td>
+      <td>{no device-role, device-role {perimeter | internal}}</td>
+    </tr>
+    <tr>
+      <td>device-role (RA Guard Policy)</td>
+      <td>{no device-role, device-role {host | router}}</td>
+    </tr>
+    <tr>
+      <td>dir</td>
+      <td>{dir, dir [url]}</td>
+    </tr>
+    <tr>
+      <td>directed-broadcast</td>
+      <td>{no directed-broadcast, directed-broadcast}</td>
+    </tr>
+    <tr>
+      <td>disable ports leds</td>
+      <td>{disable ports leds, no disable ports leds}</td>
+    </tr>
+    <tr>
+      <td>dns-server</td>
+      <td>{no dns-server, dns-server ip-address [ip-address2 . ip-address8]}</td>
+    </tr>
+    <tr>
+      <td>domain-name</td>
+      <td>{no domain-name, domain-name domain}</td>
+    </tr>
+    <tr>
+      <td>dot1x auth-not-req</td>
+      <td>{dot1x auth-not-req, no dot1x auth-not-req}</td>
+    </tr>
+    <tr>
+      <td>dot1x authentication</td>
+      <td>{dot1x authentication [802.1x] [mac] [web], no dot1x authentication}</td>
+    </tr>
+    <tr>
+      <td>dot1x credentials</td>
+      <td>{dot1x credentials name, no dot1x credentials name}</td>
+    </tr>
+    <tr>
+      <td>dot1x eap-max-retrans</td>
+      <td>{no dot1x eap-max-retrans, dot1x eap-max-retrans count}</td>
+    </tr>
+    <tr>
+      <td>dot1x guest-vlan</td>
+      <td>{dot1x guest-vlan, no dot1x guest-vlan}</td>
+    </tr>
+    <tr>
+      <td>dot1x guest-vlan enable</td>
+      <td>{no dot1x guest-vlan enable, dot1x guest-vlan enable, dot1x guest-vlan vlan-id enable}</td>
+    </tr>
+    <tr>
+      <td>dot1x guest-vlan enable (Interface)</td>
+      <td>{no dot1x guest-vlan enable, dot1x guest-vlan enable}</td>
+    </tr>
+    <tr>
+      <td>dot1x guest-vlan timeout</td>
+      <td>{dot1x guest-vlan timeout timeout, no dot1x guest-vlan timeout}</td>
+    </tr>
+    <tr>
+      <td>dot1x host-mode</td>
+      <td>{dot1x host-mode {multi-host | single-host | multi-sessions}, no dot1x host-mode}</td>
+    </tr>
+    <tr>
+      <td>dot1x mac-auth</td>
+      <td>{no dot1x mac-auth, dot1x mac-auth {eap | radius} [username groupsize {1|2|4|12} separator {- | : |.} [lowercase | uppercase]}</td>
+    </tr>
+    <tr>
+      <td>dot1x mac-auth password</td>
+      <td>{encrypted dot1x mac-auth password encrypted-password, no dot1x mac-auth password, dot1x mac-auth password password}</td>
+    </tr>
+    <tr>
+      <td>dot1x max-hosts</td>
+      <td>{no dot1x max-hosts, dot1x max-hosts number, dot1x max-hosts count}</td>
+    </tr>
+    <tr>
+      <td>dot1x max-login-attempts</td>
+      <td>{no dot1x max-login-attempts, dot1x max-login-attempts count}</td>
+    </tr>
+    <tr>
+      <td>dot1x max-req</td>
+      <td>{dot1x max-req count, no dot1x max-req}</td>
+    </tr>
+    <tr>
+      <td>dot1x port-control</td>
+      <td>{dot1x port-control {auto | force-authorized | force-unauthorized} [time-range time-range-name], dot1x port-control {auto | force-authorized | force-unauthorized}, no dot1x port-control}</td>
+    </tr>
+    <tr>
+      <td>dot1x radius-attributes vlan</td>
+      <td>{dot1x radius-attribute vlan {reject | static}, dot1x radius-attributes vlan [reject | static], no dot1x radius-attribute vlan, no dot1x radius-attributes vlan}</td>
+    </tr>
+    <tr>
+      <td>dot1x reauthentication</td>
+      <td>{dot1x reauthentication, no dot1x reauthentication}</td>
+    </tr>
+    <tr>
+      <td>dot1x supplicant</td>
+      <td>{dot1x supplicant name, no dot1x supplicant}</td>
+    </tr>
+    <tr>
+      <td>dot1x supplicant traps authentication failure</td>
+      <td>{dot1x supplicant traps authentication failure, no dot1x supplicant traps authentication failure}</td>
+    </tr>
+    <tr>
+      <td>dot1x supplicant traps authentication success</td>
+      <td>{no dot1x supplicant traps authentication success, dot1x supplicant traps authentication success}</td>
+    </tr>
+    <tr>
+      <td>dot1x system-auth-control</td>
+      <td>{dot1x system-auth-control, no dot1x system-auth-control}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout eap-timeout</td>
+      <td>{dot1x timeout eap-timeout seconds, no dot1x timeout eap-timeout}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout quiet-period</td>
+      <td>{dot1x timeout quiet-period seconds, no dot1x timeout quiet-period}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout reauth-period</td>
+      <td>{no dot1x timeout reauth-period, dot1x timeout reauth-period seconds}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout server-timeout</td>
+      <td>{no dot1x timeout server-timeout, dot1x timeout server-timeout seconds}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout silence-period</td>
+      <td>{dot1x timeout silence-period seconds, no dot1x timeout silence-period}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout supp-timeout</td>
+      <td>{dot1x timeout supp-timeout seconds, no dot1x timeout supp-timeout}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout supplicant-held-period</td>
+      <td>{dot1x timeout supplicant-held-period seconds, no dot1x timeout supplicant-held-period}</td>
+    </tr>
+    <tr>
+      <td>dot1x timeout tx-period</td>
+      <td>{no dot1x timeout tx-period, dot1x timeout tx-period seconds}</td>
+    </tr>
+    <tr>
+      <td>dot1x traps authentication failure</td>
+      <td>{dot1x traps authentication failure {[802.1x] [mac] [web]}, no dot1x traps authentication failure}</td>
+    </tr>
+    <tr>
+      <td>dot1x traps authentication quiet</td>
+      <td>{no dot1x traps authentication quiet, dot1x traps authentication quiet}</td>
+    </tr>
+    <tr>
+      <td>dot1x traps authentication success</td>
+      <td>{dot1x traps authentication success {[802.1x] [mac] [web]}, no dot1x traps authentication success}</td>
+    </tr>
+    <tr>
+      <td>dot1x violation-mode</td>
+      <td>{no dot1x violation-mode, dot1x violation-mode {restrict | protect | shutdown} [traps seconds], dot1x violation-mode {restrict | protect | shutdown} [trap seconds]}</td>
+    </tr>
+    <tr>
+      <td>drop-unsecure</td>
+      <td>{drop-unsecure [enable | disable], no drop-unsecure}</td>
+    </tr>
+    <tr>
+      <td>duplex</td>
+      <td>{duplex {half | full | auto}, no duplex, duplex {half | full}}</td>
+    </tr>
+    <tr>
+      <td>dying-gasp enable</td>
+      <td>{dying-gasp enable method1 [method2…], no dying-gasp enable}</td>
+    </tr>
+    <tr>
+      <td>eee enable (global)</td>
+      <td>{no eee enable, eee enable}</td>
+    </tr>
+    <tr>
+      <td>eee enable (interface)</td>
+      <td>{no eee enable, eee enable}</td>
+    </tr>
+    <tr>
+      <td>eee lldp enable</td>
+      <td>{eee lldp enable, no eee lldp enable}</td>
+    </tr>
+    <tr>
+      <td>enable</td>
+      <td>{no enable [level privilege-level], enable secret 8 [level privilege-level] encrypted-password, enable [privilege-level], enable algortithm-type hash-method [level privilege-level] unencrypted-password}</td>
+    </tr>
+    <tr>
+      <td>enable authentication</td>
+      <td>{enable authentication {default | list-name}, no enable authentication, enable authentication LISTNAME}</td>
+    </tr>
+    <tr>
+      <td>enable password</td>
+      <td>{no enable password [level privilege-level], enable password [level privilege-level] {[method hash-method] unencrypted-password | encrypted encrypted-password}}</td>
+    </tr>
+    <tr>
+      <td>errdisable recovery</td>
+      <td>{errdisable recovery {cause {all | acl | arp-inspection | bpduguard | broadcast-flood | dot1x-src-address | dhcp-rate-limit | inline-power | loopback-detection | psecure-violation | selfloop | unicast-flood | unknown-multicastflood} | interval interval}, no errdisable recovery {cause {all | acl | arp-inspection | bpduguard | broadcast-flood | dot1x-src-address | dhcp-rate-limit | inline-power | loopback-detection | psecure-violation | selfloop | unicast-flood | unknown-multicastflood}}</td>
+    </tr>
+    <tr>
+      <td>errdisable recovery cause</td>
+      <td>{no errdisable recovery cause {all | port-security | dot1x-src-address | acl-deny | stp-bpdu-guard | stp-loopback-guard | loopback-detection | udld | storm-control | link-flap }, errdisable recovery cause {all | port-security | dot1x-src-address | acl-deny | stp-bpdu-guard | stp-loopback-guard | loopback-detection | udld | storm-control | link-flap }}</td>
+    </tr>
+    <tr>
+      <td>errdisable recovery interval</td>
+      <td>{errdisable recovery interval seconds, no errdisable recovery interval}</td>
+    </tr>
+    <tr>
+      <td>ethtype</td>
+      <td>{no ethtype, ethtype dot1q | dot1ad | 9100 | 9200}</td>
+    </tr>
+    <tr>
+      <td>exec-banner</td>
+      <td>{exec-banner, no exec-banner}</td>
+    </tr>
+    <tr>
+      <td>exec-timeout</td>
+      <td>{exec-timeout minutes [seconds], no exec-timeout, exec-timeout minutes}</td>
+    </tr>
+    <tr>
+      <td>file-system logging</td>
+      <td>{file-system logging {copy | delete-rename}, no file-system logging {copy | delete-rename}}</td>
+    </tr>
+    <tr>
+      <td>flowcontrol</td>
+      <td>{flowcontrol {on | off}, flowcontrol {auto | on | off}, no flowcontrol}</td>
+    </tr>
+    <tr>
+      <td>green-ethernet energy-detect (global)</td>
+      <td>{green-ethernet energy-detect, no green-ethernet energy-detect}</td>
+    </tr>
+    <tr>
+      <td>green-ethernet energy-detect (interface)</td>
+      <td>{green-ethernet energy-detect, no green-ethernet energy-detect}</td>
+    </tr>
+    <tr>
+      <td>green-ethernet short-reach (global)</td>
+      <td>{green-ethernet short-reach, no green-ethernet short-reach}</td>
+    </tr>
+    <tr>
+      <td>green-ethernet short-reach (interface)</td>
+      <td>{green-ethernet short-reach, no green-ethernet short-reach}</td>
+    </tr>
+    <tr>
+      <td>gvrp enable (Global)</td>
+      <td>{no gvrp enable, gvrp enable}</td>
+    </tr>
+    <tr>
+      <td>gvrp enable (Interface)</td>
+      <td>{no gvrp enable, gvrp enable}</td>
+    </tr>
+    <tr>
+      <td>gvrp registration-forbid</td>
+      <td>{gvrp registration-forbid, no gvrp registration-forbid}</td>
+    </tr>
+    <tr>
+      <td>gvrp vlan-creation-forbid</td>
+      <td>{no gvrp vlan-creation-forbid, gvrp vlan-creation-forbid}</td>
+    </tr>
+    <tr>
+      <td>history</td>
+      <td>{history [size number-of-commands], no history, history}</td>
+    </tr>
+    <tr>
+      <td>history size</td>
+      <td>{no history size, history size number-of-commands}</td>
+    </tr>
+    <tr>
+      <td>hop-limit</td>
+      <td>{no hop-limit [maximum] [minimum], hop-limit {[maximum {value | disable}] [minimum {value | disable}]}}</td>
+    </tr>
+    <tr>
+      <td>hostname</td>
+      <td>{no hostname, hostname name}</td>
+    </tr>
+    <tr>
+      <td>instance (MST)</td>
+      <td>{instance instance-id vlan vlan-range, no instance instance-id vlan vlan-range}</td>
+    </tr>
+    <tr>
+      <td>interface range</td>
+      <td>{interface range interface-id-list, interface range interface-list}</td>
+    </tr>
+    <tr>
+      <td>ip SSH logging</td>
+      <td>{no ip ssh logging, ip ssh logging [enable | disable]}</td>
+    </tr>
+    <tr>
+      <td>ip access-group in</td>
+      <td>{ip access-group acl-name in, no ip access-group in}</td>
+    </tr>
+    <tr>
+      <td>ip access-list (IP extended)</td>
+      <td>{no ip access-list extended acl-name, ip access-list extended acl-name}</td>
+    </tr>
+    <tr>
+      <td>ip access-list (IP standard)</td>
+      <td>{no ip access-list access-list-name, ip access-list access-list-name {deny|permit} {src-addr[/src-len] | any}}</td>
+    </tr>
+    <tr>
+      <td>ip access-list extended</td>
+      <td>{no ip access-list extended acl-name, ip access-list extended acl-name}</td>
+    </tr>
+    <tr>
+      <td>ip address</td>
+      <td>{ip address ip-address {mask | /prefix-length} [default-gateway-ip-address], no ip address, no ip address [ip-address], ip address ip-address {mask | /prefix-length}, Bluetooth Interface, OOB port:, In-Band interfaces:}</td>
+    </tr>
+    <tr>
+      <td>ip address dhcp</td>
+      <td>{no ip address dhcp, ip address dhcp}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection</td>
+      <td>{no ip arp inspection, ip arp inspection}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection limit rate</td>
+      <td>{no ip arp inspection limit rate, ip arp inspection limit rate VALUE}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection list assign</td>
+      <td>{ip arp inspection list assign vlan-id name, no ip arp inspection list assign vlan-id}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection list create</td>
+      <td>{no ip arp inspection list create name, ip arp inspection list create name}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection logging interval</td>
+      <td>{no ip arp inspection logging interval, ip arp inspection logging interval {seconds | infinite}}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection trust</td>
+      <td>{ip arp inspection trust, no ip arp inspection trust}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection validate</td>
+      <td>{ip arp inspection validate {dst-mac | ip [allow-zeros] | src-mac}, ip arp inspection validate, no ip arp inspection validate {dst-mac | ip [allow-zeros] | src-mac}, no ip arp inspection validate}</td>
+    </tr>
+    <tr>
+      <td>ip arp inspection vlan</td>
+      <td>{no ip arp inspection vlan vlan-id, ip arp inspection vlan vlan-id, ip arp inspection vlan VLAN-LIST, no ip arp inspection vlan VLAN-LIST}</td>
+    </tr>
+    <tr>
+      <td>ip arp proxy disable</td>
+      <td>{ip arp proxy disable, no ip arp proxy disable}</td>
+    </tr>
+    <tr>
+      <td>ip default-gateway</td>
+      <td>{ip default-gateway ip-address, no ip default-gateway [ip-address], ip default-gateway IPv4-ADDR, no ip default-gateway}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp excluded-address</td>
+      <td>{no ip dhcp excluded-address low-address [high-address], ip dhcp excluded-address low-address [high-address]}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp information option</td>
+      <td>{no ip dhcp information option, ip dhcp information option}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp information option circuit-id</td>
+      <td>{ip dhcp information option circuit-id text, no ip dhcp information option circuit-id}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp information option numeric-token-format</td>
+      <td>{ip dhcp information option numeric-token-format {hex|ascii}, no ip dhcp information option numeric-token-format}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp information option remote-id</td>
+      <td>{ip dhcp information option remote-id text, no ip dhcp information option remote-id}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp pool host</td>
+      <td>{ip dhcp pool host name, no ip dhcp pool host name}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp pool network</td>
+      <td>{no ip dhcp pool network name, ip dhcp pool network name}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp relay address (Global)</td>
+      <td>{no ip dhcp relay address [ip-address], ip dhcp relay address ip-address}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp relay enable (Global)</td>
+      <td>{no ip dhcp relay enable, ip dhcp relay enable}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp relay enable (Interface)</td>
+      <td>{no ip dhcp relay enable, ip dhcp relay enable}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp server</td>
+      <td>{ip dhcp server, no ip dhcp server}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping</td>
+      <td>{no ip dhcp snooping, ip dhcp snooping}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping binding</td>
+      <td>{no ip dhcp snooping binding mac-address vlan-id, ip dhcp snooping binding mac-address vlan-id ip-address interface-id expiry {seconds | infinite}}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping database</td>
+      <td>{ip dhcp snooping database {flash | tftp {IPv4-ADDR NAME | HOSTNAME NAME} | timeout VALUE | write-delay VALUE }, no ip dhcp snooping database [timeout | write-delay], no ip dhcp snooping database, ip dhcp snooping database}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping information option</td>
+      <td>{ip dhcp snooping information option [format remote-id STRING], no ip dhcp snooping information option [format remote-id]}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping information option allow-untrusted</td>
+      <td>{ip dhcp snooping information option allow-untrusted [replace], no ip dhcp snooping information option allow-untrusted}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping information option allowed-untrusted</td>
+      <td>{ip dhcp snooping information option allowed-untrusted, no ip dhcp snooping information option allowed-untrusted}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping limit rate</td>
+      <td>{no ip dhcp snooping limit rate, ip dhcp snooping limit rate VALUE}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping trust</td>
+      <td>{no ip dhcp snooping trust, ip dhcp snooping trust}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping verify</td>
+      <td>{ip dhcp snooping verify, no ip dhcp snooping verify}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping verify mac-address</td>
+      <td>{no ip dhcp snooping verify mac-address, ip dhcp snooping verify mac-address}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping vlan</td>
+      <td>{ip dhcp snooping vlan VLAN-LIST, ip dhcp snooping vlan vlan-id, no ip dhcp snooping vlan vlan-id, no ip dhcp snooping vlan VLAN-LIST}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp snooping vlan information option circuit-id</td>
+      <td>{ip dhcp snooping vlan VLAN-LIST information option circuit-id STRING, no ip dhcp snooping vlan VLAN-LIST information option circuit-id}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp tftp-server file</td>
+      <td>{ip dhcp tftp-server file file-path, no ip dhcp tftp-server file, ip dhcp tftp-server file WORD&lt;1-128&gt;}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp tftp-server image file</td>
+      <td>{ip dhcp tftp-server image file file-path, no ip dhcp tftp-server image file}</td>
+    </tr>
+    <tr>
+      <td>ip dhcp tftp-server ip address</td>
+      <td>{no dhcp tftp-server ip address, no ip dhcp tftp-server ip address, ip dhcp tftp-server ip address {ipv4-address | hostname | ipv6-address}, ip dhcp tftp-server ip address ip-addr}</td>
+    </tr>
+    <tr>
+      <td>ip domain lookup</td>
+      <td>{no ip domain lookup, ip domain lookup}</td>
+    </tr>
+    <tr>
+      <td>ip domain name</td>
+      <td>{ip domain name name, no ip domain name, ip domain name hostname}</td>
+    </tr>
+    <tr>
+      <td>ip domain polling-interval</td>
+      <td>{ip domain polling-interval seconds, no ip domain polling-interval}</td>
+    </tr>
+    <tr>
+      <td>ip domain retry</td>
+      <td>{no ip domain retry, ip domain retry number}</td>
+    </tr>
+    <tr>
+      <td>ip domain timeout</td>
+      <td>{ip domain timeout seconds, no ip domain timeout}</td>
+    </tr>
+    <tr>
+      <td>ip helper-address</td>
+      <td>{ip helper-address {ip-interface | all} address [udp-port-list], no ip helper-address {ip-interface | all} address}</td>
+    </tr>
+    <tr>
+      <td>ip host</td>
+      <td>{address1—Associated host IP address (IPv4 or IPv6, if IPv6 stack is supported)., no ip host hostname address1 [address2.address8], Parameters, no ip host name ip host name [address1.address8], no ip host hostname [address1.address8], ip host hostname address1 [address2.address8], address2.address8—(Optional) Up to seven additional associated IP addresses, delimited by a single space (IPv4 or IPv6, if IPv6 stack is supported)., hostname—Name of the host. (Length: 1 to 158 characters. Maximum label length of each domain level is 63 characters.)}</td>
+    </tr>
+    <tr>
+      <td>ip http authentication</td>
+      <td>{no ip http authentication aaa login-authentication, ip http authentication aaa login-authentication [login-authorization] method1 [method2.], ip http authentication aaa login-authentication [http | https] {default | LISTNAME}, no ip http authentication aaa login-authentication [http | https]}</td>
+    </tr>
+    <tr>
+      <td>ip http port</td>
+      <td>{ip http port port-number, no ip http port}</td>
+    </tr>
+    <tr>
+      <td>ip http secure-server</td>
+      <td>{no ip http secure-server, ip http secure-server}</td>
+    </tr>
+    <tr>
+      <td>ip http server</td>
+      <td>{ip http server, no ip http server}</td>
+    </tr>
+    <tr>
+      <td>ip http timeout-policy</td>
+      <td>{no ip http timeout-policy [http-only | https-only], ip http timeout-policy minutes [http-only | https-only], ip http timeout-policy idle-seconds [{http-only | https-only}], no ip http timeout-policy}</td>
+    </tr>
+    <tr>
+      <td>ip https certificate</td>
+      <td>{ip https certificate number, no ip https certificate}</td>
+    </tr>
+    <tr>
+      <td>ip https logging</td>
+      <td>{ip https logging {enable| disable}, no ip https logging}</td>
+    </tr>
+    <tr>
+      <td>ip igmp filter</td>
+      <td>{ip igmp filter profile-number, no ip igmp filter}</td>
+    </tr>
+    <tr>
+      <td>ip igmp last-member-query-count</td>
+      <td>{ip igmp last-member-query-count count, no ip igmp last-member-query-count}</td>
+    </tr>
+    <tr>
+      <td>ip igmp last-member-query-interval</td>
+      <td>{no ip igmp last-member-query-interval, ip igmp last-member-query-interval milliseconds}</td>
+    </tr>
+    <tr>
+      <td>ip igmp max-groups</td>
+      <td>{no ip igmp max-groups, ip igmp max-groups number, ip igmp max-groups action {deny | replace}}</td>
+    </tr>
+    <tr>
+      <td>ip igmp profile</td>
+      <td>{no ip igmp profile profile-number, ip igmp profile profile-number}</td>
+    </tr>
+    <tr>
+      <td>ip igmp query-interval</td>
+      <td>{no ip igmp query-interval, ip igmp query-interval seconds}</td>
+    </tr>
+    <tr>
+      <td>ip igmp query-max-response-time</td>
+      <td>{ip igmp query-max-response-time seconds, no ip igmp query-max-response-time}</td>
+    </tr>
+    <tr>
+      <td>ip igmp robustness</td>
+      <td>{ip igmp robustness count, no ip igmp robustness}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping</td>
+      <td>{ip igmp snooping, no ip igmp snooping}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping (Global)</td>
+      <td>{ip igmp snooping, no ip igmp snooping}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping map cpe vlan</td>
+      <td>{ip igmp snooping map cpe vlan cpe-vlan-id multicast-tv vlan vlan-id, no ip igmp snooping map cpe vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping querier</td>
+      <td>{ip igmp snooping querier, no ip igmp snooping querier}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping report-suppression</td>
+      <td>{ip igmp snooping report-suppression, no ip igmp snooping report-suppression}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping unknown-multicast action</td>
+      <td>{ip igmp snooping unknown-multicast action {drop | flood | router-port}, no ip igmp snooping unknown-multicast action}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST, ip igmp snooping vlan vlan-id, ip igmp snooping vlan VLAN-LIST, no ip igmp snooping vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan forbidden forward-all</td>
+      <td>{ip igmp snooping vlan VLAN-LIST forbidden forward-all interfaces interface-id, no ip igmp snooping vlan VLAN-LIST forbidden forward-all interfaces interface-id}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan forbidden mrouter</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST forbidden mrouter interfaces interface-id, ip igmp snooping vlan VLAN-LIST forbidden mrouter interfaces interface-id, no ip igmp snooping vlan vlan-id forbidden mrouter interface interface-list, ip igmp snooping vlan vlan-id forbidden mrouter interface interface-list}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan forward-all</td>
+      <td>{ip igmp snooping vlan VLAN-LIST forward-all interfaces interface-id, no ip igmp snooping vlan VLAN-LIST forward-all interfaces interface-id}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan immediate-leave</td>
+      <td>{ip igmp snooping vlan vlan-id immediate-leave, no ip igmp snooping vlan vlan-id immediate-leave, ip igmp snooping vlan VLAN-LIST immediate-leave, no ip igmp snooping vlan VLAN-LIST immediate-leave}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan last-member-query-count</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST last-member-query-count, ip igmp snooping vlan VLAN-LIST last-member-query-count count}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan last-member-query-interval</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST last-member-query-interval, ip igmp snooping vlan VLAN-LIST last-member-query-interval seconds}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan mrouter</td>
+      <td>{ip igmp snooping vlan VLAN-LIST mrouter interfaces interface-id, no ip igmp snooping vlan VLAN-LIST mrouter interfaces interface-id, ip igmp snooping vlan VLAN-LIST mrouter learn pim-dvmrp, no ip igmp snooping vlan VLAN-LIST mrouter learn pim-dvmrp, no ip igmp snooping vlan vlan-id mrouter learn pim-dvmrp, ip igmp snooping vlan vlan-id mrouter learn pim-dvmrp}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan mrouter interface</td>
+      <td>{ip igmp snooping vlan vlan-id mrouter interface interface-list, no ip igmp snooping vlan vlan-id mrouter interface interface-list}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan multicast-tv</td>
+      <td>{ip igmp snooping vlan vlan-id multicast-tv first-ip-multicast-address [last-ip-multicast-address | {count number}], no ip igmp snooping vlan vlan-id multicast-tv first-ip-multicast-address [last-ip-multicast-address | {count number}]}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan querier</td>
+      <td>{ip igmp snooping vlan VLAN-LIST querier, no ip igmp snooping vlan vlan-id querier, no ip igmp snooping vlan VLAN-LIST querier, ip igmp snooping vlan vlan-id querier}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan querier address</td>
+      <td>{ip igmp snooping vlan vlan-id querier address ip-address, no ip igmp snooping vlan vlan-id querier address}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan querier election</td>
+      <td>{ip igmp snooping vlan vlan-id querier election, no ip igmp snooping vlan vlan-id querier election}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan querier version</td>
+      <td>{no ip igmp snooping vlan vlan-id querier version, ip igmp snooping vlan VLAN-LIST querier version {2 | 3}, ip igmp snooping vlan vlan-id querier version {2 | 3}, no ip igmp snooping vlan VLAN-LIST querier version}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan query-interval</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST query-interval, ip igmp snooping vlan VLAN-LIST query-interval seconds}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan response-time</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST response-time, ip igmp snooping vlan VLAN-LIST response-time seconds}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan robustness-variable</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST robustness-variable, ip igmp snooping vlan VLAN-LIST robustness-variable count}</td>
+    </tr>
+    <tr>
+      <td>ip igmp snooping vlan static</td>
+      <td>{no ip igmp snooping vlan VLAN-LIST static IPv4-Addr interface interface-id, no ip igmp snooping vlan vlan-id static ip-address [interface interface-list], ip igmp snooping vlan vlan-id static ip-address [interface interface-list], ip igmp snooping vlan VLAN-LIST static IPv4-Addr interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>ip igmp version</td>
+      <td>{no ip igmp version, ip igmp version {1 | 2 | 3}}</td>
+    </tr>
+    <tr>
+      <td>ip igmp-proxy</td>
+      <td>{ip igmp-proxy upstream-interface-id, no ip igmp-proxy}</td>
+    </tr>
+    <tr>
+      <td>ip igmp-proxy downstream protected</td>
+      <td>{no ip igmp-proxy downstream protected, ip igmp-proxy downstream protected}</td>
+    </tr>
+    <tr>
+      <td>ip igmp-proxy downstream protected interface</td>
+      <td>{ip igmp-proxy downstream protected interface {enabled | disabled}, no ip igmp-proxy downstream protected interface}</td>
+    </tr>
+    <tr>
+      <td>ip igmp-proxy ssm</td>
+      <td>{ip igmp-proxy ssm {default | range access-list}, no ip igmp-proxy ssm}</td>
+    </tr>
+    <tr>
+      <td>ip mac</td>
+      <td>{ip ip-address mac mac-address, no ip ip-address mac mac-address}</td>
+    </tr>
+    <tr>
+      <td>ip multicast ttl-threshold</td>
+      <td>{no ip multicast ttl-threshold, ip multicast ttl-threshold ttl-value}</td>
+    </tr>
+    <tr>
+      <td>ip multicast-routing</td>
+      <td>{no ip multicast-routing, ip multicast-routing igmp-proxy}</td>
+    </tr>
+    <tr>
+      <td>ip name-server</td>
+      <td>{ip name-server server1-address [server-address2.erver-address8], no ip name-server [server-address1.server-address8], no ip name-server, ip name-server server-address1 [server-address2.server-address8]}</td>
+    </tr>
+    <tr>
+      <td>ip policy route-map</td>
+      <td>{no ip policy route-map, ip policy route-map map-tag}</td>
+    </tr>
+    <tr>
+      <td>ip proxy-arp</td>
+      <td>{ip proxy-arp, no ip proxy-arp}</td>
+    </tr>
+    <tr>
+      <td>ip redirects</td>
+      <td>{no ip redirects, ip redirects}</td>
+    </tr>
+    <tr>
+      <td>ip rip authentication key-chain</td>
+      <td>{ip rip authentication key-chain name-of-chain, no ip rip authentication key-chain}</td>
+    </tr>
+    <tr>
+      <td>ip rip authentication mode</td>
+      <td>{ip rip authentication mode {text | md5}, no ip rip authentication mode}</td>
+    </tr>
+    <tr>
+      <td>ip rip authentication-key</td>
+      <td>{ip rip authentication-key password, no ip rip authentication-key}</td>
+    </tr>
+    <tr>
+      <td>ip rip default-information originate</td>
+      <td>{ip rip default-information originate {disable | metric}, no ip rip default-information originate}</td>
+    </tr>
+    <tr>
+      <td>ip rip distribute-list in</td>
+      <td>{no ip rip distribute-list in, ip rip distribute-list access access-list-name in}</td>
+    </tr>
+    <tr>
+      <td>ip rip distribute-list out</td>
+      <td>{no ip rip distribute-list out, ip rip distribute-list access access-list-name out}</td>
+    </tr>
+    <tr>
+      <td>ip rip offset</td>
+      <td>{ip rip offset offset, no ip rip offset}</td>
+    </tr>
+    <tr>
+      <td>ip rip passive-interface</td>
+      <td>{ip rip passive-interface, no ip rip passive-interface}</td>
+    </tr>
+    <tr>
+      <td>ip rip shutdown</td>
+      <td>{ip rip shutdown, no ip rip shutdown}</td>
+    </tr>
+    <tr>
+      <td>ip route</td>
+      <td>{no ip route prefix {mask | /prefix-length} [ip-address], ip route prefix {mask | /prefix-length} {ip-address [metric value]} | reject-route}}</td>
+    </tr>
+    <tr>
+      <td>ip routing</td>
+      <td>{ip routing, no ip routing}</td>
+    </tr>
+    <tr>
+      <td>ip source binding</td>
+      <td>{no ip source binding MAC-Addr vlan VLAN-LIST IPv4-Addr interface interface-id, ip source binding MAC-Addr vlan VLAN-LIST IPv4-Addr interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>ip ssh password-auth</td>
+      <td>{ip ssh password-auth, no ip ssh password-auth}</td>
+    </tr>
+    <tr>
+      <td>ip ssh port</td>
+      <td>{no ip ssh port, ip ssh port port-number}</td>
+    </tr>
+    <tr>
+      <td>ip ssh pubkey-auth</td>
+      <td>{ip ssh pubkey-auth [auto-login], no ip ssh pubkey-auth}</td>
+    </tr>
+    <tr>
+      <td>ip ssh server</td>
+      <td>{ip ssh server, no ip ssh server}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client authentication</td>
+      <td>{ip ssh-client authentication {password | public-key {rsa | dsa}, no ip ssh-client authentication}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client key</td>
+      <td>{no ip ssh-client key [dsa | rsa], ip ssh-client key {dsa | rsa} {generate | key-pair privkey pubkey}, encrypted ip ssh-client key {dsa | rsa} key-pair encrypted-privkey pubkey}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client password</td>
+      <td>{no ip ssh-client password, ip ssh-client password string, encrypted ip ssh-client password encrypted-string}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client server authentication</td>
+      <td>{ip ssh-client server authentication, no ip ssh-client server authentication}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client server fingerprint</td>
+      <td>{ip ssh-client server fingerprint {host | ip-address} fingerprint, no ip ssh-client server fingerprint [host | ip-address]}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client source-interface</td>
+      <td>{ip ssh-client source-interface interface-id, no ip ssh-client source-interface}</td>
+    </tr>
+    <tr>
+      <td>ip ssh-client username</td>
+      <td>{ip ssh-client username string, no ip ssh-client username}</td>
+    </tr>
+    <tr>
+      <td>ip telnet server</td>
+      <td>{no ip telnet server, ip telnet server}</td>
+    </tr>
+    <tr>
+      <td>ip verify source</td>
+      <td>{ip verify source [mac-and-ip], no ip verify source}</td>
+    </tr>
+    <tr>
+      <td>ipv6 access-group in</td>
+      <td>{ipv6 access-group acl-name in, no ipv6 access-group in}</td>
+    </tr>
+    <tr>
+      <td>ipv6 access-list</td>
+      <td>{ipv6 access-list acl-name, no ipv6 access-list acl-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 access-list (IP standard)</td>
+      <td>{no ipv6 access-list access-list-name, ipv6 access-list access-list-name {deny|permit} {src-addr[/src-len] | any}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 access-list (IPv6 extended)</td>
+      <td>{no ipv6 access-list [acl-name], ipv6 access-list [acl-name]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address</td>
+      <td>{no ipv6 address [ipv6-address/prefix-length], ipv6 address ipv6-address/prefix-length}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address anycast</td>
+      <td>{no ipv6 address [ipv6-prefix/prefix-length], ipv6 address ipv6-prefix/prefix-length anycast}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address autoconfig</td>
+      <td>{ipv6 address autoconfig, no ipv6 address autoconfig}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address dhcp</td>
+      <td>{no ipv6 address dhcp, ipv6 address dhcp [rapid-commit]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address eui-64</td>
+      <td>{no ipv6 address [ipv6-prefix/prefix-length eui-64], ipv6 address ipv6-prefix/prefix-length eui-64}</td>
+    </tr>
+    <tr>
+      <td>ipv6 address link-local</td>
+      <td>{no ipv6 address [link-local], ipv6 address ipv6-prefix link-local}</td>
+    </tr>
+    <tr>
+      <td>ipv6 default-gateway</td>
+      <td>{no ipv6 default-gateway [{ipv6-address [outgoing-interface-id]} | interface-id], ipv6 default-gateway {ipv6-address [outgoing-interface-id]} | interface-id, ipv6 default-gateway ipv6-address}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp client information refresh</td>
+      <td>{ipv6 dhcp client information refresh seconds | infinite, no ipv6 dhcp client information refresh}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp client information refresh minimum</td>
+      <td>{no ipv6 dhcp client information refresh minimum, ipv6 dhcp client information refresh minimum seconds | infinite}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp duid-en</td>
+      <td>{no ipv6 dhcp duid-en, ipv6 dhcp duid-en enterprise-number identifier}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp guard</td>
+      <td>{ipv6 dhcp guard, no ipv6 dhcp guard}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp guard attach-policy (VLAN mode)</td>
+      <td>{no ipv6 dhcp guard attach-policy, ipv6 dhcp guard attach-policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp guard attach-policy (port mode)</td>
+      <td>{no ipv6 dhcp guard attach-policy [policy-name], ipv6 dhcp guard attach-policy policy-name [vlan vlan-list]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp guard policy</td>
+      <td>{no ipv6 dhcp guard policy policy-name, ipv6 dhcp guard policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp guard preference</td>
+      <td>{ipv6 dhcp guard preference {[maximum value] [minimum value]}, no ipv6 dhcp guard preference [maximum] [minimum]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp relay destination (Global)</td>
+      <td>{ipv6 dhcp relay destination {ipv6-address [interface-id]} | interface-id, no ipv6 dhcp relay destination [{ipv6-address [interface-id]} | interface-id]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 dhcp relay destination (Interface)</td>
+      <td>{no ipv6 dhcp relay destination [{ipv6-address [interface-id]} | interface-id], ipv6 dhcp relay destination [{ipv6-address [interface-id]} | interface-id]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 enable</td>
+      <td>{no ipv6 enable, ipv6 enable}</td>
+    </tr>
+    <tr>
+      <td>ipv6 first hop security</td>
+      <td>{ipv6 first hop security, no ipv6 first hop security}</td>
+    </tr>
+    <tr>
+      <td>ipv6 first hop security attach-policy (VLAN mode)</td>
+      <td>{ipv6 first hop security attach-policy policy-name, no ipv6 first hop security attach-policy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 first hop security attach-policy (port mode)</td>
+      <td>{no ipv6 first hop security attach-policy [policy-name], ipv6 first hop security attach-policy policy-name [vlan vlan-list]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 first hop security logging packet drop</td>
+      <td>{ipv6 first hop security logging packet drop, no ipv6 first hop security logging packet drop}</td>
+    </tr>
+    <tr>
+      <td>ipv6 first hop security policy</td>
+      <td>{ipv6 first hop security policy policy-name, no ipv6 first hop security policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 hop-limit</td>
+      <td>{no ipv6 hop-limit, ipv6 hop-limit value}</td>
+    </tr>
+    <tr>
+      <td>ipv6 icmp error-interval</td>
+      <td>{no ipv6 icmp error-interval, ipv6 icmp error-interval milliseconds [bucketsize]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 link-local default zone</td>
+      <td>{no Ipv6 link-local default zone, Ipv6 link-local default zone interface-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld filter</td>
+      <td>{no ipv6 mld filter, ipv6 mld filter profile-number}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld last-member-query-count</td>
+      <td>{ipv6 mld last-member-query-count count, no ipv6 mld last-member-query-count}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld last-member-query-interval</td>
+      <td>{no ipv6 mld last-member-query-interval, ipv6 mld last-member-query-interval milliseconds}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld max-groups</td>
+      <td>{ipv6 mld max-groups action {deny | replace}, ipv6 mld max-groups number, no ipv6 mld max-groups number}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld profile</td>
+      <td>{no ip igmp profile profile-number, ipv6 mld profile profile-number}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld query-interval</td>
+      <td>{no ipv6 mld query-interval, ipv6 mld query-interval seconds}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld query-max-response-time</td>
+      <td>{no ipv6 mld query-max-response-time, ipv6 mld query-max-response-time seconds}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld robustness</td>
+      <td>{no ipv6 mld robustness, ipv6 mld robustness count}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping</td>
+      <td>{ipv6 mld snooping [version {1 | 2}], no ipv6 mld snooping}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping (Global)</td>
+      <td>{ipv6 mld snooping, no ipv6 mld snooping}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping querier</td>
+      <td>{no ipv6 mld snooping querier, ipv6 mld snooping querier}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping report-suppression</td>
+      <td>{ipv6 mld snooping report-suppression, no ipv6 mld snooping report-suppression}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST, no ipv6 mld snooping vlan VLAN-LIST, no ipv6 mld snooping vlan vlan-id, ipv6 mld snooping vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan forbidden forward-all</td>
+      <td>{no ip6 mld snooping vlan VLAN-LIST forbidden forward-all interfaces interface-id, ip6 mld snooping vlan VLAN-LIST forbidden forward-all interfaces interface-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan forbidden mrouter</td>
+      <td>{no ipv6 mld snooping vlan VLAN-LIST forbidden mrouter interfaces interface-id, no ipv6 mld snooping vlan vlan-id forbidden mrouter interface interface-list, ipv6 mld snooping vlan VLAN-LIST forbidden mrouter interfaces interface-id, ipv6 mld snooping vlan vlan-id forbidden mrouter interface interface-list}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan forward-all</td>
+      <td>{no ipv6 mld snooping vlan VLAN-LIST forward-all interfaces interface-id, ipv6 mld snooping vlan VLAN-LIST forward-all interfaces interface-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan immediate-leave</td>
+      <td>{no ipv6 mld snooping vlan vlan-id immediate-leave, ipv6 mld snooping vlan vlan-id immediate-leave, no ipv6 mld snooping vlan VLAN-LIST immediate-leave, ipv6 mld snooping vlan VLAN-LIST immediate-leave}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan last-member-query-count</td>
+      <td>{no ipv6 mld snooping vlan VLAN-LIST last-member-query-count, ipv6 mld snooping vlan VLAN-LIST last-member-query-count VALUE}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan last-member-query-interval</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST last-member-query-interval VALUE, no ipv6 mld snooping vlan VLAN-LIST last-member-query-interval}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan mrouter</td>
+      <td>{ipv6 mld snooping vlan vlan-id mrouter learn pim-dvmrp, no ipv6 mld snooping vlan vlan-id mrouter learn pim-dvmrp, no ipv6 mld snooping vlan VLAN-LIST mrouter interfaces interface-id, ipv6 mld snooping vlan VLAN-LIST mrouter interfaces interface-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan mrouter interface</td>
+      <td>{ipv6 mld snooping vlan vlan-id mrouter interface interface-list, no ipv6 mld snooping vlan vlan-id mrouter interface interface-list}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan mrouter learn pim-dvmrp</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST mrouter learn pim-dvmrp, no ipv6 mld snooping vlan VLAN-LIST mrouter learn pim-dvmrp}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan querier</td>
+      <td>{ipv6 mld snooping vlan vlan-id querier, no ipv6 mld snooping vlan vlan-id querier}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan querier election</td>
+      <td>{ipv6 mld snooping vlan vlan-id querier election, no ipv6 mld snooping vlan vlan-id querier election}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan querier version</td>
+      <td>{no ipv6 mld snooping vlan vlan-id querier version, ipv6 mld snooping vlan vlan-id querier version {1 | 2}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan query-interval</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST query-interval VALUE, no ipv6 mld snooping vlan VLAN-LIST query-interval}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan response-time</td>
+      <td>{no ipv6 mld snooping vlan VLAN-LIST response-time, ipv6 mld snooping vlan VLAN-LIST response-time seconds}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan robustness-variable</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST robustness-variable VALUE, no ipv6 mld snooping vlan VLAN-LIST robustness-variable}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan static</td>
+      <td>{ipv6 mld snooping vlan vlan-id static ipv6-address [interface interface-list], no ipv6 mld snooping vlan vlan-id static ipv6-address [interface interface-list]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld snooping vlan static interface</td>
+      <td>{ipv6 mld snooping vlan VLAN-LIST static IPv6-Addr interface interface-id, no ipv6 mld snooping vlan VLAN-LIST static IPv6-Addr interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld version</td>
+      <td>{ipv6 mld version {1 | 2}, no ipv6 mld version}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld-proxy</td>
+      <td>{ipv6 mld-proxy upstream-interface-id, no ipv6 mld-proxy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld-proxy downstream protected</td>
+      <td>{ipv6 mld-proxy downstream protected, no ipv6 mld-proxy downstream protected}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld-proxy downstream protected interface</td>
+      <td>{no ipv6 mld-proxy downstream protected interface, ipv6 mld-proxy downstream protected interface {enabled | disabled}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 mld-proxy ssm</td>
+      <td>{no ipv6 mld-proxy ssm, ipv6 mld-proxy ssm {default | range access-list}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 multicast-routing</td>
+      <td>{no ipv6 multicast-routing, ipv6 multicast-routing mld-proxy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd advertisement-interval</td>
+      <td>{no ipv6 nd advertisement-interval, ipv6 nd advertisement-interval}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd dad attempts</td>
+      <td>{ipv6 nd dad attempts value, no ipv6 nd dad attempts}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd hop-limit</td>
+      <td>{no ipv6 nd hop-limit, ipv6 nd hop-limit value}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection</td>
+      <td>{no ipv6 nd inspection, ipv6 nd inspection}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection attach-policy (VLAN mode)</td>
+      <td>{ipv6 nd inspection attach-policy policy-name, no ipv6 nd inspection attach-policy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection attach-policy (port mode)</td>
+      <td>{ipv6 nd inspection attach-policy policy-name [vlan vlan-list], no ipv6 nd inspection attach-policy [policy-name]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection drop-unsecure</td>
+      <td>{ipv6 nd inspection drop-unsecure, no ipv6 nd inspection drop-unsecure}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection policy</td>
+      <td>{no ipv6 nd inspection policy policy-name, ipv6 nd inspection policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection sec-level minimum</td>
+      <td>{no ipv6 nd inspection sec-level minimum, ipv6 nd inspection sec-level minimum value}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd inspection validate source-mac</td>
+      <td>{no ipv6 nd inspection validate source-mac, ipv6 nd inspection validate source-mac}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd managed-config-flag</td>
+      <td>{no ipv6 nd managed-config-flag, ipv6 nd managed-config-flag}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd prefix</td>
+      <td>{no ipv6 nd prefix [ipv6-prefix/prefix-length | default], ipv6 nd prefix {ipv6-prefix/prefix-length | default} [no-advertise | {[valid-lifetime preferred-lifetime] [no-autoconfig] [off-link | no-onlink]}]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd ra interval</td>
+      <td>{ipv6 nd ra interval maximum-secs [minimum-secs], no ipv6 nd ra interval}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd ra lifetime</td>
+      <td>{ipv6 nd ra lifetime seconds, no ipv6 nd ra lifetime}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd ra suppress</td>
+      <td>{ipv6 nd ra suppress, no ipv6 nd ra suppress}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard</td>
+      <td>{ipv6 nd raguard, no ipv6 nd raguard}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard attach-policy (VLAN mode)</td>
+      <td>{ipv6 nd raguard attach-policy policy-name, no ipv6 nd raguard attach-policy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard attach-policy (port mode)</td>
+      <td>{no ipv6 nd raguard attach-policy [policy-name], ipv6 nd raguard attach-policy policy-name [vlan vlan-list]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard hop-limit</td>
+      <td>{ipv6 nd raguard hop-limit {[maximum value] [minimum value]}, no ipv6 nd raguard hop-limit [maximum] [minimum]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard managed-config-flag</td>
+      <td>{no ipv6 nd raguard managed-config-flag, ipv6 nd raguard managed-config-flag {on | off}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard other-config-flag</td>
+      <td>{no ipv6 nd raguard other-config-flag, ipv6 nd raguard other-config-flag {on | off}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard policy</td>
+      <td>{no ipv6 nd raguard policy policy-name, ipv6 nd raguard policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd raguard router-preference</td>
+      <td>{no ipv6 nd raguard router-preference [maximum] [minimum], ipv6 nd raguard router-preference {[maximum value] [minimum value]}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd reachable-time</td>
+      <td>{no ipv6 nd reachable-time, ipv6 nd reachable-time milliseconds}</td>
+    </tr>
+    <tr>
+      <td>ipv6 nd router-preference</td>
+      <td>{ipv6 nd router-preference {high | medium | low}, no ipv6 nd router-preference}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding</td>
+      <td>{no ipv6 neighbor binding, ipv6 neighbor binding}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding address-config</td>
+      <td>{no ipv6 neighbor binding address-config, ipv6 neighbor binding address-config [stateless | any] [dhcp]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding address-prefix</td>
+      <td>{no ipv6 neighbor binding address-prefix [vlan vlan-id] [ipv6-prefix/prefix-length], ipv6 neighbor binding address-prefix vlan vlan-id ipv6-prefix/prefix-length [autoconfig]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding address-prefix-validation</td>
+      <td>{no ipv6 neighbor binding address-prefix-validation, ipv6 neighbor binding address-prefix-validation}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding attach-policy (VLAN mode)</td>
+      <td>{no ipv6 neighbor binding attach-policy, ipv6 neighbor binding attach-policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding attach-policy (port mode)</td>
+      <td>{no ipv6 neighbor binding attach-policy [policy-name], ipv6 neighbor binding attach-policy policy-name [vlan vlan-list]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding lifetime</td>
+      <td>{ipv6 neighbor binding lifetime value, no ipv6 neighbor binding lifetime}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding max-entries</td>
+      <td>{no ipv6 neighbor binding max-entries [vlan-limit] [interface-limit] [mac-limit], ipv6 neighbor binding max-entries {[vlan-limit number] [interface-limit number] [mac-limit number]}}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding policy</td>
+      <td>{no ipv6 neighbor binding policy policy-name, ipv6 neighbor binding policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 neighbor binding static</td>
+      <td>{no ipv6 neighbor binding static ipv6 ipv6-address vlan vlan-id, ipv6 neighbor binding static ipv6 ipv6-address vlan vlan-id interface interface-id mac mac-address}</td>
+    </tr>
+    <tr>
+      <td>ipv6 prefix-list</td>
+      <td>{no ipv6 prefix-list list-name [seq number], ipv6 prefix-list list-name [seq number] {deny|permit} ipv6-prefix/prefix-length [ge ge-length] [le le-length]} | description text}</td>
+    </tr>
+    <tr>
+      <td>ipv6 redirects</td>
+      <td>{ipv6 redirects, no ipv6 redirects}</td>
+    </tr>
+    <tr>
+      <td>ipv6 route</td>
+      <td>{ipv6 route ipv6-prefix/prefix-length {next-ipv6-address [outgoing-interface-id]} | interface-id} [metric], no ipv6 route ipv6-prefix/prefix-length [{next-ipv6-address [outgoing-interface-id]} | interface-id]}</td>
+    </tr>
+    <tr>
+      <td>ipv6 source guard</td>
+      <td>{no ipv6 source guard, ipv6 source guard}</td>
+    </tr>
+    <tr>
+      <td>ipv6 source guard attach-policy (port mode)</td>
+      <td>{ipv6 source guard attach-policy policy-name, no ipv6 source guard attach-policy}</td>
+    </tr>
+    <tr>
+      <td>ipv6 source guard policy</td>
+      <td>{no ipv6 source guard policy policy-name, ipv6 source guard policy policy-name}</td>
+    </tr>
+    <tr>
+      <td>ipv6 ssh-client source-interface</td>
+      <td>{ipv6 ssh-client source-interface interface-id, no ipv6 ssh-client source-interface}</td>
+    </tr>
+    <tr>
+      <td>ipv6 unicast-routing</td>
+      <td>{ipv6 unicast-routing, no ipv6 unicast-routing}</td>
+    </tr>
+    <tr>
+      <td>ipv6 unreachables</td>
+      <td>{no ipv6 unreachables, ipv6 unreachables}</td>
+    </tr>
+    <tr>
+      <td>iscsi enable</td>
+      <td>{iscsi enable, no iscsi enable}</td>
+    </tr>
+    <tr>
+      <td>iscsi flow</td>
+      <td>{no iscsi flow [default | {tcp-port [ip-address]}], iscsi flow default | {tcp-port [ip-address]}}</td>
+    </tr>
+    <tr>
+      <td>iscsi qos</td>
+      <td>{iscsi qos {[vpt vpt] [dscp dscp] [queue queue]}, no iscsi qos}</td>
+    </tr>
+    <tr>
+      <td>jumbo-frame</td>
+      <td>{no jumbo-frame, jumbo-frame frame-size}</td>
+    </tr>
+    <tr>
+      <td>key (key chain)</td>
+      <td>{key key-id, no key key-id}</td>
+    </tr>
+    <tr>
+      <td>key chain</td>
+      <td>{no key chain name-of-chain, key chain name-of-chain}</td>
+    </tr>
+    <tr>
+      <td>key-string</td>
+      <td>{key-string [row key-string], key-string text, no key-string}</td>
+    </tr>
+    <tr>
+      <td>lacp port-priority</td>
+      <td>{lacp port-priority value, no lacp port-priority, lacp port-priority VALUE}</td>
+    </tr>
+    <tr>
+      <td>lacp system-priority</td>
+      <td>{lacp system-priority value, no lacp system-priority, lacp system-priority VALUE}</td>
+    </tr>
+    <tr>
+      <td>lacp timeout</td>
+      <td>{lacp timeout {long | short}, no lacp timeout}</td>
+    </tr>
+    <tr>
+      <td>lease</td>
+      <td>{lease days [hours [minutes] | infinite, no lease}</td>
+    </tr>
+    <tr>
+      <td>line</td>
+      <td>{line {console | ssh | telnet}, line {console | telnet | ssh}}</td>
+    </tr>
+    <tr>
+      <td>link-flap prevention</td>
+      <td>{link-flap prevention {enable | disable}, no link-flap prevention}</td>
+    </tr>
+    <tr>
+      <td>lldp chassis-id</td>
+      <td>{no lldp chassis-id, lldp chassis-id {mac-address | host-name}}</td>
+    </tr>
+    <tr>
+      <td>lldp hold-multiplier</td>
+      <td>{no lldp hold-multiplier, lldp hold-multiplier number}</td>
+    </tr>
+    <tr>
+      <td>lldp holdtime-multiplier</td>
+      <td>{lldp holdtime-multiplier number, no lldp holdtime-multiplier}</td>
+    </tr>
+    <tr>
+      <td>lldp lldpdu</td>
+      <td>{lldp lldpdu {bridging | filtering | flooding}, lldp lldpdu {filtering | flooding}, no lldp lldpdu}</td>
+    </tr>
+    <tr>
+      <td>lldp management-address</td>
+      <td>{no lldp management-address, lldp management-address {ip-address | none | automatic [interface-id]}}</td>
+    </tr>
+    <tr>
+      <td>lldp med</td>
+      <td>{no lldp med, lldp med {enable | disable}, lldp med {enable [tlv … tlv4] | disable}}</td>
+    </tr>
+    <tr>
+      <td>lldp med fast-start repeat-count</td>
+      <td>{no lldp med fast-start repeat-count, lldp med fast-start repeat-count number}</td>
+    </tr>
+    <tr>
+      <td>lldp med fast-start-repeat-count</td>
+      <td>{lldp med fast-start-repeat-count number, no lldp med fast-start-repeat-count}</td>
+    </tr>
+    <tr>
+      <td>lldp med location</td>
+      <td>{lldp med location {civic-address data | coordinate data | ecs-elin data}, lldp med location {coordinate data} | {civic-address data} | {ecs-elin data}, no lldp med location {civic-address | coordinate | ecs-elin}, no lldp med location {coordinate | civic-address | ecs-elin}}</td>
+    </tr>
+    <tr>
+      <td>lldp med network-policy (Global)</td>
+      <td>{lldp med network-policy number app {voice | voice-signaling | guest-voice | guest-voice-signaling | softphone-voice | streaming-video | video-conferencing | video-signaling} vlan vlan-id vlan-type { tag | untag } priority priority dscp value, no lldp med network-policy number}</td>
+    </tr>
+    <tr>
+      <td>lldp med network-policy (global)</td>
+      <td>{lldp med network-policy number application [vlan vlan-id] [vlan-type {tagged | untagged}] [up priority] [dscp value], no lldp med network-policy number}</td>
+    </tr>
+    <tr>
+      <td>lldp med network-policy (interface)</td>
+      <td>{lldp med network-policy {add | remove} number, no lldp med network-policy number}</td>
+    </tr>
+    <tr>
+      <td>lldp med network-policy voice auto</td>
+      <td>{lldp med network-policy voice auto, no lldp med network-policy voice auto}</td>
+    </tr>
+    <tr>
+      <td>lldp med notifications topology-change</td>
+      <td>{lldp med notifications topology-change {enable | disable}, no lldp med notifications topology-change}</td>
+    </tr>
+    <tr>
+      <td>lldp med tlv-select</td>
+      <td>{no lldp med tlv-select, lldp med tlv-select medtlv1 [medtlv2… medtlv4]}</td>
+    </tr>
+    <tr>
+      <td>lldp notifications</td>
+      <td>{no lldp notifications, lldp notifications {enable | disable}}</td>
+    </tr>
+    <tr>
+      <td>lldp notifications interval</td>
+      <td>{lldp notifications interval seconds, no lldp notifications interval}</td>
+    </tr>
+    <tr>
+      <td>lldp optional-tlv 802.1</td>
+      <td>{lldp optional-tlv 802.1 protocol add {stp | rstp | mstp | pause | 802.1x | lacp | gvrp} - The protocols selected are advertised., lldp optional-tlv 802.1 ppvid add ppvid - The Protocol Port VLAN ID (PPVID) is advertised. The PPVID is the PVID that is used depending on the packet’s protocol., lldp optional-tlv 802.1 protocol remove {stp | rstp | mstp | pause | 802.1x | lacp | gvrp} - The protocols selected are not advertised., lldp optional-tlv 802.1 vlan remove vlan-id - This vlan-id is not advertised., lldp optional-tlv 802.1 pvid {enable | disable} - The PVID is advertised or not advertised., lldp optional-tlv 802.1 vlan add vlan-id - This vlan-id is advertised., no lldp optional-tlv 802.1 pvid - The PVID advertise state is returned to default., lldp optional-tlv 802.1 ppvid remove ppvid - The PPVID is not advertised.}</td>
+    </tr>
+    <tr>
+      <td>lldp receive</td>
+      <td>{lldp receive, no lldp receive}</td>
+    </tr>
+    <tr>
+      <td>lldp reinit</td>
+      <td>{no lldp reinit, lldp reinit seconds}</td>
+    </tr>
+    <tr>
+      <td>lldp run</td>
+      <td>{lldp run, no lldp run}</td>
+    </tr>
+    <tr>
+      <td>lldp timer</td>
+      <td>{lldp timer seconds, no lldp timer}</td>
+    </tr>
+    <tr>
+      <td>lldp tlv-select 802.1</td>
+      <td>{lldp tlv-select 802.1 pvid enable, lldp tlv-select 802.1 vlan-name remove vlan-id, lldp tlv-select 802.1 vlan-name add vlan-id, lldp tlv-select 802.1 pvid disable}</td>
+    </tr>
+    <tr>
+      <td>lldp tlv-select TLV</td>
+      <td>{lldp tlv-select TLV [TLV ] [TLV ] [TLV ] [TLV ] [TLV ] [TLV ] [TLV ], no lldp tlv-select}</td>
+    </tr>
+    <tr>
+      <td>lldp transmit</td>
+      <td>{lldp transmit, no lldp transmit}</td>
+    </tr>
+    <tr>
+      <td>lldp tx-delay</td>
+      <td>{lldp tx-delay seconds, no lldp tx-delay}</td>
+    </tr>
+    <tr>
+      <td>log aggregation on</td>
+      <td>{no logging aggregation on, logging aggregation on}</td>
+    </tr>
+    <tr>
+      <td>logging aggregation aging-time</td>
+      <td>{logging aggregation aging-time sec, no logging aggregation aging-time}</td>
+    </tr>
+    <tr>
+      <td>logging aggregation on</td>
+      <td>{no logging aggregation on, logging aggregation on}</td>
+    </tr>
+    <tr>
+      <td>logging binding</td>
+      <td>{logging binding [enable | disable], no logging binding}</td>
+    </tr>
+    <tr>
+      <td>logging buffered</td>
+      <td>{no logging buffered, logging buffered [buffer-size] [severity-level | severity-level-name]}</td>
+    </tr>
+    <tr>
+      <td>logging cbd level</td>
+      <td>{logging cbd level level, no logging cbd level}</td>
+    </tr>
+    <tr>
+      <td>logging cbd module</td>
+      <td>{no logging cbd module, logging cbd module {module [module2 … module6 ] | none | all}}</td>
+    </tr>
+    <tr>
+      <td>logging console</td>
+      <td>{no logging console, logging console level}</td>
+    </tr>
+    <tr>
+      <td>logging file</td>
+      <td>{logging file level, no logging file}</td>
+    </tr>
+    <tr>
+      <td>logging host</td>
+      <td>{logging host {ip-address | ipv6-address | hostname} [port port] [severity level] [facility facility] [description text], no logging host {ip-address | ipv6-address | hostname}, logging host {ipv4-address | ipv6-address | hostname} [facility facility] [port port] [severity severity_level], no logging host {ipv4-address | ipv6-address | hostname}}</td>
+    </tr>
+    <tr>
+      <td>logging on</td>
+      <td>{logging on, no logging on}</td>
+    </tr>
+    <tr>
+      <td>logging origin-id</td>
+      <td>{no logging origin-id, logging origin-id {hostname | IP | IPv6 | string user-defined-id}}</td>
+    </tr>
+    <tr>
+      <td>logging packet drop</td>
+      <td>{logging packet drop [enable | disable], no logging packet drop}</td>
+    </tr>
+    <tr>
+      <td>logging source-interface</td>
+      <td>{no logging source-interface, logging source-interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>logging source-interface-ipv6</td>
+      <td>{logging source-interface-ipv6 interface-id, no logging source-interface-ipv6}</td>
+    </tr>
+    <tr>
+      <td>login authentication</td>
+      <td>{login authentication {default | list-name}, no login authentication, login authentication {default | LISTNAME}}</td>
+    </tr>
+    <tr>
+      <td>login delay</td>
+      <td>{no login delay, login delay seconds}</td>
+    </tr>
+    <tr>
+      <td>login quiet-mode access-class</td>
+      <td>{no login quiet-mode access-class, login quiet-mode access-class name}</td>
+    </tr>
+    <tr>
+      <td>login-banner</td>
+      <td>{no login-banner, login-banner}</td>
+    </tr>
+    <tr>
+      <td>loopback-detection enable (Global)</td>
+      <td>{loopback-detection enable, no loopback-detection enable}</td>
+    </tr>
+    <tr>
+      <td>loopback-detection enable (Interface)</td>
+      <td>{loopback-detection enable, no loopback-detection enable}</td>
+    </tr>
+    <tr>
+      <td>loopback-detection interval</td>
+      <td>{no loopback-detection interval, loopback-detection interval seconds}</td>
+    </tr>
+    <tr>
+      <td>mac access-group in</td>
+      <td>{mac access-group acl-name in, no mac access-group in}</td>
+    </tr>
+    <tr>
+      <td>mac access-list</td>
+      <td>{mac access-list extended acl-name, no mac access-list extended acl-name}</td>
+    </tr>
+    <tr>
+      <td>mac access-list extended</td>
+      <td>{mac access-list extended acl-name, no mac access-list extended acl-name}</td>
+    </tr>
+    <tr>
+      <td>mac address-table aging-time</td>
+      <td>{mac address-table aging-time seconds, no mac address-table aging-time}</td>
+    </tr>
+    <tr>
+      <td>mac address-table static</td>
+      <td>{mac address-table static mac-address vlan vlan-id interfaces interface-id [delete-on-reboot | delete-on-timeout | permanent | secure], no mac address-table static mac-address vlan vlan-id, mac address-table static mac-address vlan vlan-id interface interface-id [permanent | delete-on-reset | delete-on-timeout | secure]|, no mac address-table static [mac-address] vlan vlan-id, mac address-table static mac-address vlan vlan-id drop}</td>
+    </tr>
+    <tr>
+      <td>macro auto (Global)</td>
+      <td>{macro auto {enabled | disabled | controlled}, no macro auto}</td>
+    </tr>
+    <tr>
+      <td>macro auto built-in parameters</td>
+      <td>{no macro auto built-in parameters smartport-type, macro auto built-in parameters smartport-type [parameter-name value [parameter-name value [parameter-name value]}</td>
+    </tr>
+    <tr>
+      <td>macro auto persistent</td>
+      <td>{no macro auto persistent, macro auto persistent}</td>
+    </tr>
+    <tr>
+      <td>macro auto processing cdp</td>
+      <td>{macro auto processing cdp, no macro auto processing cdp}</td>
+    </tr>
+    <tr>
+      <td>macro auto processing lldp</td>
+      <td>{macro auto processing lldp, no macro auto processing lldp}</td>
+    </tr>
+    <tr>
+      <td>macro auto processing type</td>
+      <td>{macro auto processing type smartport-type {enabled | disabled}, no macro auto processing type smartport-type}</td>
+    </tr>
+    <tr>
+      <td>macro auto smartport (Interface)</td>
+      <td>{no macro auto smartport, macro auto smartport}</td>
+    </tr>
+    <tr>
+      <td>macro auto smartport type</td>
+      <td>{no macro auto smartport type, macro auto smartport type smartport-type [parameter-name value [parameter-name value [parameter-name value]}</td>
+    </tr>
+    <tr>
+      <td>macro auto user smartport macro</td>
+      <td>{macro auto user smartport macro smartport-type user-defined-macro-name [parameter-name value [parameter-name value [parameter-name value], no macro auto user smartport macro smartport-type}</td>
+    </tr>
+    <tr>
+      <td>macro description</td>
+      <td>{no macro description, macro description text}</td>
+    </tr>
+    <tr>
+      <td>macro global description</td>
+      <td>{no macro global description, macro global description text}</td>
+    </tr>
+    <tr>
+      <td>macro name</td>
+      <td>{macro name macro-name, no macro name [macro-name]}</td>
+    </tr>
+    <tr>
+      <td>managed-config-flag</td>
+      <td>{no managed-config-flag, managed-config-flag {on | off | disable}}</td>
+    </tr>
+    <tr>
+      <td>management access-class</td>
+      <td>{management access-class {console-only | name}, no management access-class}</td>
+    </tr>
+    <tr>
+      <td>management access-list</td>
+      <td>{no management access-list name, management access-list name}</td>
+    </tr>
+    <tr>
+      <td>management vlan ip dhcp client</td>
+      <td>{management vlan ip dhcp client, no management vlan ip dhcp client}</td>
+    </tr>
+    <tr>
+      <td>management vlan ipv6 dhcp client information refresh</td>
+      <td>{management vlan ipv6 dhcp client information refresh minimum {infinity | &lt;600-4294967294&gt; }, management vlan ipv6 dhcp client information refresh {infinity | &lt;86400-4294967294&gt; }, no management vlan ipv6 dhcp client information refresh minimum, no management vlan ipv6 dhcp client information refresh}</td>
+    </tr>
+    <tr>
+      <td>management vlan ipv6 dhcp client stateless</td>
+      <td>{management vlan ipv6 dhcp client stateless, no management vlan ipv6 dhcp client stateless}</td>
+    </tr>
+    <tr>
+      <td>management vlan ipv6-address-autoconfig</td>
+      <td>{no management vlan ipv6-address-autoconfig, management vlan ipv6-address-autoconfig}</td>
+    </tr>
+    <tr>
+      <td>management vlan ipv6-address-dhcp</td>
+      <td>{management vlan ipv6-address-dhcp, no management vlan ipv6-address-dhcp}</td>
+    </tr>
+    <tr>
+      <td>map mac macs-group</td>
+      <td>{map mac mac-address {prefix-mask | host} macs-group group, no map mac mac-address {prefix-mask | host}}</td>
+    </tr>
+    <tr>
+      <td>map protocol protocols-group</td>
+      <td>{no map protocol protocol [encapsulation], map protocol protocol [encapsulation-value] protocols-group group}</td>
+    </tr>
+    <tr>
+      <td>map subnet subnets-group</td>
+      <td>{no map subnet ip-address prefix-mask, map subnet ip-address prefix-mask subnets-group group}</td>
+    </tr>
+    <tr>
+      <td>match</td>
+      <td>{match access-group acl-name, no match access-group acl-name}</td>
+    </tr>
+    <tr>
+      <td>match ip address (Policy Routing)</td>
+      <td>{match ip address access-list extended-access-list-name, no match ip address access-list}</td>
+    </tr>
+    <tr>
+      <td>match ipv6 address (Policy Routing)</td>
+      <td>{match ipv6 address access-list extended-access-list-name, no match ipv6 address access-list}</td>
+    </tr>
+    <tr>
+      <td>match ra address</td>
+      <td>{match ra address {prefix-list ipv6-prefix-list-name} | disable, no match ra address}</td>
+    </tr>
+    <tr>
+      <td>match ra prefixes</td>
+      <td>{no match ra prefixes, match ra prefixes {prefix-list ipv6-prefix-list-name} | disable}</td>
+    </tr>
+    <tr>
+      <td>match reply</td>
+      <td>{no match reply, match reply {prefix-list ipv6-prefix-list-name} | disable}</td>
+    </tr>
+    <tr>
+      <td>match server address</td>
+      <td>{no match server address, match server address {prefix-list ipv6-prefix-list-name} | disable}</td>
+    </tr>
+    <tr>
+      <td>max-entries</td>
+      <td>{no max-entries [vlan-limit] [interface-limit] [mac-limit], max-entries {[vlan-limit {number | disable}] [interface-limit {number | disable}] [mac-limit {number | disable}]}}</td>
+    </tr>
+    <tr>
+      <td>mdix</td>
+      <td>{mdix {on | auto}, no mdix}</td>
+    </tr>
+    <tr>
+      <td>mirror</td>
+      <td>{mirror session_number, no mirror}</td>
+    </tr>
+    <tr>
+      <td>monitor session destination</td>
+      <td>{no monitor session session_number destination, monitor session session_number destination {interface interface-id [network]} | {remote vlan vlan-id reflector-port interface-id} network}}</td>
+    </tr>
+    <tr>
+      <td>monitor session destination interface</td>
+      <td>{monitor session session-number destination interface interface-id [allow-ingress-packet], no monitor session session-number destination interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>monitor session destination remote-span</td>
+      <td>{no monitor session session-number destination remote-span, monitor session session-number destination remote-span vlan vlan-id reflector-interface interface-id}</td>
+    </tr>
+    <tr>
+      <td>monitor session source</td>
+      <td>{no monitor session [session_number] source [{interface interface-id} | {vlan vlan-id} | {remote vlan vlan-id}], monitor session session_number source {interface interface-id [both | rx | tx]} | {vlan vlan-id} | {remote vlan vlan-id}}</td>
+    </tr>
+    <tr>
+      <td>monitor session source interfaces</td>
+      <td>{no monitor session session-number source vlan, monitor session session-number source vlan vlan-id, monitor session session-number source interfaces interface-id {both | rx | tx}, no monitor session session-number source interfaces interface-id {both | rx | tx}}</td>
+    </tr>
+    <tr>
+      <td>monitor session source remote-span</td>
+      <td>{no monitor session session-number source remote-span, monitor session session-number source remote-span vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>{name string, no name}</td>
+    </tr>
+    <tr>
+      <td>name (MST)</td>
+      <td>{name string, no name}</td>
+    </tr>
+    <tr>
+      <td>name (vlan)</td>
+      <td>{name string, no name}</td>
+    </tr>
+    <tr>
+      <td>negotiation</td>
+      <td>{negotiation [capability [capability2. capability5] [preferred {master | slave}], no negotiation}</td>
+    </tr>
+    <tr>
+      <td>netbios-name-server</td>
+      <td>{netbios-name-server ip-address [ip-address2 . ip-address8], no netbios-name-server}</td>
+    </tr>
+    <tr>
+      <td>netbios-node-type</td>
+      <td>{netbios-node-type {b-node | p-node | m-node | h-node}, no netbios-node-type}</td>
+    </tr>
+    <tr>
+      <td>network</td>
+      <td>{network ip-address [shutdown], no network ip-address}</td>
+    </tr>
+    <tr>
+      <td>next-server</td>
+      <td>{no next-server, next-server ip-address}</td>
+    </tr>
+    <tr>
+      <td>next-server-name</td>
+      <td>{no next-server-name, next-server-name name}</td>
+    </tr>
+    <tr>
+      <td>operation time</td>
+      <td>{no operation time, operation time time-range-name}</td>
+    </tr>
+    <tr>
+      <td>operation time-range</td>
+      <td>{operation time-range NAME, no operation time-range}</td>
+    </tr>
+    <tr>
+      <td>option</td>
+      <td>{option code {boolean {false | true} | integer value | ascii string | hex {string | none} | ip {address} | ip-list {ip-address1 [ip-address2 …]} [description text], no option code}</td>
+    </tr>
+    <tr>
+      <td>other-config-flag</td>
+      <td>{no other-config-flag, other-config-flag {on | off | disable}}</td>
+    </tr>
+    <tr>
+      <td>passive-interface (RIP)</td>
+      <td>{no passive-interface, passive-interface}</td>
+    </tr>
+    <tr>
+      <td>passphrase</td>
+      <td>{passphrase {passphrase}, encrypted passphrase {encrypted-passphrase}, no passphrase}</td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td>{no password, password password, password {unencrypted-password [method hash-method] | encrypted-password encrypted}, encrypted password encrypted-password, password generate-password [method hash-method]}</td>
+    </tr>
+    <tr>
+      <td>password complexity history</td>
+      <td>{no passwords complexity history, passwords complexity history number}</td>
+    </tr>
+    <tr>
+      <td>passwords aging</td>
+      <td>{passwords aging days, no passwords aging}</td>
+    </tr>
+    <tr>
+      <td>passwords complexity</td>
+      <td>{passwords complexity {min-length number} | {min-classes number} | {no-repeat number} | not-current | not-username | not-manufacturer-name, no passwords complexity min-length | min-classes | no-repeat | not-current | not-username | not-manufacturer-name}</td>
+    </tr>
+    <tr>
+      <td>passwords complexity attributes</td>
+      <td>{passwords complexity min-length number, passwords complexity not-current, no passwords complexity min-classes, no passwords complexity min-length, passwords complexity min-classes number, no passwords complexity not-username, no passwords complexity not-current, passwords complexity no-repeat number, no password complexity no-repeat, passwords complexity not-username}</td>
+    </tr>
+    <tr>
+      <td>passwords complexity enable</td>
+      <td>{passwords complexity enable, no passwords complexity enable}</td>
+    </tr>
+    <tr>
+      <td>periodic</td>
+      <td>{periodic (daily | weekdays | weekend) HH:MM to HH:MM, no periodic day-of-the-week hh:mm to day-of-the-week hh:mm, no periodic (sun | mon | tue | wed | thu | fri | sat) HH:MM to (sun | mon | tue | wed | thu | fri | sat) HH:MM, periodic (sun | mon | tue | wed | thu | fri | sat) HH:MM to (sun | mon | tue | wed | thu | fri | sat) HH:MM, no periodic list hh:mm to hh:mm day-of-the-week1 [day-of-the-week2… day-of-the-week7], no periodic (daily | weekdays | weekend) HH:MM to HH:MM, no periodic (sun | mon | tue | wed | thu | fri | sat) | [(sun | mon | tue | wed | thu | fri | sat)] | [ (sun | mon | tue | wed | thu | fri | sat) ] | [(sun | mon | tue | wed | thu | fri | sat)] | [(sun | mon | tue | wed | thu | fri | sat) ] | [(sun | mon | tue | wed | thu | fri | sat)] | [(sun | mon | tue | wed | thu | fri | sat) ] HH:MM to HH:MM, no periodic list hh:mm to hh:mm all, periodic list hh:mm to hh:mm day-of-the-week1 [day-of-the-week2… day-of-the-week7], periodic day-of-the-week hh:mm to day-of-the-week hh:mm, periodic list hh:mm to hh:mm all, periodic (sun | mon | tue | wed | thu | fri | sat) | [(sun | mon | tue | wed | thu | fri | sat)] | [ (sun | mon | tue | wed | thu | fri | sat) ] | [(sun | mon | tue | wed | thu | fri | sat)] | [(sun | mon | tue | wed | thu | fri | sat) ] | [(sun | mon | tue | wed | thu | fri | sat)] | [(sun | mon | tue | wed | thu | fri | sat) ] HH:MM to HH:MM}</td>
+    </tr>
+    <tr>
+      <td>permit ( IP )</td>
+      <td>{no permit icmp {any | source source-wildcard} {any | destination destination-wildcard} [any | icmp-type] [any | icmp-code] [dscp number | precedence number] [time-range time-range-name] [log-input], no permit udp {any | source source-wildcard} {any|source-port/port-range} {any | destination destination-wildcard} {any|destination-port/port-range} [dscp number | precedence number] [time-range time-range-name] [log-input], no permit igmp {any | source source-wildcard} {any | destination destination-wildcard}[igmp-type] [dscp number | precedence number] [time-range time-range-name] [log-input], permit igmp {any | source source-wildcard} {any | destination destination-wildcard}[igmp-type] [ace-priority priority] [dscp number | precedence number] [time-range time-range-name] [log-input], permit protocol {any | source source-wildcard} {any | destination destination-wildcard} [ace-priority priority] [dscp number | precedence number] [time-range time-range-name] [log-input], no permit protocol {any | source source-wildcard} {any | destination destination-wildcard} [dscp number | precedence number] [time-range time-range-name] [log-input], permit udp {any | source source-wildcard} {any|source-port/port-range} {any | destination destination-wildcard} {any|destination-port/port-range} [ace-priority priority] [dscp number | precedence number] [time-range time-range-name] [log-input], no permit tcp {any | source source-wildcard} {any|source-port/port-range}{any | destination destination-wildcard} {any|destination-port/port-range} [dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [log-input], permit tcp {any | source source-wildcard} {any|source-port/port-range}{any | destination destination-wildcard} {any|destination-port/port-range} [ace-priority priority] [dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [log-input], permit icmp {any | source source-wildcard} {any | destination destination-wildcard} [any | icmp-type] [any | icmp-code] [ace-priority priority] [dscp number | precedence number] [time-range time-range-name] [log-input]}</td>
+    </tr>
+    <tr>
+      <td>permit ( IPv6 )</td>
+      <td>{permit tcp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any | destination-port} [ace-priority priority][dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [log-input] [flow-label flow-label-value], no permit protocol {any |{source-prefix/length}{any | destination-prefix/length} [dscp number | precedence number] [time-range time-range-name] [log-input] [flow-label flow-label-value], no permit tcp {any | {source-prefix/length} {any | source-port}{any | destination- prefix/length} {any| destination-port} [dscp number | precedence number] [match-all list-of-flags] [time-range time-range-name] [log-input] [flow-label flow-label-value], permit udp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any | destination-port} [ace-priority priority][dscp number | precedence number][time-range time-range-name] [log-input] [flow-label flow-label-value], no permit udp {any | {source-prefix/length} {any | source-port}{any | destination-prefix/length} {any| destination-port} [dscp number | precedence number] [time-range time-range-name] [log-input] [flow-label flow-label-value], permit protocol {any |{source-prefix/length}{any | destination-prefix/length} [ace-priority priority][dscp number | precedence number] [time-range time-range-name] [log-input] [flow-label flow-label-value], permit icmp {any | {source-prefix/length}{any | destination-prefix/length} {any|icmp-type} {any|icmp-code} [ace-priority priority][dscp number | precedence number] [time-range time-range-name] [log-input] [flow-label flow-label-value], no permit icmp {any | {source-prefix/length}{any | destination-prefix/length} {any|icmp-type} {any|icmp-code} [dscp number | precedence number] [time-range time-range-name] [log-input] [flow-label flow-label-value]}</td>
+    </tr>
+    <tr>
+      <td>permit ( MAC )</td>
+      <td>{[log-input], no permit {any | source source-wildcard} {any | destination destination-wildcard} [eth-type 0 | aarp | amber | dec-spanning | decnet-iv | diagnostic | dsm | etype-6000] [vlan vlan-id] [cos cos cos-wildcard] [time-range time-range-name], permit {any | source source-wildcard} {any | destination destination-wildcard} [ace-priority priority][eth-type 0 | aarp | amber | dec-spanning | decnet-iv | diagnostic | dsm | etype-6000] [vlan vlan-id] [cos cos cos-wildcard] [time-range time-range-name]}</td>
+    </tr>
+    <tr>
+      <td>permit (IP)</td>
+      <td>{[sequence value] permit protocol {any | source source-wildcard } {any | destination destination-wildcard } [dscp number | precedence number], [sequence value] permit udp {any | source source-wildcard } {any | source-port/port-range } {any | destination destination-wildcard } {any | destination-port/port-range } [dscp number | precedence number], no sequence value, [sequence value] permit icmp {any | source source-wildcard } {any | destination destination-wildcard} [any | icmp-type] [any | icmp-code] [dscp number | precedence number], [sequence value] permit tcp {any | source source-wildcard } {any | source-port/port-range} {any | destination destination-wildcard } {any | destination-port/port-range } [dscp number | precedence number ] [match-all list-of-flags]}</td>
+    </tr>
+    <tr>
+      <td>permit (IPv6)</td>
+      <td>{[sequence value] permit icmp {any | {source-prefix/length } {any | destination- prefix/length } {any | icmp-type } {any | icmp-code } [dscp number | precedence number], no sequence value, [sequence value] permit udp {any | source-prefix/length } {any | source-port/port-range} {any | destination- prefix/length} {any | destination-port/port-range} [dscp number | precedence number ], [sequence value] permit tcp {any | source-prefix/length } {any | source-port/port-range} {any | destination- prefix/length} {any | destination-port/port-range} [dscp number | precedence number ] [match-all list-of-flags], [sequence value] permit protocol {any | source-prefix/length } {any | destination- prefix/length } [dscp number | precedence number ]}</td>
+    </tr>
+    <tr>
+      <td>permit (MAC)</td>
+      <td>{[sequence value] permit {any | source source-wildcard} {any | destination destination-wildcard} [any | vlan vlan-id] [cos cos cos-wildcard] [ethtype value], no sequence value}</td>
+    </tr>
+    <tr>
+      <td>permit (Management)</td>
+      <td>{[sequence sequence-number] permit {ip ipv4-address/ipv4mask | ipv6 ipv6-address/ipv6-prefix-length} [interfaces interface-id] service service, [sequence sequence-number] permit interfaces interface-id service service, permit ip-source {ipv4-address | ipv6-address/ipv6-prefix-length} [mask {mask | prefix-length}] [interface-id] [service service], permit [interface-id] [service service]}</td>
+    </tr>
+    <tr>
+      <td>ping</td>
+      <td>{ping [ip] {ipv4-address | hostname} [size packet_size] [count packet_count] [timeout time_out] [source source-address], ping ip {ipv4-address | hostname} [count packet_count], ping ipv6 {ipv6-address | hostname} [count packet_count], ping ipv6 {ipv6-address | hostname} [size packet_size] [count packet_count] [timeout time_out] [source source-address]}</td>
+    </tr>
+    <tr>
+      <td>pnp device</td>
+      <td>{pnp device username username password password, no pnp device, encrypted pnp device username username password encrypted-password}</td>
+    </tr>
+    <tr>
+      <td>pnp discovery timeout</td>
+      <td>{no pnp discovery timeout, pnp discovery timeout timeout exponential-factor max-timeout}</td>
+    </tr>
+    <tr>
+      <td>pnp enable</td>
+      <td>{no pnp enable, pnp enable}</td>
+    </tr>
+    <tr>
+      <td>pnp reconnect interval</td>
+      <td>{pnp reconnect interval timeout, no pnp reconnect interval}</td>
+    </tr>
+    <tr>
+      <td>pnp transport</td>
+      <td>{pnp transport {http | https} ip-address [port port-number], no pnp transport}</td>
+    </tr>
+    <tr>
+      <td>pnp watchdog timeout</td>
+      <td>{no pnp watchdog timeout, pnp watchdog timeout timeout}</td>
+    </tr>
+    <tr>
+      <td>police</td>
+      <td>{police committed-rate-kbps committed-burst-byte [exceed-action action] [peak peak-rate-kbps peak-burst-byte [violate-action action], police committed-rate-kbps [exceed-action {drop | forward}], no police}</td>
+    </tr>
+    <tr>
+      <td>police aggregate</td>
+      <td>{no police aggregate, police aggregate aggregate-policer-name, no police aggregate aggregate-policer-name}</td>
+    </tr>
+    <tr>
+      <td>policy-map</td>
+      <td>{no policy-map policy-map-name, policy-map policy-map-name}</td>
+    </tr>
+    <tr>
+      <td>port jumbo-frame</td>
+      <td>{no port jumbo-frame, port jumbo-frame}</td>
+    </tr>
+    <tr>
+      <td>port leds enable</td>
+      <td>{port leds enable, no port leds enable}</td>
+    </tr>
+    <tr>
+      <td>port security</td>
+      <td>{no port security, port security [forward | discard | discard-shutdown] [trap seconds]}</td>
+    </tr>
+    <tr>
+      <td>port security max</td>
+      <td>{no port security max, port security max max-addr}</td>
+    </tr>
+    <tr>
+      <td>port security mode</td>
+      <td>{no port security mode, port security mode {max-addresses | lock | secure permanent | secure delete-on-reset}}</td>
+    </tr>
+    <tr>
+      <td>port security routed secure-address</td>
+      <td>{port security routed secure-address mac-address, no port security routed secure-address mac-address}</td>
+    </tr>
+    <tr>
+      <td>port-channel load-balance</td>
+      <td>{no port-channel load-balance, port-channel load-balance {src-dst-mac | src-dst-mac-ip}}</td>
+    </tr>
+    <tr>
+      <td>power inline</td>
+      <td>{power inline auto [time-range NAME], power inline never, power inline auto [time-range time-range-name]}</td>
+    </tr>
+    <tr>
+      <td>power inline four-pair forced</td>
+      <td>{no power inline four-pair forced, power inline four-pair forced}</td>
+    </tr>
+    <tr>
+      <td>power inline inrush test disable</td>
+      <td>{power inline inrush test disable, no power inline inrush test disable}</td>
+    </tr>
+    <tr>
+      <td>power inline legacy enable</td>
+      <td>{power inline legacy enable, no power inline legacy enable}</td>
+    </tr>
+    <tr>
+      <td>power inline legacy support disable</td>
+      <td>{no power inline legacy support disable, power inline legacy support disable}</td>
+    </tr>
+    <tr>
+      <td>power inline limit</td>
+      <td>{no power inline limit, power inline limit power}</td>
+    </tr>
+    <tr>
+      <td>power inline limit-mode</td>
+      <td>{power inline limit-mode {class | port}, no power inline limit-mode}</td>
+    </tr>
+    <tr>
+      <td>power inline negotiation</td>
+      <td>{no power inline negotiation, power inline negotiation {none | all}}</td>
+    </tr>
+    <tr>
+      <td>power inline powered-device</td>
+      <td>{power inline powered-device pd-type, no power inline powered-device}</td>
+    </tr>
+    <tr>
+      <td>power inline priority</td>
+      <td>{power inline priority {critical | high | low}, no power inline priority}</td>
+    </tr>
+    <tr>
+      <td>power inline traps enable</td>
+      <td>{power inline traps enable, no power inline traps enable}</td>
+    </tr>
+    <tr>
+      <td>power inline usage-threshold</td>
+      <td>{power inline usage-threshold percent, no power inline usage-threshold}</td>
+    </tr>
+    <tr>
+      <td>preference</td>
+      <td>{no preference [maximum] [minimum], preference {[maximum {value | disable}] [minimum {value | disable}]}}</td>
+    </tr>
+    <tr>
+      <td>priority-queue out num-of-queues</td>
+      <td>{priority-queue out num-of-queues number-of-queues, no priority-queue out num-of-queues}</td>
+    </tr>
+    <tr>
+      <td>private-vlan</td>
+      <td>{private-vlan {primary | community | isolated}, no private-vlan}</td>
+    </tr>
+    <tr>
+      <td>private-vlan association</td>
+      <td>{no private-vlan association, private-vlan association [add | remove] secondary-vlan-list}</td>
+    </tr>
+    <tr>
+      <td>privilege-level</td>
+      <td>{privilege-level level, no privilege-level}</td>
+    </tr>
+    <tr>
+      <td>profile range</td>
+      <td>{profile range ipv6 ipv6-range action {deny | permit}, profile range ip ip-range action {permit | deny}}</td>
+    </tr>
+    <tr>
+      <td>qos</td>
+      <td>{no qos, qos [basic | {advanced [ports-not-trusted | ports-trusted]}], qos [basic | advanced [ports-not-trusted | ports-trusted]}</td>
+    </tr>
+    <tr>
+      <td>qos advanced-mode trust</td>
+      <td>{qos advanced-mode trust {cos | dscp | cos-dscp}, no qos advanced-mode trust, qos advanced-mode trust {cos | cos-dscp | dscp | ip-precedence}}</td>
+    </tr>
+    <tr>
+      <td>qos aggregate-policer</td>
+      <td>{no qos aggregate-policer aggregate-policer-name, qos aggregate-policer name committed-rate-kbps [exceed-action {drop | forward}], no qos aggregate-policer name, qos aggregate-policer aggregate-policer-name committed-rate-kbps committed-burst-byte [exceed-action action] [peak peak-rate-kbps peak-burst-byte [violate-action action]}</td>
+    </tr>
+    <tr>
+      <td>qos cos</td>
+      <td>{qos cos default-cos, no qos cos}</td>
+    </tr>
+    <tr>
+      <td>qos dscp-mutation</td>
+      <td>{no qos dscp-mutation, qos dscp-mutation}</td>
+    </tr>
+    <tr>
+      <td>qos map dscp-queue</td>
+      <td>{no qos map dscp-queue [dscp-list], qos map dscp-queue dscp-list to queue-id}</td>
+    </tr>
+    <tr>
+      <td>qos map policed-dscp</td>
+      <td>{no qos map policed-dscp [violation] [dscp-list], qos map policed-dscp [violation] dscp-list to dscp-mark-down}</td>
+    </tr>
+    <tr>
+      <td>qos remark</td>
+      <td>{no qos remark {cos | dscp | ip-precedence}, qos remark {cos | dscp | ip-precedence}}</td>
+    </tr>
+    <tr>
+      <td>qos statistics aggregate-policer</td>
+      <td>{no qos statistics aggregate-policer aggregate-policer-name, qos statistics aggregate-policer aggregate-policer-name}</td>
+    </tr>
+    <tr>
+      <td>qos statistics policer</td>
+      <td>{qos statistics policer policy-map-name class-map-name, no qos statistics policer policy-map-name class-map-name}</td>
+    </tr>
+    <tr>
+      <td>qos trust (Global)</td>
+      <td>{qos trust {cos | cos-dscp | dscp | ip-precedence}, qos trust {cos | dscp| cos-dscp}, no qos trust}</td>
+    </tr>
+    <tr>
+      <td>qos trust (Interface)</td>
+      <td>{qos trust, no qos trust}</td>
+    </tr>
+    <tr>
+      <td>qos wrr-queue wrtd</td>
+      <td>{no qos wrr-queue wrtd, qos wrr-queue wrtd}</td>
+    </tr>
+    <tr>
+      <td>radius server accounting-port</td>
+      <td>{no radius server accounting-port, radius server accounting-port udp-port}</td>
+    </tr>
+    <tr>
+      <td>radius server authentication-port</td>
+      <td>{no radius server authentication-port, radius server authentication-port udp-port}</td>
+    </tr>
+    <tr>
+      <td>radius server enable</td>
+      <td>{radius server enable, no radius server enable}</td>
+    </tr>
+    <tr>
+      <td>radius server group</td>
+      <td>{no radius server group [group-name], radius server group group-name}</td>
+    </tr>
+    <tr>
+      <td>radius server nas secret</td>
+      <td>{no radius server nas secret [default | ip-address], radius server nas secret ip-address, radius server nas secret key key {default | ip-address}, encrypted radius server nas secret key encrypted-key {default | ip-address}}</td>
+    </tr>
+    <tr>
+      <td>radius server traps accounting</td>
+      <td>{no radius server traps accounting, radius server traps accounting}</td>
+    </tr>
+    <tr>
+      <td>radius server traps authentication success</td>
+      <td>{no radius server traps authentication success, radius server traps authentication success}</td>
+    </tr>
+    <tr>
+      <td>radius server user</td>
+      <td>{encrypted radius server user username user-name group group-name passwordencrypted-password, radius server user username user-name group group-name password unencrypted-password, no radius server user [username user-name | group group-name]}</td>
+    </tr>
+    <tr>
+      <td>radius-server deadtime</td>
+      <td>{radius-server deadtime deadtime, no radius-server deadtime}</td>
+    </tr>
+    <tr>
+      <td>radius-server default-param</td>
+      <td>{radius-server default-param [key RADIUSKEY] [retransmit retries] [timeout timeout], no radius-server default-param}</td>
+    </tr>
+    <tr>
+      <td>radius-server host</td>
+      <td>{no radius-server host hostname, radius-server host {ip-address | hostname} [auth-port auth-port-number] [acct-port acct-port-number] [timeout timeout] [retransmit retries] [deadtime deadtime] [key key-string] [priority priority] [usage {login | dot1.x | all}], encrypted radius-server host {ip-address | hostname} [auth-port auth-port-number] [acct-port acct-port-number] [timeout timeout] [retransmit retries] [deadtime deadtime] [key encrypted-key-string] [priority priority] [usage {login | dot1.x | all}], radius-server host {ip-address | hostname} [acct-port acct-port-number] [auth-port auth-port-number] [key key-string] [priority priority] [retransmit retries] [timeout timeout] [usg-type {802.1x | all | login}], no radius-server host {ip-address | hostname}}</td>
+    </tr>
+    <tr>
+      <td>radius-server host source-interface</td>
+      <td>{radius-server host source-interface interface-id, no radius-server host source-interface}</td>
+    </tr>
+    <tr>
+      <td>radius-server host source-interface-ipv6</td>
+      <td>{no radius-server host source-interface-ipv6, radius-server host source-interface-ipv6 interface-id}</td>
+    </tr>
+    <tr>
+      <td>radius-server key</td>
+      <td>{radius-server key [key-string], encrypted radius-server key [encrypted-key-string], no radius-server key}</td>
+    </tr>
+    <tr>
+      <td>radius-server retransmit</td>
+      <td>{no radius-server retransmit, radius-server retransmit retries}</td>
+    </tr>
+    <tr>
+      <td>radius-server timeout</td>
+      <td>{radius-server timeout timeout-seconds, no radius-server timeout}</td>
+    </tr>
+    <tr>
+      <td>rate-limit (Ethernet)</td>
+      <td>{no rate-limit, rate-limit committed-rate-kbps [burst committed-burst-bytes]}</td>
+    </tr>
+    <tr>
+      <td>rate-limit (Interface)</td>
+      <td>{no rate-limit, rate-limit committed-rate-kbps}</td>
+    </tr>
+    <tr>
+      <td>rate-limit (VLAN)</td>
+      <td>{rate-limit committed-rate vlan vlan-id, no rate-limit vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>rate-limit vlan</td>
+      <td>{rate-limit vlan vlan-id committed-rate committed-burst-bytes, no rate-limit vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>redirect</td>
+      <td>{redirect interface-id, no redirect}</td>
+    </tr>
+    <tr>
+      <td>redistribute (RIP)</td>
+      <td>{redistribute protocol [metric {metric-value | transparent}], no redistribute protocol}</td>
+    </tr>
+    <tr>
+      <td>reload</td>
+      <td>{reload cancel, reload [in [hhh:mm | mmm] | at hh:mm [day month] | cancel], reload}</td>
+    </tr>
+    <tr>
+      <td>remote-span</td>
+      <td>{remote-span, no remote-span}</td>
+    </tr>
+    <tr>
+      <td>revision (MST)</td>
+      <td>{revision value, no revision}</td>
+    </tr>
+    <tr>
+      <td>rmon alarm</td>
+      <td>{no rmon alarm index, rmon alarm index mib-object-id interval rising-threshold falling-threshold rising-event falling-event [type {absolute | delta}] [startup {rising | rising-falling | falling}] [owner name], rmon alarm index interface interface-id {variableinterval {absolute | delta} rising rising-threshold rising-event falling falling-threshold falling-event startup {rising | rising-falling | falling} [owner NAME]}</td>
+    </tr>
+    <tr>
+      <td>rmon collection stats</td>
+      <td>{rmon collection stats index [owner ownername] [buckets bucket-number] [interval seconds], no rmon collection stats index}</td>
+    </tr>
+    <tr>
+      <td>rmon event</td>
+      <td>{rmon event index {none | log | trap | log-trap} [community text] [description text] [owner name], rmon event index {log | trap COMMUNITY | log trap COMMUNITY} [description DESCRIPTION] [owner NAME], no rmon event index}</td>
+    </tr>
+    <tr>
+      <td>rmon history</td>
+      <td>{rmon history index interface interface-id [buckets bucket-number] [interval seconds | owner NAME], no rmon history index}</td>
+    </tr>
+    <tr>
+      <td>rmon table-size</td>
+      <td>{rmon table-size {history entries | log entries}, no rmon table-size {history | log}}</td>
+    </tr>
+    <tr>
+      <td>route-map (Policy Routing)</td>
+      <td>{no route-map map-tag [sequence-number], route-map map-tag [sequence-number]}</td>
+    </tr>
+    <tr>
+      <td>router rip</td>
+      <td>{no router rip, router rip}</td>
+    </tr>
+    <tr>
+      <td>router-preference</td>
+      <td>{no router-preference [maximum] [minimum], router-preference [maximum {value | disable}] [minimum {value | disable}]}</td>
+    </tr>
+    <tr>
+      <td>sec-level minimum</td>
+      <td>{sec-level minimum value | disable, no sec-level minimum}</td>
+    </tr>
+    <tr>
+      <td>security-suite deny fragmented</td>
+      <td>{no security-suite deny fragmented, security-suite deny fragmented {[add {ip-address | any} {mask | /prefix-length}] | [remove {ip-address | any} {mask | /prefix-length}]}}</td>
+    </tr>
+    <tr>
+      <td>security-suite deny icmp</td>
+      <td>{no security-suite deny icmp, security-suite deny icmp {[add {ip-address | any} {mask | /prefix-length}] | [remove {ip-address | any} {mask | /prefix-length}]}}</td>
+    </tr>
+    <tr>
+      <td>security-suite deny martian-addresses</td>
+      <td>{security-suite deny martian-addresses {add {ip-address {mask | /prefix-length} | remove {ip-address {mask | /prefix-length} (Add/remove user-specified IP addresses), no security-suite deny martian-addresses (This command removes addresses reserved by security-suite deny martian-addresses {add {ip-address {mask | /prefix-length} | remove {ip-address {mask | /prefix-length}, and removes all entries added by the user. The user can remove a specific entry by using remove ip-address {mask | /prefix-length} parameter., security-suite deny martian-addresses reserved {add | remove} (Add/remove system-reserved IP addresses, see tables below), There is no no form of the security-suite deny martian-addresses reserved {add | remove} command. Use instead the security-suite deny martian-addresses reserved remove command to remove protection (and free up hardware resources).}</td>
+    </tr>
+    <tr>
+      <td>security-suite deny syn</td>
+      <td>{security-suite deny syn {[add {tcp-port | any} {ip-address | any} {mask | /prefix-length}] | [remove {tcp-port | any} {ip-address | any} {mask | /prefix-length}]}, no security-suite deny syn}</td>
+    </tr>
+    <tr>
+      <td>security-suite deny syn-fin</td>
+      <td>{no security-suite deny syn-fin, security-suite deny syn-fin}</td>
+    </tr>
+    <tr>
+      <td>security-suite dos (Global)</td>
+      <td>{no security-suite dos {daeqsa-deny | icmp-frag-pkts-deny | icmpv4-ping-max-check | icmpv6-ping-max-check | ipv6-min-frag-size-check | land-deny | nullscan-deny | pod-deny | smurf-deny | syn-sport|1024-deny | synfin-deny | synrst-deny | tcp-frag-off-min-check | tcpblat-deny | tcphdr-min-check | udpblat-deny | xma-deny}, security-suite dos smurf-netmask MASK, security-suite dos tcphdr-min-length HDR_MIN_LEN, security-suite dos ipv6-min-frag-size-length MIN_LEN, security-suite dos {daeqsa-deny | icmp-frag-pkts-deny | icmpv4-ping-max-check | icmpv6-ping-max-check | ipv6-min-frag-size-check | land-deny | nullscan-deny | pod-deny | smurf-deny | syn-sport|1024-deny | synfin-deny | synrst-deny | tcp-frag-off-min-check | tcpblat-deny | tcphdr-min-check | udpblat-deny | xma-deny}, security-suite dos icmp-ping-max-length MAX_LEN}</td>
+    </tr>
+    <tr>
+      <td>security-suite dos (Interface)</td>
+      <td>{security-suite dos, no security-suite dos}</td>
+    </tr>
+    <tr>
+      <td>security-suite dos ip gratuitous-arps</td>
+      <td>{no security-suite dos ip gratuitous-arps, security-suite dos ip gratuitous-arps}</td>
+    </tr>
+    <tr>
+      <td>security-suite dos protect</td>
+      <td>{no security-suite dos protect, security-suite dos protect {add attack | remove attack}}</td>
+    </tr>
+    <tr>
+      <td>security-suite dos syn-attack</td>
+      <td>{no security-suite dos syn-attack {any | ip-address} {mask | prefix-length}, security-suite dos syn-attack syn-rate {any | ip-address} {mask | prefix-length}}</td>
+    </tr>
+    <tr>
+      <td>security-suite enable</td>
+      <td>{security-suite enable [global-rules-only | interface-rules-only], no security-suite enable}</td>
+    </tr>
+    <tr>
+      <td>security-suite syn protection mode</td>
+      <td>{no security-suite syn protection mode, security-suite syn protection mode {disabled | report | block}, security-suite syn protection mode {block | disabled | report}}</td>
+    </tr>
+    <tr>
+      <td>security-suite syn protection recovery</td>
+      <td>{security-suite syn protection recovery seconds, security-suite syn protection recovery timeout, no security-suite syn protection recovery}</td>
+    </tr>
+    <tr>
+      <td>security-suite syn protection threshold</td>
+      <td>{security-suite syn protection threshold syn-packet-rate, security-suite syn protection threshold pps, no security-suite syn protection threshold}</td>
+    </tr>
+    <tr>
+      <td>send-lifetime</td>
+      <td>{send-lifetime start-time {infinite | end-time | duration seconds}, no send-lifetime}</td>
+    </tr>
+    <tr>
+      <td>service cpu-utilization</td>
+      <td>{no service cpu-utilization, service cpu-utilization}</td>
+    </tr>
+    <tr>
+      <td>service mirror-configuration</td>
+      <td>{no service mirror-configuration, service mirror-configuration}</td>
+    </tr>
+    <tr>
+      <td>service password-recovery</td>
+      <td>{service password-recovery, no service password-recovery}</td>
+    </tr>
+    <tr>
+      <td>service-acl input</td>
+      <td>{no service-acl input, sevice-acl input acl-name1 [acl-name2] [default-action {deny-any | permit-any}], service-acl input acl-name1 [acl-name2] [default-action {deny-any | permit-any}]}</td>
+    </tr>
+    <tr>
+      <td>service-acl output</td>
+      <td>{no service-acl output, service-acl output acl-name1 [acl-name2] [default-action {deny-any | permit-any}]}</td>
+    </tr>
+    <tr>
+      <td>service-policy</td>
+      <td>{no service-policy input | output, service-policy input policy-map-name, no service-policy input, service-policy {input | output} policy-map-name, service-policy {input | output} policy-map-name [default-action {permit-any | deny-any}]}</td>
+    </tr>
+    <tr>
+      <td>set</td>
+      <td>{no set queue, no set, set queue queue-id, set {dscp new-dscp | queue queue-id | cos new-cos}}</td>
+    </tr>
+    <tr>
+      <td>set ip next-hop</td>
+      <td>{no set ip next-hop, set ip next-hop next-hop}</td>
+    </tr>
+    <tr>
+      <td>set ipv6 next-hop</td>
+      <td>{set ipv6 next-hop next-hop, no set ipv6 next-hop}</td>
+    </tr>
+    <tr>
+      <td>sflow counters-sampling</td>
+      <td>{no sflow counters-sampling, sflow counters-sampling interval receiver-index}</td>
+    </tr>
+    <tr>
+      <td>sflow flow-sampling</td>
+      <td>{no sflow flow-sampling, sflow flow-sampling rate receiver-index [max-header-size bytes]}</td>
+    </tr>
+    <tr>
+      <td>sflow receiver</td>
+      <td>{sflow receiver index {ipv4-address | ipv6-address | hostname} [port port] [max-datagram-size bytes], no sflow receiver index}</td>
+    </tr>
+    <tr>
+      <td>sflow receiver source-interface</td>
+      <td>{sflow receiver source-interface interface-id, no sflow receiver source-interface}</td>
+    </tr>
+    <tr>
+      <td>sflow receiver source-interface-ipv6</td>
+      <td>{no sflow receiver source-interface-ipv6, sflow receiver source-interface-ipv6 interface-id}</td>
+    </tr>
+    <tr>
+      <td>show access-lists</td>
+      <td>{show access-liststime-range-active [name], show access-lists, show access-lists [name], show {ip | ipv6 | mac} access-lists [acl-name], show access-lists time-range-active [name]}</td>
+    </tr>
+    <tr>
+      <td>show arp</td>
+      <td>{show arp [ip-address ip-address] [mac-address mac-address] [interface-id], show arp}</td>
+    </tr>
+    <tr>
+      <td>show banner</td>
+      <td>{show banner login, show banner exec, show banner {login | exec}}</td>
+    </tr>
+    <tr>
+      <td>show bonjour</td>
+      <td>{show bonjour, show bonjour [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show bootvar / show version</td>
+      <td>{show version, show bootvar}</td>
+    </tr>
+    <tr>
+      <td>show bridge multicast address-table</td>
+      <td>{show bridge multicast address-table [vlan vlan-id], show bridge multicast address-table [vlan vlan-id] [address ipv6-multicast-address] [source ipv6-source-address], show bridge multicast address-table [vlan vlan-id] [address mac-multicast-address] [format {ip | mac}], show bridge multicast address-table [vlan vlan-id] [address ipv4-multicast-address] [source ipv4-source-address]}</td>
+    </tr>
+    <tr>
+      <td>show bridge multicast address-table static</td>
+      <td>{show bridge multicast address-table static [vlan vlan-id] [address ipv6-multicast-address] [source ipv6-source-address], show bridge multicast address-table static [vlan vlan-id] [all], show bridge multicast address-table static [vlan vlan-id] [address ipv4-multicast-address] [source ipv4-source-address], show bridge multicast address-table static [vlan vlan-id] [address mac-multicast-address] [mac| ip]}</td>
+    </tr>
+    <tr>
+      <td>show cable-diagnostics cable-length</td>
+      <td>{show cable-diagnostics cable-length [interface interface-id], show cable-diagnostics cable-length {interfaces interface-id}}</td>
+    </tr>
+    <tr>
+      <td>show cdp entry</td>
+      <td>{show cdp entry {* | WORD} [protocol | version], show cdp entry {* | device-name} [protocol | version]}</td>
+    </tr>
+    <tr>
+      <td>show cdp neighbors</td>
+      <td>{show cdp neighbors [interface-id] [detail], show cdp neighbors [interface-id] [detail | secondary]}</td>
+    </tr>
+    <tr>
+      <td>show cdp tlv</td>
+      <td>{show cdp tlv interface-id, show cdp tlv [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show dot1x</td>
+      <td>{show dot1x [interface interface-id | detailed], show dot1x [interfaces interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show fiber-ports optical-transceiver</td>
+      <td>{show fiber-ports optical-transceiver interfaces interface-id [detailed], show fiber-ports optical-transceiver [interface interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show gvrp configuration</td>
+      <td>{show gvrp configuration [interfaces interface-id ], show gvrp configuration [interface-id | detailed]}</td>
+    </tr>
+    <tr>
+      <td>show gvrp error-statistics</td>
+      <td>{show gvrp error-statistics [interfaces interface-id], show gvrp error-statistics [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show gvrp statistics</td>
+      <td>{show gvrp statistics [interface-id], show gvrp statistics [interfaces interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show hosts</td>
+      <td>{show hosts [all | hostname], show hosts}</td>
+    </tr>
+    <tr>
+      <td>show interfaces protected-ports</td>
+      <td>{show interfaces protected-ports [interface-id | detailed], show interfaces protected-ports interface-id}</td>
+    </tr>
+    <tr>
+      <td>show interfaces switchport</td>
+      <td>{show interfaces switchport [interface-id], show interfaces switchport interface-list}</td>
+    </tr>
+    <tr>
+      <td>show ip arp inspection</td>
+      <td>{show ip arp inspection, show ip arp inspection [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show ip arp inspection statistics</td>
+      <td>{show ip arp inspection statistics [VLAN VLAN-LIST], show ip arp inspection statistics [vlan vlan-id]}</td>
+    </tr>
+    <tr>
+      <td>show ip dhcp snooping</td>
+      <td>{show ip dhcp snooping, show ip dhcp snooping [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show ip dhcp snooping binding</td>
+      <td>{show ip dhcp snooping binding, show ip dhcp snooping binding [mac-address mac-address] [ip-address ip-address] [vlan vlan-id] [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show ip igmp snooping groups</td>
+      <td>{show ip igmp snooping groups [vlan vlan-id] [address ip-multicast-address] [source ip-address], show ip igmp snooping groups [counters | dynamic | static]}</td>
+    </tr>
+    <tr>
+      <td>show ip igmp snooping mrouter</td>
+      <td>{show ip igmp snooping mrouter [dynamic | static | forbidden], show ip igmp snooping mrouter [interface vlan-id]}</td>
+    </tr>
+    <tr>
+      <td>show ip ssh-client</td>
+      <td>{show ip ssh-client {mypubkey | key} {dsa | rsa}, show ip ssh-client}</td>
+    </tr>
+    <tr>
+      <td>show ipv6 mld snooping groups</td>
+      <td>{show ipv6 mld snooping groups [vlan vlan-id] [address ipv6-multicast-address] [source ipv6-address], show ipv6 mld snooping groups [{dynamic | static} | counters]}</td>
+    </tr>
+    <tr>
+      <td>show ipv6 mld snooping mrouter</td>
+      <td>{show ipv6 mld snooping mrouter [dynamic | static | forbidden], show ipv6 mld snooping mrouter [interface vlan-id]}</td>
+    </tr>
+    <tr>
+      <td>show ipv6 prefix-list</td>
+      <td>{show ipv6 prefix-list list-name ipv6-prefix/prefix-length [longer | first-match], show ipv6 prefix-list list-name seq seq-num, show ipv6 prefix-list [detail [list-name] | summary [list-name]}</td>
+    </tr>
+    <tr>
+      <td>show lacp</td>
+      <td>{show lacp [channel-group-number] counters, show lacp [channel-group-number] {internal | neighbor} [detail], show lacp sys-id, show lacp interface-id [parameters | statistics | protocol-state]}</td>
+    </tr>
+    <tr>
+      <td>show lldp statistics</td>
+      <td>{show lldp statistics [interface-id | detailed], show lldp [interfaces interface-id] statistics}</td>
+    </tr>
+    <tr>
+      <td>show logging</td>
+      <td>{show logging, show logging [buffered | file]}</td>
+    </tr>
+    <tr>
+      <td>show loopback-detection</td>
+      <td>{show loopback-detection [interfaces interface-id], show loopback-detection [interface-id | detailed]}</td>
+    </tr>
+    <tr>
+      <td>show mac address-table</td>
+      <td>{show mac address-table [mac-address] [vlan vlan], show mac address-table [dynamic | static] [interfaces interface-id] [vlan vlan], show mac address-table [dynamic | static | secure] [vlan vlan] [interface interface-id] [address mac-address]}</td>
+    </tr>
+    <tr>
+      <td>show power inline</td>
+      <td>{show power inline [interface-id | module unit-id], show power inline [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show power inline monitor consumption</td>
+      <td>{show power inline monitor consumption [interface-id ] {minutes|hours | days |weeks}, show power inline monitor consumption {interface interface-id | Unit unit-id} {minutes|hours | days |weeks}}</td>
+    </tr>
+    <tr>
+      <td>show qos aggregate-policer</td>
+      <td>{show qos aggregate-policer [aggregate-policer-name ], show qos aggregate-policer [aggregate-policer-name]}</td>
+    </tr>
+    <tr>
+      <td>show qos map</td>
+      <td>{show qos map [dscp-queue | dscp-dp| dscp-mutation | policed-dscp | policed-cos], show qos map [{cos-queue | dscp-queue | ip-precedence-queue | queue-cos | queue-dscp | queue-precedence}]}</td>
+    </tr>
+    <tr>
+      <td>show queue statistics</td>
+      <td>{show queue statistics [interface-id] [detailed], show queue statistics [interface-id]}</td>
+    </tr>
+    <tr>
+      <td>show rate-limit vlan</td>
+      <td>{show rate-limit vlan [vlan-id], show rate-limit vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>show rmon alarm</td>
+      <td>{show rmon alarm {all | index}, show rmon alarm number}</td>
+    </tr>
+    <tr>
+      <td>show rmon history</td>
+      <td>{show rmon history {all | index } [statistic], show rmon history index {throughput | errors | other} [period seconds]}</td>
+    </tr>
+    <tr>
+      <td>show running-config</td>
+      <td>{None, show running-config [interfaces interface-list]}</td>
+    </tr>
+    <tr>
+      <td>show security-suite syn protection</td>
+      <td>{show security-suite syn protection [interface-id], show security-suite syn protection}</td>
+    </tr>
+    <tr>
+      <td>show spanning-tree</td>
+      <td>{show spanning-tree [detail] [active | blockedports] [{instance instance-id} | {vlan vlan-id}], show spanning-tree inconsistentports, show spanning-tree mst-configuration digest, show spanning-tree, show spanning-tree [interface-id] [{instance instance-id} | {vlan vlan-id}], show spanning-tree mst-configuration}</td>
+    </tr>
+    <tr>
+      <td>show startup-config</td>
+      <td>{show startup-config, show startup-config [interface interface-id-list]}</td>
+    </tr>
+    <tr>
+      <td>show switchport monitor</td>
+      <td>{show switchport monitor utilization [interface-id], show switchport monitor interface-id {days |weeks}, show switchport monitor interface-id {seconds | minutes | hours | days |weeks} [utilization | tx | rx | frames]}</td>
+    </tr>
+    <tr>
+      <td>show tacacs</td>
+      <td>{show tacacs [ip-address], show tacacs}</td>
+    </tr>
+    <tr>
+      <td>show tech-support</td>
+      <td>{show tech-support [modules], show tech-support [config | memory ]}</td>
+    </tr>
+    <tr>
+      <td>show time-range</td>
+      <td>{show time-range time-range-name, show time-range [NAME]}</td>
+    </tr>
+    <tr>
+      <td>show vlan</td>
+      <td>{show vlan VLAN-LIST [interfaces interface-id membership], show vlan [tag vlan-id | name vlan-name], show vlan [VLAN-LIST | dynamic | static]}</td>
+    </tr>
+    <tr>
+      <td>show voice vlan</td>
+      <td>{show voice vlan [type {oui [{interface-id | detailed}] | auto}], show voice vlan [type {auto | oui}] [interfaces interface-id]}</td>
+    </tr>
+    <tr>
+      <td>shutdown</td>
+      <td>{no shutdown, None, shutdown}</td>
+    </tr>
+    <tr>
+      <td>smartport storm-control</td>
+      <td>{no smartport storm-control, smartport storm-control multicast [registred | unregistred] {level level | kbps kbps} [trap] [shutdown], smartport storm-control broadcast {level level | kbps kbps} [trap] [shutdown], no smartport storm-control multicast, no smartport storm-control broadcast, smartport storm-control unicast {level level | kbps kbps} [trap] [shutdown], no smartport storm-control unicast}</td>
+    </tr>
+    <tr>
+      <td>snmp trap link-status</td>
+      <td>{snmp trap link-status, no snmp trap link-status}</td>
+    </tr>
+    <tr>
+      <td>snmp-server</td>
+      <td>{snmp-server, no snmp-server}</td>
+    </tr>
+    <tr>
+      <td>snmp-server community</td>
+      <td>{snmp-server community community-string [view view-name] {ro | rw}, snmp-server community community-string group group-name, snmp-server community community-string [ro | rw | su] [ip-address | ipv6-address] [mask mask | prefix prefix-length] [view view-name] [type {router | oob}], no snmp-server community community-string [ip-address] [type {router | oob}], no snmp-server community community-string}</td>
+    </tr>
+    <tr>
+      <td>snmp-server contact</td>
+      <td>{snmp-server contact text, snmp-server contact contact, no snmp-server contact}</td>
+    </tr>
+    <tr>
+      <td>snmp-server enable traps</td>
+      <td>{no snmp-server enable traps, snmp-server enable traps}</td>
+    </tr>
+    <tr>
+      <td>snmp-server engineID local</td>
+      <td>{snmp-server engineID local {engineid-string | default}, no snmp-server engineID local}</td>
+    </tr>
+    <tr>
+      <td>snmp-server engineID remote</td>
+      <td>{no snmp-server engineID remote ip-address, snmp-server engineID remote ip-address engineid-string}</td>
+    </tr>
+    <tr>
+      <td>snmp-server filter</td>
+      <td>{no snmp-server filter filter-name [oid-tree], snmp-server filter filter-name oid-tree {included | excluded}}</td>
+    </tr>
+    <tr>
+      <td>snmp-server group</td>
+      <td>{snmp-server group groupname {v1 | v2 | v3 {noauth | auth | priv} [notify notifyview]} [read readview] [write writeview], snmp-server group groupname {v1 | v2c | v3} {noauth | auth | priv} read-view readview write-view writeview [notify-view notifyview], no snmp-server group groupname {v1 | v2c | v3} {noauth | auth | priv}, no snmp-server group groupname {v1 | v2 | v3 [noauth | auth | priv]}}</td>
+    </tr>
+    <tr>
+      <td>snmp-server host</td>
+      <td>{no snmp-server host {ipv4address | hostname | ipv6address}, no snmp-server host {ip-address | hostname} [traps | informs] [version {1 | 2c | 3}], snmp-server host {ipv4address | hostname | ipv6address} [traps | informs] [version {1 | 2c | 3} [noauth | auth | priv] community-string [udp-port port-number ] [timeout timeout-value] [retries retry-time], snmp-server host {host-ip | hostname} [traps | informs] [version {1 | 2c | 3 [auth | noauth | priv]}] community-string [udp-port port] [filter filtername] [timeout seconds] [retries retries]}</td>
+    </tr>
+    <tr>
+      <td>snmp-server location</td>
+      <td>{no snmp-server location, snmp-server location text, snmp-server location location}</td>
+    </tr>
+    <tr>
+      <td>snmp-server server</td>
+      <td>{snmp-server server, no snmp-server server}</td>
+    </tr>
+    <tr>
+      <td>snmp-server source-interface</td>
+      <td>{snmp-server source-interface {traps | informs} interface-id, no snmp-server source-interface [traps | informs]}</td>
+    </tr>
+    <tr>
+      <td>snmp-server source-interface-ipv6</td>
+      <td>{no snmp-server source-interface-ipv6 [traps | informs], snmp-server source-interface-ipv6 {traps | informs} interface-id}</td>
+    </tr>
+    <tr>
+      <td>snmp-server trap</td>
+      <td>{no snmp-server trap [auth | cold-start | linkUpDown | port-security | warm-start], snmp-server trap [auth | cold-start | linkUpDown | port-security | warm-start]}</td>
+    </tr>
+    <tr>
+      <td>snmp-server trap authentication</td>
+      <td>{snmp-server trap authentication, no snmp-server trap authentication}</td>
+    </tr>
+    <tr>
+      <td>snmp-server user</td>
+      <td>{snmp-server user username groupname {v1 | v2c | [remote host] v3[auth { sha | sha224| sha256| sha384| sha512} auth-password [priv priv-password]}, no snmp-server user username {v1 | v2c | [remote host] v3}, snmp-server user username groupname auth {sha | sha224 | sha256 | sha384 | sha512} AUTHPASSWD priv PRIVPASSWD, no snmp-server user username, encrypted snmp-server user username groupname {v1 | v2c | [remote host] v3[auth { sha | sha224| sha256| sha384| sha512} encrypted-auth-password [priv encrypted-priv-password]}, snmp-server user username groupname [auth {sha | sha224 | sha256 | sha384 | sha512} AUTHPASSWD]}</td>
+    </tr>
+    <tr>
+      <td>snmp-server view</td>
+      <td>{no snmp-server view view-name [oid-tree], snmp-server view view-name oid-tree {included | excluded}, no snmp-server view view-name subtree [oid-tree | all], snmp-server view view-name subtree oid-tree oid-mask {all | MASK} viewtype {included | excluded}}</td>
+    </tr>
+    <tr>
+      <td>sntp authenticate</td>
+      <td>{no sntp authenticate, sntp authenticate}</td>
+    </tr>
+    <tr>
+      <td>sntp authentication-key</td>
+      <td>{encrypted sntp authentication-key key-number md5 encrypted-key-value, sntp authentication-key key-number md5 key-value, no sntp authentication-key key-number}</td>
+    </tr>
+    <tr>
+      <td>sntp broadcast client enable</td>
+      <td>{no sntp broadcast client enable, sntp broadcast client enable [both | ipv4 | ipv6]}</td>
+    </tr>
+    <tr>
+      <td>sntp client enable</td>
+      <td>{sntp client enable interface-id, no sntp client enable interface-id}</td>
+    </tr>
+    <tr>
+      <td>sntp client enable (interface)</td>
+      <td>{no sntp client enable, sntp client enable}</td>
+    </tr>
+    <tr>
+      <td>sntp server</td>
+      <td>{no sntp server [ip-address | hostname], sntp server {default | {ip-address | hostname} [poll] [key keyid]}, no sntp, sntp server {ip-address | hostname} [port port-number]}</td>
+    </tr>
+    <tr>
+      <td>sntp source-interface</td>
+      <td>{sntp source-interface interface-id, no sntp source-interface}</td>
+    </tr>
+    <tr>
+      <td>sntp source-interface-ipv6</td>
+      <td>{sntp source-interface-ipv6 interface-id, no sntp source-interface-ipv6}</td>
+    </tr>
+    <tr>
+      <td>sntp trusted-key</td>
+      <td>{sntp trusted-key key-number, no sntp trusted-key key-number}</td>
+    </tr>
+    <tr>
+      <td>sntp unicast client enable</td>
+      <td>{no sntp unicast client enable, sntp unicast client enable}</td>
+    </tr>
+    <tr>
+      <td>sntp unicast client poll</td>
+      <td>{sntp unicast client poll, no sntp unicast client poll}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree</td>
+      <td>{spanning-tree, no spanning-tree}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree bpdu (Global)</td>
+      <td>{spanning-tree bpdu {filtering | flooding}, no spanning-tree bpdu}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree bpdu (Interface)</td>
+      <td>{spanning-tree bpdu {filtering | flooding}, no spanning-tree bpdu}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree bpdu-filter (Interface)</td>
+      <td>{spanning-tree bpdu-filter {disable | enable}, no spanning-tree bpdu-filter}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree bpdu-guard (Interface)</td>
+      <td>{no spanning-tree bpdu-guard, spanning-tree bpdu-guard {disable | enable}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree bpduguard</td>
+      <td>{no spanning-tree bpduguard, spanning-tree bpduguard {enable | disable}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree cost</td>
+      <td>{no spanning-tree cost, spanning-tree cost cost}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree cost (Interface)</td>
+      <td>{no spanning-tree cost, spanning-tree cost cost}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree disable</td>
+      <td>{spanning-tree disable, no spanning-tree disable}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree forward-time</td>
+      <td>{no spanning-tree forward-time, spanning-tree forward-time seconds}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree guard root</td>
+      <td>{no spanning-tree guard root, spanning-tree guard root}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree hello-time</td>
+      <td>{no spanning-tree hello-time, spanning-tree hello-time seconds}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree link-type</td>
+      <td>{no spanning-tree spanning-tree link-type, spanning-tree link-type {point-to-point | shared}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree link-type (Interface)</td>
+      <td>{no spanning-tree link-type, spanning-tree link-type {point-to-point | shared}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree loopback-guard</td>
+      <td>{no spanning-tree loopback-guard, spanning-tree loopback-guard}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree max-age</td>
+      <td>{no spanning-tree max-age, spanning-tree max-age seconds}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree max-hops</td>
+      <td>{no spanning-tree max-hops, spanning-tree max-hops hop-count}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mode</td>
+      <td>{no spanning-tree mode, spanning-tree mode {stp| rstp | mst | pvst | rapid-pvst}, spanning-tree mode {mstp | rstp | stp}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mst cost</td>
+      <td>{no spanning-tree mst instance-id cost, spanning-tree mst instance-id cost cost}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mst instance</td>
+      <td>{spanning-tree mst instance instance-id, no spanning-tree mst instance instance-id}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mst max-hops</td>
+      <td>{spanning-tree mst max-hops hop-count, no spanning-tree mst max-hops}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mst port-priority</td>
+      <td>{no spanning-tree mst instance-id port-priority, spanning-tree mst instance-id port-priority priority}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree mst priority</td>
+      <td>{no spanning-tree mst instance-id priority, spanning-tree mst instance-id priority priority}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree pathcost method</td>
+      <td>{no spanning-tree pathcost method, spanning-tree pathcost method {long | short}}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree port-priority</td>
+      <td>{spanning-tree port-priority priority, no spanning-tree port-priority}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree portfast</td>
+      <td>{spanning-tree portfast [auto], spanning-tree portfast, no spanning-tree portfast}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree priority</td>
+      <td>{no spanning-tree priority, spanning-tree priority priority}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree tx-hold-count</td>
+      <td>{spanning-tree tx-hold-count value, no spanning-tree tx-hold-count}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan cost</td>
+      <td>{no spanning-tree vlan vlan-range cost, spanning-tree vlan vlan-range cost cost}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan forward-time</td>
+      <td>{spanning-tree vlan vlan-range forward-time seconds, no spanning-tree vlan vlan-range forward-time}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan hello-time</td>
+      <td>{spanning-tree vlan vlan-range hello-time seconds, no spanning-tree vlan vlan-range hello-time}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan max-age</td>
+      <td>{no spanning-tree vlan vlan-range max-age, spanning-tree vlan vlan-range max-age seconds}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan port-priority</td>
+      <td>{no spanning-tree vlan vlan-range port-priority, spanning-tree vlan vlan-range port-priority priority}</td>
+    </tr>
+    <tr>
+      <td>spanning-tree vlan priority</td>
+      <td>{no spanning-tree vlan vlan-range priority, spanning-tree vlan vlan-range priority priority}</td>
+    </tr>
+    <tr>
+      <td>speed</td>
+      <td>{speed {100 | 1000 | 2500 | 5000 | 10000}, speed {10 | 100 | 1000 | 10000 | auto}, speed bps, no speed}</td>
+    </tr>
+    <tr>
+      <td>ssd file integrity control</td>
+      <td>{no ssd file integrity control, ssd file integrity control enabled}</td>
+    </tr>
+    <tr>
+      <td>ssd file passphrase control</td>
+      <td>{no ssd file passphrase control, ssd file passphrase control {restricted | unrestricted}}</td>
+    </tr>
+    <tr>
+      <td>ssd rule</td>
+      <td>{no ssd rule [ {all | level-15 | default-user | user user-name}, {secure | insecure | secure-xml-snmp | insecure-xml-snmp}], [encrypted] SSD rule {all | level-15 | default-user | user user-name}, {secure | insecure | secure-xml-snmp | insecure-xml-snmp}, permission {encrypted-only | plaintext-only | both | exclude}, default-read {encrypted | plaintext | exclude}}</td>
+    </tr>
+    <tr>
+      <td>ssd session read</td>
+      <td>{ssd session read {encrypted | plaintext | exclude}, no ssd session read}</td>
+    </tr>
+    <tr>
+      <td>stack configuration</td>
+      <td>{stack configuration {[links ports-list] [unit-id {unit-id | auto}] }, no stack configuration}</td>
+    </tr>
+    <tr>
+      <td>storm-control</td>
+      <td>{storm-control broadcast {level level | kbps kbps} [trap] [shutdown], no storm-control broadcast, no storm-control unicast, storm-control multicast [registered | unregistered] {level level | kbps kbps} [trap] [shutdown], storm-control unicast {level level | kbps kbps} [trap] [shutdown], no storm-control multicast, no storm-control}</td>
+    </tr>
+    <tr>
+      <td>storm-control action</td>
+      <td>{storm-control action {drop | shutdown}, no storm-control action}</td>
+    </tr>
+    <tr>
+      <td>storm-control broadcast</td>
+      <td>{no storm-control broadcast, storm-control broadcast}</td>
+    </tr>
+    <tr>
+      <td>storm-control broadcast level</td>
+      <td>{no storm-control broadcast level, storm-control broadcast level {pps | kbps}}</td>
+    </tr>
+    <tr>
+      <td>storm-control enable</td>
+      <td>{no storm-control enable, storm-control enable}</td>
+    </tr>
+    <tr>
+      <td>storm-control unknown-multicast</td>
+      <td>{no storm-control unknown-multicast, storm-control unknown-multicast}</td>
+    </tr>
+    <tr>
+      <td>storm-control unknown-multicast level</td>
+      <td>{storm-control unknown-multicast level {pps | kbps}, no storm-control unknown-multicast level}</td>
+    </tr>
+    <tr>
+      <td>storm-control unknown-unicast</td>
+      <td>{storm-control unknown-unicast, no storm-control unknown-unicast}</td>
+    </tr>
+    <tr>
+      <td>storm-control unknown-unicast level</td>
+      <td>{no storm-control unknown-unicast level, storm-control unknown-unicast level {pps | kbps}}</td>
+    </tr>
+    <tr>
+      <td>surveillance-vlan aging-timeout</td>
+      <td>{no surveillance-vlan aging-timeout, minutes—The amount of time after surveillance traffic stops on the interface before the interface is removed from the ASV. (Range: 1-43200), surveillance-vlan aging-timeout minutes}</td>
+    </tr>
+    <tr>
+      <td>surveillance-vlan cos</td>
+      <td>{no surveillance-vlan cos, surveillance-vlan cos cos}</td>
+    </tr>
+    <tr>
+      <td>surveillance-vlan vlan-id</td>
+      <td>{surveillance-vlan vlan-id vlan-id, no surveillance-vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>switchport</td>
+      <td>{switchport, no switchport}</td>
+    </tr>
+    <tr>
+      <td>switchport access multicast-tv vlan</td>
+      <td>{no switchport access multicast-tv vlan, switchport access multicast-tv vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>switchport access vlan</td>
+      <td>{switchport access vlan vlan-id, switchport access vlan {vlan-id | none}, no switchport access vlan}</td>
+    </tr>
+    <tr>
+      <td>switchport customer vlan</td>
+      <td>{switchport customer vlan vlan-id, no switchport customer vlan}</td>
+    </tr>
+    <tr>
+      <td>switchport default-vlan tagged</td>
+      <td>{switchport default-vlan tagged, no switchport default-vlan tagged}</td>
+    </tr>
+    <tr>
+      <td>switchport dot1q-tunnel vlan</td>
+      <td>{switchport dot1q-tunnel vlan vlan-id, no switchport dot1q-tunnel vlan}</td>
+    </tr>
+    <tr>
+      <td>switchport forbidden default-vlan</td>
+      <td>{no switchport forbidden default-vlan, switchport forbidden default-vlan}</td>
+    </tr>
+    <tr>
+      <td>switchport general acceptable-frame-type</td>
+      <td>{no switchport general acceptable-frame-type, switchport general acceptable-frame-type {tagged-only | untagged-only | all}}</td>
+    </tr>
+    <tr>
+      <td>switchport general allowed vlan</td>
+      <td>{no switchport general allowed vlan, switchport general allowed vlan {add vlan-list [tagged | untagged] | remove vlan-list }, switchport general allowed vlan remove vlan-list, switchport general allowed vlan add vlan-list [tagged | untagged]}</td>
+    </tr>
+    <tr>
+      <td>switchport general forbidden vlan</td>
+      <td>{no switchport general forbidden vlan, switchport general forbidden vlan {add vlan-list | remove vlan-list}}</td>
+    </tr>
+    <tr>
+      <td>switchport general ingress-filtering disable</td>
+      <td>{switchport general ingress-filtering disable, no switchport general ingress-filtering disable}</td>
+    </tr>
+    <tr>
+      <td>switchport general map macs-group vlan</td>
+      <td>{switchport general map macs-group group vlan vlan-id, no switchport general map macs-group group}</td>
+    </tr>
+    <tr>
+      <td>switchport general map protocols-group vlan</td>
+      <td>{no switchport general map protocols-group group, switchport general map protocols-group group vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>switchport general map subnets-group vlan</td>
+      <td>{no switchport general map subnets-group group, switchport general map subnets-group group vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>switchport general pvid</td>
+      <td>{no switchport general pvid, switchport general pvid vlan-id}</td>
+    </tr>
+    <tr>
+      <td>switchport mode</td>
+      <td>{switchport mode access | trunk | general | private-vlan {promiscuous | host} | customer | vlan-mapping {tunnel | one-to-one }, switchport mode {access | trunk | general | dot1q-tunnel}, no switchport mode}</td>
+    </tr>
+    <tr>
+      <td>switchport nni ethtype</td>
+      <td>{switchport nni ethtype dot1q | dot1ad | 9100 | 9200, no switchport nni ethtype}</td>
+    </tr>
+    <tr>
+      <td>switchport port-security</td>
+      <td>{switchport port-security, no switchport port-security}</td>
+    </tr>
+    <tr>
+      <td>switchport port-security mode maximum</td>
+      <td>{no switchport port-security maximum, switchport port-security mode {classic | dynamic} maximum max-addr action { discard | {discard-snmp-log trap-freq seconds} | {discard-snmp-log-shutdown trap-freq seconds} | forward}}</td>
+    </tr>
+    <tr>
+      <td>switchport private-vlan host-association</td>
+      <td>{switchport private-vlan host-association primary-vlan-id secondary-vlan-id, no switchport private-vlan host-association}</td>
+    </tr>
+    <tr>
+      <td>switchport private-vlan mapping</td>
+      <td>{switchport private-vlan mapping primary-vlan-id [add | remove] secondary-vlan-list, no switchport private-vlan mapping}</td>
+    </tr>
+    <tr>
+      <td>switchport protected</td>
+      <td>{no switchport protected, switchport protected}</td>
+    </tr>
+    <tr>
+      <td>switchport protected-port</td>
+      <td>{no switchport protected-port, switchport protected-port}</td>
+    </tr>
+    <tr>
+      <td>switchport trunk allowed vlan</td>
+      <td>{switchport trunk allowed vlan {add vlan-list | remove vlan-list | all}, no switchport trunk allowed vlan, switchport trunk allowed vlan {all | none | vlan-list | add vlan-list | remove vlan-list | except vlan-list}}</td>
+    </tr>
+    <tr>
+      <td>switchport trunk native vlan</td>
+      <td>{switchport trunk native vlan {vlan-id | none}, switchport trunk native vlan vlan-id, no switchport trunk native vlan}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping one-to-one</td>
+      <td>{switchport vlan-mapping one-to-one vlan-id translated-vlan-id, no switchport vlan-mapping one-to-one [vlan-id]}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel</td>
+      <td>{no switchport vlan-mapping tunnel [vlan-list | default], switchport vlan-mapping tunnel {vlan-list | default} {outer-vlan-id | drop}}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel l2protocol cos</td>
+      <td>{no switchport vlan-mapping tunnel l2protocol cos, switchport vlan-mapping tunnel l2protocol cos cos-value}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel l2protocol cos interface</td>
+      <td>{vlan-mapping tunnel l2protocol cos interface, switchport vlan-mapping tunnel l2protocol cos interface cos-value}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel l2protocol drop-threshold</td>
+      <td>{switchport vlan-mapping tunnel l2protocol drop-threshold [disable | enable committed-rate-kbps], no switchport vlan-mapping tunnel l2protocol drop-threshold}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel l2protocol forward</td>
+      <td>{switchport vlan-mapping tunnel l2protocol forward [protocol], no switchport vlan-mapping tunnel l2protocol forward [protocol]}</td>
+    </tr>
+    <tr>
+      <td>switchport vlan-mapping tunnel l2protocol vlan</td>
+      <td>{switchport vlan-mapping tunnel l2protocol vlan vlan-id, no switchport vlan-mapping tunnel l2protocol vlan}</td>
+    </tr>
+    <tr>
+      <td>system light</td>
+      <td>{system light stop, system light [unit unit-id] [duration seconds]}</td>
+    </tr>
+    <tr>
+      <td>system recovery</td>
+      <td>{no system recovery, system recovery}</td>
+    </tr>
+    <tr>
+      <td>system reset-button disable</td>
+      <td>{system reset-button disable, no system reset-button disable}</td>
+    </tr>
+    <tr>
+      <td>system resources</td>
+      <td>{no system resources, system resources [policy-ip-routes max-number] [policy-ipv6-routes max-number] [vlan-mapping-entries max-number]}</td>
+    </tr>
+    <tr>
+      <td>tacacs-server host</td>
+      <td>{tacacs-server host {ip-address | hostname} [single-connection] [port port-number] [timeout timeout] [key key-string] [priority priority], no tacacs-server host {ip-address | hostname}, tacacs-server host {ip-address | hostname} [key key-string] [port port-number] [priority priority] [timeout timeout], encrypted tacacs-server host {ip-address | hostname} [single-connection] [port port-number] [timeout timeout] [key encrypted-key-string] [priority priority]}</td>
+    </tr>
+    <tr>
+      <td>tacacs-server host source-interface</td>
+      <td>{tacacs-server host source-interface interface-id, no tacacs-server host source-interface}</td>
+    </tr>
+    <tr>
+      <td>tacacs-server host source-interface-ipv6</td>
+      <td>{no tacacs-server host source-interface-ipv6, tacacs-server host source-interface-ipv6 interface-id}</td>
+    </tr>
+    <tr>
+      <td>tacacs-server key</td>
+      <td>{no tacacs-server key, encrypted tacacs-server key encrypted-key-string, tacacs-server key key-string}</td>
+    </tr>
+    <tr>
+      <td>tacacs-server timeout</td>
+      <td>{no tacacs-server timeout, tacacs-server timeout timeout}</td>
+    </tr>
+    <tr>
+      <td>terminal datadump</td>
+      <td>{terminal no datadump, terminal datadump}</td>
+    </tr>
+    <tr>
+      <td>terminal history</td>
+      <td>{terminal no history, terminal history}</td>
+    </tr>
+    <tr>
+      <td>terminal history size</td>
+      <td>{terminal no history size, terminal history size number-of-commands}</td>
+    </tr>
+    <tr>
+      <td>terminal length</td>
+      <td>{no terminal length, terminal length length}</td>
+    </tr>
+    <tr>
+      <td>terminal prompt</td>
+      <td>{terminal prompt, terminal no prompt}</td>
+    </tr>
+    <tr>
+      <td>terminal width</td>
+      <td>{terminal no width, terminal width number-of-characters}</td>
+    </tr>
+    <tr>
+      <td>time-range</td>
+      <td>{time-range time-range-name, time-range NAME, no time-range NAME, no time-range time-range-name}</td>
+    </tr>
+    <tr>
+      <td>time-server</td>
+      <td>{no time-server, time-server ip-address [ip-address2 . ip-address8]}</td>
+    </tr>
+    <tr>
+      <td>traceroute</td>
+      <td>{traceroute ip {ipv4-address | hostname} [size packet_size] [ttl max-ttl] [count packet_count] [timeout time_out] [source ip-address], traceroute {ipv4-address | hostname} [max-hop hop-count], traceroute ipv6 {ipv6-address | hostname} [size packet_size] [ttl max-ttl] [count packet_count] [timeout time_out] [source ip-address]}</td>
+    </tr>
+    <tr>
+      <td>traffic-shape</td>
+      <td>{traffic-shape committed-rate [committed-burst], no traffic-shape, traffic-shape burst [queue] committed-burst}</td>
+    </tr>
+    <tr>
+      <td>traffic-shape queue</td>
+      <td>{traffic-shape queue queue-id committed-rate, no traffic-shape queue queue-id, traffic-shape queue queue-id committed-rate [committed-burst]}</td>
+    </tr>
+    <tr>
+      <td>trust</td>
+      <td>{trust, no trust}</td>
+    </tr>
+    <tr>
+      <td>trust-shape (Interface)</td>
+      <td>{traffic-shape committed-rate, no traffic-shape}</td>
+    </tr>
+    <tr>
+      <td>trusted-port (IPv6 Source Guard)</td>
+      <td>{trusted-port, no trusted-port}</td>
+    </tr>
+    <tr>
+      <td>tunnel destination</td>
+      <td>{tunnel destination {host-name | ip-address}, no tunnel destination}</td>
+    </tr>
+    <tr>
+      <td>tunnel isatap robustness</td>
+      <td>{tunnel isatap robustness number, no tunnel isatap robustness}</td>
+    </tr>
+    <tr>
+      <td>tunnel isatap solicitation-interval</td>
+      <td>{no tunnel isatap solicitation-interval, tunnel isatap solicitation-interval seconds}</td>
+    </tr>
+    <tr>
+      <td>udld</td>
+      <td>{udld aggressive | normal, no udld}</td>
+    </tr>
+    <tr>
+      <td>udld message time</td>
+      <td>{udld message time seconds, no udld message time}</td>
+    </tr>
+    <tr>
+      <td>udld port</td>
+      <td>{udld port [aggressive | normal | disable], no udld port}</td>
+    </tr>
+    <tr>
+      <td>user-key</td>
+      <td>{no user-key username, user-key username {rsa | dsa}}</td>
+    </tr>
+    <tr>
+      <td>username</td>
+      <td>{username name {[method hash-method] generate-password | {privilege privilege-level{[method hash-method] generate-password}, username USERNAME [privilege (1|15|admin|user)] algorithm-type hash-method secret unencrypted-password, no username USERNAME, username name {[method hash-method] password {unencrypted-password | {encrypted encrypted-password} | {privilege privilege-level {[method hash-method] unencrypted-password | {encrypted encrypted-password}, no username name, username USERNAME [privilege {1 | 15 | admin | user}] {secret 8 {Encrypted encrypted-password }}</td>
+    </tr>
+    <tr>
+      <td>username (dot1x credentials)</td>
+      <td>{username username, no username}</td>
+    </tr>
+    <tr>
+      <td>validate source-mac</td>
+      <td>{validate source-mac [enable | disable], no validate source-mac}</td>
+    </tr>
+    <tr>
+      <td>vlan</td>
+      <td>{no vlan, vlan {id vlan-id | name vlan-name}, vlan vlan-range, vlan vlan-range | {vlan-id [name vlan-name]} [media ethernet] [state active], no vlan vlan-range}</td>
+    </tr>
+    <tr>
+      <td>vlan default-vlan</td>
+      <td>{no vlan default-vlan, vlan default-vlan vlan-id}</td>
+    </tr>
+    <tr>
+      <td>voice vlan aging-timeout</td>
+      <td>{no voice vlan aging-timeout, voice vlan aging-timeout minutes}</td>
+    </tr>
+    <tr>
+      <td>voice vlan cos</td>
+      <td>{voice vlan cos cos [remark ], no voice vlan cos, voice vlan cos cos [remark]}</td>
+    </tr>
+    <tr>
+      <td>voice vlan cos mode</td>
+      <td>{voice vlan cos mode {src | all }, voice vlan cos mode {src | all}, no voice vlan cos mode}</td>
+    </tr>
+    <tr>
+      <td>voice vlan dscp</td>
+      <td>{no voice vlan dscp, voice vlan dscp dscp-value}</td>
+    </tr>
+    <tr>
+      <td>voice vlan enable</td>
+      <td>{no voice vlan enable, voice vlan enable}</td>
+    </tr>
+    <tr>
+      <td>voice vlan id</td>
+      <td>{no voice vlan id, voice vlan id vlan-id, voice vlan id VLAN-id}</td>
+    </tr>
+    <tr>
+      <td>voice vlan mode</td>
+      <td>{no voice vlan mode, voice vlan mode {auto | manual}}</td>
+    </tr>
+    <tr>
+      <td>voice vlan oui-table</td>
+      <td>{no voice vlan oui-table, voice vlan oui-table {add mac-address-prefix | remove mac-address-prefix} [description], voice vlan oui-table {add mac-address-prefix | remove mac-address-prefix} [text]}</td>
+    </tr>
+    <tr>
+      <td>voice vlan state</td>
+      <td>{voice vlan state {auto-enabled | disabled | oui-enabled}, no voice vlan state, voice vlan state {auto-enabled | auto-triggeredoui-enabled | disabled}}</td>
+    </tr>
+    <tr>
+      <td>voice vlan vpt</td>
+      <td>{no voice vlan vpt, voice vlan vpt vpt-value}</td>
+    </tr>
+    <tr>
+      <td>write</td>
+      <td>{write memory, write}</td>
+    </tr>
+    <tr>
+      <td>wrr-queue bandwidth</td>
+      <td>{wrr-queue bandwidth weight1 weight2. weighting, no wrr-queue bandwidth, wrr-queue bandwidth weight1 weight2. weightN}</td>
+    </tr>
+    <tr>
+      <td>wrr-queue cos-map</td>
+      <td>{wrr-queue cos-map queue-id cos0. cos7, no wrr-queue cos-map [queue-id]}</td>
+    </tr>
+  </tbody>
+</table>
