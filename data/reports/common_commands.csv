@@ -1,270 +1,270 @@
 common_commands
-logging on
-aaa authentication login
-switchport access vlan
-exit (Configuration)
-remote-span
-show cpu utilization
-ip http timeout-policy
-enable
-cdp run
-show interfaces switchport
-gvrp vlan-creation-forbid
-show clock
-show access-lists
-cdp device-id format
-spanning-tree port-priority
-channel-group
-show rmon alarm
-show management access-list
-spanning-tree bpdu (Global)
-police aggregate
-ip http authentication
-security-suite syn protection recovery
-show gvrp error-statistics
-voice vlan id
-clock source
-show banner
-show cable-diagnostics cable-length
-show vlan remote-span
-lldp timer
-snmp-server host
-mac address-table aging-time
-security-suite syn protection mode
-logging aggregation aging-time
-power inline limit-mode
+flowcontrol
+lacp system-priority
+dot1x timeout supp-timeout
+lldp med location
+show cdp entry
 time-range
-ip dhcp tftp-server file
+switchport trunk native vlan
+clock timezone
+show boot
+lldp transmit
+management access-list
+show qos
+switchport access vlan
+spanning-tree priority
+description
+class
+lldp run
+dir
+lldp receive
+power inline limit
+mac address-table aging-time
+interface
+qos trust (Interface)
+ip ssh server
+aaa authentication enable
+lldp timer
+ip igmp snooping vlan querier
+show errdisable recovery
+police aggregate
+remote-span
+lldp tx-delay
+revision (MST)
+dot1x max-hosts
+copy
+vlan
+show ip igmp snooping groups
+ip domain lookup
+disable
+show rate-limit vlan
+qos advanced-mode trust
+qos
+cdp run
+show cpu input rate
+power inline
+show time-range
+spanning-tree mst priority
+configure
+show bonjour
+logging host
+ipv6 mld snooping vlan forbidden mrouter
+ip igmp snooping vlan immediate-leave
+show ipv6 mld snooping groups
+port-channel load-balance
+show ipv6 dhcp
+show hosts
+name (MST)
+boot host auto-config
+passwords aging
+cdp holdtime
+spanning-tree mst cost
+lldp reinit
+show cdp tlv
+logging aggregation aging-time
+lldp med network-policy voice auto
+switchport mode
 cdp mandatory-tlvs validation
+show management access-class
 show dot1x
-login authentication
+ip igmp snooping vlan
+show access-lists
+set
+show privilege
+clear logging
+absolute
+show rmon history
+ip igmp snooping vlan forbidden mrouter
+match
+clear gvrp statistics
+ip domain name
+show logging
+cdp pdu
+ipv6 mld snooping vlan
+clear counters
+voice vlan oui-table
+traceroute
+qos trust (Global)
+switchport general pvid
+snmp-server user
+ip dhcp tftp-server file
+spanning-tree bpdu (Global)
+ca-certificate install
+eee enable (global)
+cdp log mismatch voip
+spanning-tree mode
+write
+show gvrp statistics
+voice vlan id
+switchport general ingress-filtering disable
+dot1x reauthentication
+cdp enable
+show ip http
+clear arp-cache
+show lacp
+show vlan
+ipv6 mld snooping vlan mrouter
+priority-queue out num-of-queues
+show cdp
+show cpu utilization
+switchport general acceptable-frame-type
+show ip igmp snooping mrouter
+cdp device-id format
+dot1x guest-vlan enable
+ip dhcp tftp-server ip address
+show interfaces protected-ports
+spanning-tree forward-time
+deny (MAC)
+show lldp statistics
+show qos aggregate-policer
 rmon alarm
+aaa authentication login
+snmp-server view
+qos cos
 bridge multicast reserved-address
 lacp port-priority
-boot system
-show management access-class
-clear cdp table
-configure
-loopback-detection interval
-voice vlan oui-table
-switchport trunk allowed vlan
-lldp med
-ip domain name
-priority-queue out num-of-queues
-match
-show cpu input rate
-voice vlan vpt
-switchport general ingress-filtering disable
-dot1x system-auth-control
-management access-list
-show power inline
-show ipv6 mld snooping mrouter
-show gvrp configuration
-ip domain lookup
-bonjour enable
-hostname
-show rate-limit vlan
-show interfaces protected-ports
-switchport general acceptable-frame-type
-dot1x reauthentication
-power inline priority
-traffic-shape
-ip igmp snooping vlan mrouter
-do
-port-channel load-balance
-management access-class
-cdp pdu
-show ip http
-lacp timeout
-show qos
-show services tcp-udp
-clear arp-cache
-lldp med network-policy voice auto
-qos
-show passwords configuration
-show logging
-traffic-shape queue
-ip igmp snooping vlan querier version
-ipv6 mld snooping vlan mrouter
-username
-name (MST)
-ip igmp snooping vlan static
-show users
-show cdp entry
-clock summer-time
-spanning-tree loopback-guard
-dir
-show mac address-table
-show lacp
-loopback-detection enable (Global)
-sntp server
-show ipv6 dhcp
-aaa authentication enable
-set
-show security-suite syn protection
-cdp holdtime
-clock timezone
-absolute
-lldp receive
-lldp transmit
-show fiber-ports optical-transceiver
-spanning-tree forward-time
-dot1x radius-attributes vlan
-spanning-tree mst priority
-show hosts
-interface
-qos cos
-dot1x timeout quiet-period
-disable
-show history
-show loopback-detection
-qos advanced-mode trust
-clear counters
-show cdp tlv
-show cdp
-dot1x timeout server-timeout
-snmp-server group
-class-map
-flowcontrol
-voice vlan cos mode
-dot1x host-mode
-ipv6 mld snooping vlan immediate-leave
-description
-spanning-tree max-age
-mac address-table static
-ping
-passwords aging
-dot1x timeout tx-period
-lacp system-priority
-show ipv6 mld snooping groups
-voice vlan cos
-show class-map
-snmp-server view
-service-policy
-wrr-queue bandwidth
-power inline
-qos aggregate-policer
-show qos aggregate-policer
-power inline limit
-ip igmp snooping vlan querier
-police
 crypto certificate generate
-trust
-ca-certificate install
-show policy-map
-show gvrp statistics
-show privilege
-ipv6 default-gateway
-history
-traceroute
-show arp
-cdp log mismatch duplex
-switchport mode
-spanning-tree hello-time
-spanning-tree pathcost method
-voice vlan dscp
-ip igmp snooping vlan immediate-leave
-write
-show qos map
-eee enable (global)
-snmp-server user
-ip default-gateway
-spanning-tree mst configuration
-spanning-tree mst cost
-spanning-tree mst port-priority
-show startup-config
-dot1x timeout reauth-period
-interface range
-lldp tx-delay
-spanning-tree portfast
-show sntp configuration
-show cdp neighbors
-show spanning-tree
-boot host auto-config
-duplex
-enable authentication
-cdp log mismatch native
-lldp lldpdu
-switchport trunk native vlan
-ip igmp snooping vlan forbidden mrouter
-show system languages
-show vlan
-dot1x timeout supp-timeout
-spanning-tree mode
-end
-clear gvrp statistics
-power inline traps enable
-gvrp enable (Interface)
-clear logging
-ipv6 mld snooping vlan forbidden mrouter
-class
-dot1x max-req
-show bonjour
-show running-config
-qos trust (Global)
-clock set
-speed
-revision (MST)
-show ip igmp snooping groups
-ip http server
-show voice vlan
-ip dhcp tftp-server ip address
-switchport general allowed vlan
-snmp-server location
-ip host
-power inline usage-threshold
-ip ssh server
-dot1x violation-mode
-voice vlan state
-vlan
-clear lldp statistics
-ip telnet server
-show boot
+show loopback-detection
 policy-map
-dot1x guest-vlan enable
-shutdown
-snmp-server community
-show ip igmp snooping mrouter
-cdp timer
+show banner
 ip name-server
-show rmon history
-lldp run
-show time-range
-switchport general pvid
-voice vlan enable
-clear mac address-table
-ipv6 mld snooping vlan
-periodic
-cdp log mismatch voip
-logging host
+show system languages
+interface range
+power inline limit-mode
+gvrp enable (Interface)
 ip http secure-server
-security-suite syn protection threshold
-gvrp enable (Global)
-cdp advertise-v2
-show lldp statistics
-clear spanning-tree detected-protocols
-qos trust (Interface)
-show tech-support
-lldp reinit
-cdp enable
-ip igmp snooping vlan
-dot1x port-control
+hostname
+show services tcp-udp
+login authentication
+cdp log mismatch native
+power inline usage-threshold
+spanning-tree mst configuration
 rmon event
-exit (EXEC)
-spanning-tree
-snmp-server contact
-spanning-tree priority
-show errdisable recovery
-deny (MAC)
 voice vlan aging-timeout
-lldp med location
-deny (Management)
-permit (Management)
-loopback-detection enable (Interface)
+security-suite syn protection mode
+ip telnet server
 show ip dhcp tftp-server
-qos map dscp-queue
+loopback-detection enable (Global)
+switchport general allowed vlan
+deny (Management)
+end
+loopback-detection enable (Interface)
+power inline traps enable
+ipv6 mld snooping vlan immediate-leave
+loopback-detection interval
+exit (EXEC)
+show users
+trust
+spanning-tree pathcost method
+cdp timer
+show passwords configuration
+show cable-diagnostics cable-length
+clear spanning-tree detected-protocols
+show security-suite syn protection
+sntp server
+clear cdp table
+show power inline
+cdp advertise-v2
+ip http server
+snmp-server community
+show spanning-tree
+clock summer-time
+show interfaces switchport
+dot1x port-control
+ip igmp snooping vlan querier version
+speed
+dot1x host-mode
+ip default-gateway
+spanning-tree max-age
+voice vlan state
+show startup-config
 show ip https
-copy
-dot1x max-hosts
-instance (MST)
+clock source
+class-map
 reload
+enable
+lldp lldpdu
+cdp log mismatch duplex
+show gvrp error-statistics
+ip http authentication
+dot1x timeout server-timeout
+show tech-support
+shutdown
+show running-config
+boot system
+show sntp configuration
+security-suite syn protection threshold
+ipv6 default-gateway
+username
+show arp
+dot1x system-auth-control
+dot1x radius-attributes vlan
+show gvrp configuration
+enable authentication
+dot1x violation-mode
+traffic-shape
+show mac address-table
+spanning-tree mst port-priority
+voice vlan cos
+voice vlan dscp
+lldp med
+show class-map
+show qos map
+voice vlan vpt
+wrr-queue bandwidth
+show fiber-ports optical-transceiver
+voice vlan enable
+mac address-table static
+ip igmp snooping vlan static
+gvrp enable (Global)
+show management access-list
+qos map dscp-queue
+dot1x timeout reauth-period
+snmp-server location
+power inline priority
+clock set
+show vlan remote-span
+spanning-tree hello-time
+duplex
+show ipv6 mld snooping mrouter
+show voice vlan
+dot1x timeout quiet-period
+security-suite syn protection recovery
+traffic-shape queue
+snmp-server group
+instance (MST)
+police
+service-policy
+ping
+clear mac address-table
+dot1x max-req
+show clock
+show cdp neighbors
+exit (Configuration)
+management access-class
+spanning-tree loopback-guard
+show policy-map
+gvrp vlan-creation-forbid
+lacp timeout
+history
+periodic
+dot1x timeout tx-period
+voice vlan cos mode
+snmp-server host
+spanning-tree port-priority
+snmp-server contact
+bonjour enable
+show history
+channel-group
+switchport trunk allowed vlan
+spanning-tree
+ip igmp snooping vlan mrouter
+spanning-tree portfast
+qos aggregate-policer
+do
+logging on
+clear lldp statistics
+permit (Management)
+ip host
+show rmon alarm
+ip http timeout-policy

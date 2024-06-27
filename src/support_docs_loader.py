@@ -2,9 +2,10 @@ import json
 import requests
 import re
 import uuid
-from pathlib import Path
 import os
 import pandas as pd
+from datetime import datetime
+from pathlib import Path
 from enum import Enum
 from pandas import DataFrame
 from bs4 import BeautifulSoup, Tag, NavigableString
@@ -12,6 +13,62 @@ from typing import List, Iterator, Dict, Any, Sequence, Tuple, Set
 from langchain_text_splitters import TextSplitter, RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_core.document_loaders import BaseLoader
+from langchain_community.document_loaders import PyPDFLoader, PDFMinerPDFasHTMLLoader
+
+
+class SupportingDocumentsDateLoader:
+    def __init__(self, url: str) -> None:
+        self.url = url
+        self.dir = f"{Path.cwd()}/data/etc"
+        self._fetch()
+
+    @property
+    def date(self) -> str:
+        return self._date
+
+    @date.setter
+    def date(self, value: str) -> None:
+        self._date = value
+
+    def _fetch(self) -> None:
+        response = requests.get(self.url)
+        response.raise_for_status()
+        html = response.text
+        soup = BeautifulSoup(html, "html.parser")
+        self._date = self.scrape_update_date(soup=soup)
+
+    @staticmethod
+    def scrape_update_date(soup: BeautifulSoup) -> str:
+        doc_info = soup.find("div", id="documentInfo")
+        date = doc_info.find("dl").find("dd").get_text().strip()
+        date_obj = datetime.strptime(date, "%B %d, %Y")
+        return date_obj.strftime("%Y-%m-%d")
+
+    def save_date(self, product: str):
+        with open(f"{self.dir}/last_updated_dates.json", "r") as file:
+            last_updated = json.load(file)
+
+        last_updated.update({product: self.date})
+        last_updated["updated_on"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"Saving last updated dates: {last_updated}")
+        with open(f"{self.dir}/last_updated_dates.json", "w") as file:
+            json.dump(last_updated, file, indent=2)
+
+    def compare_dates(self, product: str):
+        last_updated = json.load(
+            open(f"{self.dir}/last_updated_dates.json", "r+", encoding="utf-8")
+        )
+        if product in last_updated:
+            last_updated_on = datetime.strptime(last_updated[product], "%Y-%m-%d")
+            if last_updated_on != datetime.strptime(self.date, "%Y-%m-%d"):
+                return True
+
+        last_updated[product] = self.date
+        last_updated["updated_on"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        print(f"Saving last updated dates: {last_updated}")
+        with open(f"{self.dir}/last_updated_dates.json", "w") as file:
+            json.dump(last_updated, file, indent=2)
+        return False
 
 
 class SupportingDocumentsLoader(BaseLoader):
@@ -105,6 +162,54 @@ class SupportingDocumentsLoader(BaseLoader):
         toc = soup.select("ul#bookToc > li > a")
         links = [f"https://www.cisco.com{link.get('href')}" for link in toc]
         return cls(paths=links)
+
+    @classmethod
+    def from_pdf(
+        cls,
+        pdf_path: str = "https://www.cisco.com/c/dam/en/us/td/docs/switches/lan/csbms/350xseries/2_5_10/CLI_350x_ver2_5_10.pdf",
+    ):
+        """
+        Create a SupportingDocumentsLoader instance from a given PDF file.
+
+        Args:
+            pdf_path (str): The path to the PDF file.
+
+        Returns:
+            SupportingDocumentsLoader: An instance of the SupportingDocumentsLoader class.
+
+        Raises:
+            requests.HTTPError: If there is an HTTP error while fetching the URL.
+        """
+        loader = PDFMinerPDFasHTMLLoader(pdf_path)
+        pages = loader.load()[0]
+        soup = BeautifulSoup(pages.page_content, "html.parser")
+        content = soup.find_all("div")
+        import re
+
+        cur_fs = None
+        cur_text = ""
+        snippets = []
+        for c in content:
+            sp = c.find("span")
+            if not sp:
+                continue
+            st = sp.get("style")
+            if not st:
+                continue
+            fs = re.findall("font-size:(\d+)px", st)
+            if not fs:
+                continue
+            fs = int(fs[0])
+            if not cur_fs:
+                cur_fs = fs
+            if fs == cur_fs:
+                cur_text += c.get_text(strip=True)
+            else:
+                snippets.append((cur_fs, cur_text))
+                cur_fs = fs
+                cur_text = c.get_text(strip=True)
+        snippets.append((cur_fs, cur_text))
+        return snippets
 
     @staticmethod
     def sanitize_text(text: str) -> str:
@@ -385,21 +490,53 @@ class CLIReports:
         os.makedirs(self.schema_path, exist_ok=True)
         os.makedirs(self.report_path, exist_ok=True)
 
+    def load_schema_from_file(self, product: str, file_path: str):
+        if os.path.exists(file_path):
+            return json.load(open(file_path, "r"))
+        return {}
+
+    def load_schema_from_loader(self, url: str):
+        cli_guide = SupportingDocumentsLoader.from_url(url)
+        schema = cli_guide.load_schema()
+        return schema
+
     def load_schemas(self):
         products_schemas = {}
         for product, url in self.product_urls.items():
+            date_loader = SupportingDocumentsDateLoader(url)
+
             if os.path.exists(f"{self.schema_path}/{product}_cli_schema.json"):
-                print(f"Pulling from {self.schema_path}/{product}_cli_schema.json")
-                products_schemas[product] = json.load(
-                    open(f"{self.schema_path}/{product}_cli_schema.json", "r")
-                )
+                if date_loader.compare_dates(product):
+                    products_schemas[product] = self.load_schema_from_loader(url)
+                else:
+                    products_schemas[product] = json.load(
+                        open(f"{self.schema_path}/{product}_cli_schema.json", "r")
+                    )
             else:
-                print("Scraping from url. Please standby....")
-                cli_guide = SupportingDocumentsLoader.from_url(url)
-                schema = cli_guide.load_schema()
-                products_schemas[product] = schema
+                products_schemas[product] = self.load_schema_from_loader(product, url)
                 with open(f"{self.schema_path}/{product}_cli_schema.json", "w") as file:
-                    json.dump(schema, file, indent=2)
+                    json.dump(products_schemas[product], file, indent=2)
+                date_loader.save_date(product)
+            # if os.path.exists(f"{self.schema_path}/{product}_cli_schema.json"):
+            #     if product in last_scrape_dates:
+            #         last_scrape_date = last_scrape_dates[product]
+            #         print(f"Last scraped date for {product} was {last_scrape_date}.")
+            #         needs_update = self.check_last_updated(product, last_scrape_date)
+            #         if needs_update:
+            #             schema = self.load_schema_from_loader(product, url)
+            #     print(f"Pulling from {self.schema_path}/{product}_cli_schema.json")
+            #     products_schemas[product] = json.load(
+            #         open(f"{self.schema_path}/{product}_cli_schema.json", "r")
+            #     )
+            # else:
+            #     print("Scraping from url. Please standby....")
+            #     cli_guide = SupportingDocumentsLoader.from_url(url)
+            #     schema = cli_guide.load_schema()
+            #     date = cli_guide.fetch_date(url)
+            #     self.check_last_updated(product, date)
+            #     products_schemas[product] = schema
+            #     with open(f"{self.schema_path}/{product}_cli_schema.json", "w") as file:
+            #         json.dump(schema, file, indent=2)
         return products_schemas
 
     def process_schemas(self):
@@ -657,12 +794,14 @@ class CLIReports:
 if __name__ == "__main__":
     # Just add the URLs for the products you want to load
     # Ensure the URL is the Book Table of Contents page
-    product_urls = {
-        "cbs_220": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbss/CBS220/CLI-Guide/b_220CLI.html",
-        "cbs_250": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbms/CBS_250_350/CLI/cbs-250-cli.html",
-        "cbs_350": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbms/CBS_250_350/CLI/cbs-350-cli-.html",
-        "cat_1300": "https://www.cisco.com/c/en/us/td/docs/switches/campus-lan-switches-access/Catalyst-1200-and-1300-Switches/cli/C1300-cli.html",
-    }
+    # product_urls = {
+    #     "cbs_220": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbss/CBS220/CLI-Guide/b_220CLI.html",
+    #     "cbs_250": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbms/CBS_250_350/CLI/cbs-250-cli.html",
+    #     "cbs_350": "https://www.cisco.com/c/en/us/td/docs/switches/lan/csbms/CBS_250_350/CLI/cbs-350-cli-.html",
+    #     "cat_1300": "https://www.cisco.com/c/en/us/td/docs/switches/campus-lan-switches-access/Catalyst-1200-and-1300-Switches/cli/C1300-cli.html",
+    # }
 
-    cli_reports = CLIReports(product_urls=product_urls)
-    cli_reports.run()
+    # cli_reports = CLIReports(product_urls=product_urls)
+    # cli_reports.run()
+    pages = SupportingDocumentsLoader.from_pdf()
+    print(pages)
